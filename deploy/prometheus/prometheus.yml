@@ -1,0 +1,13 @@
+# Prometheus збирає метрики FinMon Copilot кожні 15 с і перевіряє правила алертів.
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+
+rule_files:
+  - alerts.yml
+
+scrape_configs:
+  - job_name: finmon
+    metrics_path: /metrics/
+    static_configs:
+      - targets: ["finmon:8000"]

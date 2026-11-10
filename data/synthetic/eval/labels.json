@@ -1,0 +1,632 @@
+{
+ "A001": {
+  "label": "CLOSE",
+  "typology": "fp_family_support",
+  "key_tx": [
+   "T000028",
+   "T000029"
+  ],
+  "expected_refs": [
+   "law:7"
+  ]
+ },
+ "A002": {
+  "label": "CLOSE",
+  "typology": "fp_salary_bonus",
+  "key_tx": [
+   "T000057"
+  ],
+  "expected_refs": [
+   "law:20"
+  ]
+ },
+ "A003": {
+  "label": "CLOSE",
+  "typology": "fp_name_match",
+  "key_tx": [
+   "T000085"
+  ],
+  "expected_refs": [
+   "law:23"
+  ]
+ },
+ "A004": {
+  "label": "REQUEST_INFO",
+  "typology": "source_of_funds_unclear",
+  "key_tx": [
+   "T000113"
+  ],
+  "expected_refs": [
+   "law:11",
+   "law:12"
+  ]
+ },
+ "A005": {
+  "label": "CLOSE",
+  "typology": "fp_it_freelancer",
+  "key_tx": [
+   "T000136",
+   "T000137"
+  ],
+  "expected_refs": [
+   "law:7"
+  ]
+ },
+ "A006": {
+  "label": "REQUEST_INFO",
+  "typology": "turnover_spike",
+  "key_tx": [
+   "T000138",
+   "T000139",
+   "T000140",
+   "T000141",
+   "T000142",
+   "T000143",
+   "T000144",
+   "T000145"
+  ],
+  "expected_refs": [
+   "law:11",
+   "law:7"
+  ]
+ },
+ "A007": {
+  "label": "ESCALATE",
+  "typology": "transit_company",
+  "key_tx": [
+   "T000150",
+   "T000151",
+   "T000152",
+   "T000153",
+   "T000154",
+   "T000155",
+   "T000156",
+   "T000157",
+   "T000158",
+   "T000159",
+   "T000160",
+   "T000161"
+  ],
+  "expected_refs": [
+   "nbu:annex20",
+   "law:21",
+   "law:12"
+  ]
+ },
+ "A008": {
+  "label": "CLOSE",
+  "typology": "fp_family_support",
+  "key_tx": [
+   "T000189",
+   "T000190"
+  ],
+  "expected_refs": [
+   "law:7"
+  ]
+ },
+ "A009": {
+  "label": "ESCALATE",
+  "typology": "pep_unexplained",
+  "key_tx": [
+   "T000218",
+   "T000219"
+  ],
+  "expected_refs": [
+   "law:12",
+   "law:11",
+   "law:21"
+  ]
+ },
+ "A010": {
+  "label": "ESCALATE",
+  "typology": "cash_structuring",
+  "key_tx": [
+   "T000247",
+   "T000248",
+   "T000249",
+   "T000250",
+   "T000251",
+   "T000252",
+   "T000253"
+  ],
+  "expected_refs": [
+   "law:20",
+   "law:21",
+   "nbu:annex20"
+  ]
+ },
+ "A011": {
+  "label": "ESCALATE",
+  "typology": "atm_cluster",
+  "key_tx": [
+   "T000254",
+   "T000255",
+   "T000256",
+   "T000257",
+   "T000258",
+   "T000259",
+   "T000260",
+   "T000261"
+  ],
+  "expected_refs": [
+   "nbu:annex20",
+   "law:21"
+  ]
+ },
+ "A012": {
+  "label": "CLOSE",
+  "typology": "fp_fop_business",
+  "key_tx": [
+   "T000262",
+   "T000263",
+   "T000264",
+   "T000265",
+   "T000266",
+   "T000267"
+  ],
+  "expected_refs": [
+   "law:7",
+   "nbu:annex20"
+  ]
+ },
+ "A013": {
+  "label": "ESCALATE",
+  "typology": "atm_cluster",
+  "key_tx": [
+   "T000325",
+   "T000326",
+   "T000327",
+   "T000328",
+   "T000329",
+   "T000330",
+   "T000331",
+   "T000332",
+   "T000333",
+   "T000334"
+  ],
+  "expected_refs": [
+   "nbu:annex20",
+   "law:21"
+  ]
+ },
+ "A014": {
+  "label": "ESCALATE",
+  "typology": "transit_company",
+  "key_tx": [
+   "T000335",
+   "T000336",
+   "T000337",
+   "T000338",
+   "T000339",
+   "T000340",
+   "T000341",
+   "T000342",
+   "T000343",
+   "T000344",
+   "T000345",
+   "T000346",
+   "T000347",
+   "T000348"
+  ],
+  "expected_refs": [
+   "nbu:annex20",
+   "law:21",
+   "law:12"
+  ]
+ },
+ "A015": {
+  "label": "CLOSE",
+  "typology": "fp_salary_bonus",
+  "key_tx": [
+   "T000376"
+  ],
+  "expected_refs": [
+   "law:20"
+  ]
+ },
+ "A016": {
+  "label": "ESCALATE",
+  "typology": "sanctions_hit",
+  "key_tx": [
+   "T000404"
+  ],
+  "expected_refs": [
+   "law:22",
+   "law:23",
+   "law:21"
+  ]
+ },
+ "A017": {
+  "label": "ESCALATE",
+  "typology": "illegal_gambling",
+  "key_tx": [
+   "T000405",
+   "T000406",
+   "T000407",
+   "T000408",
+   "T000409",
+   "T000410",
+   "T000411",
+   "T000412",
+   "T000413",
+   "T000414",
+   "T000474",
+   "T000475",
+   "T000476",
+   "T000477",
+   "T000478"
+  ],
+  "expected_refs": [
+   "law:20",
+   "law:21",
+   "nbu:annex20"
+  ]
+ },
+ "A018": {
+  "label": "ESCALATE",
+  "typology": "pep_unexplained",
+  "key_tx": [
+   "T000506",
+   "T000507"
+  ],
+  "expected_refs": [
+   "law:12",
+   "law:11",
+   "law:21"
+  ]
+ },
+ "A019": {
+  "label": "REQUEST_INFO",
+  "typology": "unexplained_inflow",
+  "key_tx": [
+   "T000535"
+  ],
+  "expected_refs": [
+   "law:11",
+   "law:20"
+  ]
+ },
+ "A020": {
+  "label": "ESCALATE",
+  "typology": "sanctions_hit",
+  "key_tx": [
+   "T000563"
+  ],
+  "expected_refs": [
+   "law:22",
+   "law:23",
+   "law:21"
+  ]
+ },
+ "A021": {
+  "label": "ESCALATE",
+  "typology": "loan_third_party_repayment",
+  "key_tx": [
+   "T000591",
+   "T000592",
+   "T000593",
+   "T000594",
+   "T000595",
+   "T000596",
+   "T000597"
+  ],
+  "expected_refs": [
+   "nbu:annex20",
+   "law:21"
+  ]
+ },
+ "A022": {
+  "label": "CLOSE",
+  "typology": "fp_car_sale",
+  "key_tx": [
+   "T000625"
+  ],
+  "expected_refs": [
+   "law:20"
+  ]
+ },
+ "A023": {
+  "label": "CLOSE",
+  "typology": "fp_volunteer",
+  "key_tx": [
+   "T000626",
+   "T000627",
+   "T000628",
+   "T000629",
+   "T000630",
+   "T000631",
+   "T000632",
+   "T000633",
+   "T000634"
+  ],
+  "expected_refs": [
+   "law:7"
+  ]
+ },
+ "A024": {
+  "label": "REQUEST_INFO",
+  "typology": "unexplained_inflow",
+  "key_tx": [
+   "T000662"
+  ],
+  "expected_refs": [
+   "law:11",
+   "law:20"
+  ]
+ },
+ "A025": {
+  "label": "CLOSE",
+  "typology": "fp_group_payment",
+  "key_tx": [
+   "T000663",
+   "T000664",
+   "T000665",
+   "T000666",
+   "T000667",
+   "T000668",
+   "T000669",
+   "T000670",
+   "T000693"
+  ],
+  "expected_refs": [
+   "nbu:annex20"
+  ]
+ },
+ "A026": {
+  "label": "ESCALATE",
+  "typology": "illegal_gambling",
+  "key_tx": [
+   "T000694",
+   "T000695",
+   "T000696",
+   "T000697",
+   "T000698",
+   "T000699",
+   "T000700",
+   "T000701",
+   "T000702",
+   "T000703",
+   "T000756",
+   "T000757",
+   "T000758",
+   "T000759",
+   "T000760"
+  ],
+  "expected_refs": [
+   "law:20",
+   "law:21",
+   "nbu:annex20"
+  ]
+ },
+ "A027": {
+  "label": "ESCALATE",
+  "typology": "money_mule",
+  "key_tx": [
+   "T000761",
+   "T000762",
+   "T000763",
+   "T000764",
+   "T000765",
+   "T000766",
+   "T000767",
+   "T000768",
+   "T000769",
+   "T000770",
+   "T000771",
+   "T000772",
+   "T000838",
+   "T000839",
+   "T000840"
+  ],
+  "expected_refs": [
+   "nbu:annex20",
+   "law:21",
+   "law:11"
+  ]
+ },
+ "A028": {
+  "label": "ESCALATE",
+  "typology": "money_mule",
+  "key_tx": [
+   "T000841",
+   "T000842",
+   "T000843",
+   "T000844",
+   "T000845",
+   "T000846",
+   "T000847",
+   "T000848",
+   "T000849",
+   "T000850",
+   "T000851",
+   "T000852",
+   "T000914",
+   "T000915",
+   "T000916"
+  ],
+  "expected_refs": [
+   "nbu:annex20",
+   "law:21",
+   "law:11"
+  ]
+ },
+ "A029": {
+  "label": "CLOSE",
+  "typology": "fp_fop_business",
+  "key_tx": [
+   "T000917",
+   "T000918",
+   "T000919",
+   "T000920",
+   "T000921",
+   "T000922"
+  ],
+  "expected_refs": [
+   "law:7",
+   "nbu:annex20"
+  ]
+ },
+ "A030": {
+  "label": "ESCALATE",
+  "typology": "cash_structuring",
+  "key_tx": [
+   "T001007",
+   "T001008",
+   "T001009",
+   "T001010",
+   "T001011"
+  ],
+  "expected_refs": [
+   "law:20",
+   "law:21",
+   "nbu:annex20"
+  ]
+ },
+ "A031": {
+  "label": "REQUEST_INFO",
+  "typology": "turnover_spike",
+  "key_tx": [
+   "T001012",
+   "T001013",
+   "T001014",
+   "T001015",
+   "T001016",
+   "T001017",
+   "T001018",
+   "T001019"
+  ],
+  "expected_refs": [
+   "law:11",
+   "law:7"
+  ]
+ },
+ "A032": {
+  "label": "CLOSE",
+  "typology": "fp_volunteer",
+  "key_tx": [
+   "T001024",
+   "T001025",
+   "T001026",
+   "T001027",
+   "T001028",
+   "T001029",
+   "T001030",
+   "T001031",
+   "T001032",
+   "T001033",
+   "T001034"
+  ],
+  "expected_refs": [
+   "law:7"
+  ]
+ },
+ "A033": {
+  "label": "CLOSE",
+  "typology": "fp_name_match",
+  "key_tx": [
+   "T001062"
+  ],
+  "expected_refs": [
+   "law:23"
+  ]
+ },
+ "A034": {
+  "label": "CLOSE",
+  "typology": "fp_it_freelancer",
+  "key_tx": [
+   "T001085",
+   "T001086"
+  ],
+  "expected_refs": [
+   "law:7"
+  ]
+ },
+ "A035": {
+  "label": "ESCALATE",
+  "typology": "loan_third_party_repayment",
+  "key_tx": [
+   "T001114",
+   "T001115",
+   "T001116",
+   "T001117",
+   "T001118",
+   "T001119",
+   "T001120",
+   "T001121",
+   "T001122",
+   "T001123"
+  ],
+  "expected_refs": [
+   "nbu:annex20",
+   "law:21"
+  ]
+ },
+ "A036": {
+  "label": "ESCALATE",
+  "typology": "third_party_online_banking",
+  "key_tx": [
+   "T001136",
+   "T001137",
+   "T001138",
+   "T001139"
+  ],
+  "expected_refs": [
+   "nbu:annex20",
+   "law:21"
+  ]
+ },
+ "A037": {
+  "label": "REQUEST_INFO",
+  "typology": "source_of_funds_unclear",
+  "key_tx": [
+   "T001167"
+  ],
+  "expected_refs": [
+   "law:11",
+   "law:12"
+  ]
+ },
+ "A038": {
+  "label": "CLOSE",
+  "typology": "fp_group_payment",
+  "key_tx": [
+   "T001168",
+   "T001169",
+   "T001170",
+   "T001171",
+   "T001172",
+   "T001173",
+   "T001174",
+   "T001175",
+   "T001199"
+  ],
+  "expected_refs": [
+   "nbu:annex20"
+  ]
+ },
+ "A039": {
+  "label": "CLOSE",
+  "typology": "fp_car_sale",
+  "key_tx": [
+   "T001227"
+  ],
+  "expected_refs": [
+   "law:20"
+  ]
+ },
+ "A040": {
+  "label": "ESCALATE",
+  "typology": "third_party_online_banking",
+  "key_tx": [
+   "T001240",
+   "T001241",
+   "T001242",
+   "T001243",
+   "T001244"
+  ],
+  "expected_refs": [
+   "nbu:annex20",
+   "law:21"
+  ]
+ }
+}

@@ -1,0 +1,799 @@
+{"text": "Зарахування заробітної плати за першу половину жовтня 2023 р. згідно відомості № 142", "label": "salary", "subset": "standard"}
+{"text": "Виплата з/п за другу половину листопада 2023 р. Без ПДВ", "label": "salary", "subset": "standard"}
+{"text": "Перерахування авансу за грудень 2023 р. зг. трудового договору", "label": "salary", "subset": "standard"}
+{"text": "Оплата тимчасової непрацездатності (лікарняний) згідно листка № 8472910482", "label": "salary", "subset": "standard"}
+{"text": "Виплата відпускних за період з 10.07 по 24.07 згідно наказу № 45-В", "label": "salary", "subset": "standard"}
+{"text": "Заробітна плата за січень 2024 року згідно штатного розпису", "label": "salary", "subset": "standard"}
+{"text": "Виплата щомісячної премії за виробничі результати за 3 квартал", "label": "salary", "subset": "standard"}
+{"text": "Аванс з заробітної плати за травень 2024 року", "label": "salary", "subset": "standard"}
+{"text": "Остаточний розрахунок при звільненні згідно наказу № 118-К", "label": "salary", "subset": "standard"}
+{"text": "Оплата перших п'яти днів лікарняного за рахунок роботодавця", "label": "salary", "subset": "standard"}
+{"text": "Зарплата за вересень 2023 року відповідно до банківського реєстру № 52", "label": "salary", "subset": "standard"}
+{"text": "Річна винагорода за підсумками роботи згідно колективного договору", "label": "salary", "subset": "standard"}
+{"text": "Доплата за роботу в нічні зміни та святкові дні за квітень", "label": "salary", "subset": "standard"}
+{"text": "Компенсація за невикористані дні щорічної відпустки", "label": "salary", "subset": "standard"}
+{"text": "Перерахування заробітної плати згідно відомості № 31 від 05.08.2024", "label": "salary", "subset": "standard"}
+{"text": "Виплата відпускних виплат згідно графіка відпусток на 2024 рік", "label": "salary", "subset": "standard"}
+{"text": "Виплата премії за успішне виконання плану продажів за червень", "label": "salary", "subset": "standard"}
+{"text": "Зарахування коштів: лікарняні за рахунок Пенсійного фонду України", "label": "salary", "subset": "standard"}
+{"text": "Виплата другої частини заробітної плати за лютий 2024 р.", "label": "salary", "subset": "standard"}
+{"text": "Виплата заробітної плати штатним працівникам за відпрацьований час", "label": "salary", "subset": "standard"}
+{"text": "Зарплата за листопад", "label": "salary", "subset": "standard"}
+{"text": "Аванс на карту за першу половину місяця", "label": "salary", "subset": "standard"}
+{"text": "Зп за червень від ФОП Мельник", "label": "salary", "subset": "standard"}
+{"text": "Премія за закриття проекту згідно розпорядження керівника", "label": "salary", "subset": "standard"}
+{"text": "Зарплатня за квітень 2024", "label": "salary", "subset": "standard"}
+{"text": "Відпускні за 14 днів липня", "label": "salary", "subset": "standard"}
+{"text": "З/п за відпрацьовані години в кафе", "label": "salary", "subset": "standard"}
+{"text": "Аванс за серпень згідно табелю обліку робочого часу", "label": "salary", "subset": "standard"}
+{"text": "Розрахункові за червень місяць", "label": "salary", "subset": "standard"}
+{"text": "Зп за першу половину липня 2024", "label": "salary", "subset": "standard"}
+{"text": "Лікарняні за 7 днів травня", "label": "salary", "subset": "standard"}
+{"text": "Доплата за понаднормові години роботи в травні", "label": "salary", "subset": "standard"}
+{"text": "Щомісячна заробітна плата згідно контракту № 48", "label": "salary", "subset": "standard"}
+{"text": "Преміальні виплати за підсумками місяця", "label": "salary", "subset": "standard"}
+{"text": "Зарплата за стажування та випробувальний термін", "label": "salary", "subset": "standard"}
+{"text": "Виплата авансового платежу по зарплаті за лютий", "label": "salary", "subset": "standard"}
+{"text": "Залишок зп за січень 2024 року", "label": "salary", "subset": "standard"}
+{"text": "Оплата відпустки з 01.06 по 15.06", "label": "salary", "subset": "standard"}
+{"text": "Погодинна зарплата за відпрацьовані зміни на складі", "label": "salary", "subset": "standard"}
+{"text": "Премія співробітнику за підсумками півріччя", "label": "salary", "subset": "standard"}
+{"text": "Зарплата за октябрь 2023", "label": "salary", "subset": "standard"}
+{"text": "Аванс за текущий месяц по табелю", "label": "salary", "subset": "standard"}
+{"text": "Зп за вторую половину месяца", "label": "salary", "subset": "standard"}
+{"text": "Отпускные выплаты за август согласно заявлению", "label": "salary", "subset": "standard"}
+{"text": "Больничные за декабрь месяц", "label": "salary", "subset": "standard"}
+{"text": "Премия за перевыполнение плана в четвертом квартале", "label": "salary", "subset": "standard"}
+{"text": "Расчет при увольнении по соглашению сторон", "label": "salary", "subset": "standard"}
+{"text": "Зарплата за смены в марте", "label": "salary", "subset": "standard"}
+{"text": "Доплата до оклада за выслугу лет", "label": "salary", "subset": "standard"}
+{"text": "Зарплатний аванс згідно трудової угоди", "label": "salary", "subset": "standard"}
+{"text": "Реєстр ЗКП №45892 зарахування коштів співробітнику", "label": "salary", "subset": "hard"}
+{"text": "виплата по табелю обліку робочого часу за квітень", "label": "salary", "subset": "hard"}
+{"text": "закриті овертайми та нічні чергування за минулий місяць", "label": "salary", "subset": "hard"}
+{"text": "винагорода гіг-контрактора за березень ТОВ СофтДев", "label": "salary", "subset": "hard"}
+{"text": "компенсація невикористаних днів щорічного відпочинку при звільненні", "label": "salary", "subset": "hard"}
+{"text": "зпшка зайшла за другу половину місяця", "label": "salary", "subset": "hard"}
+{"text": "нарахування по листку непрацездатності перші 5 днів", "label": "salary", "subset": "hard"}
+{"text": "щомісячний фікс згідно умов трудової угоди", "label": "salary", "subset": "hard"}
+{"text": "квартальний бонус за виконання KPI ТОВ Технології", "label": "salary", "subset": "hard"}
+{"text": "відпрацьовані години згідно затвердженого рейту за лютий", "label": "salary", "subset": "hard"}
+{"text": "залишок получки за минулий відпрацьований місяць", "label": "salary", "subset": "hard"}
+{"text": "payroll transfer dev team sprint 44", "label": "salary", "subset": "hard"}
+{"text": "вихідна допомога у зв'язку зі скороченням штату підприємства", "label": "salary", "subset": "hard"}
+{"text": "доплата за шкідливі умови праці та нічні зміни", "label": "salary", "subset": "hard"}
+{"text": "згідно відомості нарахування штатному персоналу за червень", "label": "salary", "subset": "hard"}
+{"text": "реферальний бонус за найм сініор інженера від ейчар", "label": "salary", "subset": "hard"}
+{"text": "оплата днів перебування на електронному лікарняному", "label": "salary", "subset": "hard"}
+{"text": "тринадцята за підсумками успішного фінансового року від компанії", "label": "salary", "subset": "hard"}
+{"text": "авансець на картку за першу декаду поточного місяця", "label": "salary", "subset": "hard"}
+{"text": "остаточний розрахунок працівника при розірванні трудового контракту", "label": "salary", "subset": "hard"}
+{"text": "надбавка за вислугу років та кваліфікаційну категорію", "label": "salary", "subset": "hard"}
+{"text": "переказ згідно договору найму за відпрацьовані зміни у цеху", "label": "salary", "subset": "hard"}
+{"text": "компенсація за дні вимушеного простою підприємства", "label": "salary", "subset": "hard"}
+{"text": "кварталка за перевиконання індивідуального плану продажів", "label": "salary", "subset": "hard"}
+{"text": "поповнення картки в рамках корпоративного зарплатного проекту", "label": "salary", "subset": "hard"}
+{"text": "закриття спринтів і місячний ретейнер ТОВ Вектор", "label": "salary", "subset": "hard"}
+{"text": "допомога по вагітності та пологах за рахунок роботодавця", "label": "salary", "subset": "hard"}
+{"text": "ставка плюс відсоток від особистого виробітку за два тижні", "label": "salary", "subset": "hard"}
+{"text": "нарахування за понаднормовий час праці у святкові дні", "label": "salary", "subset": "hard"}
+{"text": "регулярна виплата за виконання трудових обов'язків за першу половину", "label": "salary", "subset": "hard"}
+{"text": "на карту залишок окладу за травень згідно штатного розпису", "label": "salary", "subset": "hard"}
+{"text": "лікарняний е-бюлетень №10293847 оплата непрацездатності", "label": "salary", "subset": "hard"}
+{"text": "підсумковий пейрол штатних фахівців за вересень", "label": "salary", "subset": "hard"}
+{"text": "виплата молодшому спеціалісту за період випробувального терміну", "label": "salary", "subset": "hard"}
+{"text": "заохочувальна винагорода за річні досягнення комерційного відділу", "label": "salary", "subset": "hard"}
+{"text": "закриття табеля змінності чергового підрозділу за добу", "label": "salary", "subset": "hard"}
+{"text": "компенсація добових чергувань згідно з наказом керівника №12", "label": "salary", "subset": "hard"}
+{"text": "мотивуюча надбавка за результатами проходження квартального аудиту", "label": "salary", "subset": "hard"}
+{"text": "оплата перепрацювань згідно внутрішнього погодинного трекінгу", "label": "salary", "subset": "hard"}
+{"text": "перерахунок коштів за період перебування у щорічній відпустці", "label": "salary", "subset": "hard"}
+{"text": "зп залишок за серпень згідно посадового окладу", "label": "salary", "subset": "hard"}
+{"text": "доплата за тимчасове суміщення посад у фінансовому відділі", "label": "salary", "subset": "hard"}
+{"text": "виплата згідно зведеного реєстру коштів персоналу відділу логістики", "label": "salary", "subset": "hard"}
+{"text": "щомісячний ретейнер акредитованого гіг-фахівця Дія Сіті", "label": "salary", "subset": "hard"}
+{"text": "матеріальне заохочення кращому фахівцю місяця від дирекції", "label": "salary", "subset": "hard"}
+{"text": "перерахування коштів за листком непрацездатності від підприємства", "label": "salary", "subset": "hard"}
+{"text": "розрахункові кошти за відпрацьовані дні перед складанням повноважень", "label": "salary", "subset": "hard"}
+{"text": "закриття другої частини місячного посадового окладу", "label": "salary", "subset": "hard"}
+{"text": "нарахування відрядної оплати праці за обсяг випущеної продукції", "label": "salary", "subset": "hard"}
+{"text": "зарахування коштів робітникам з корпоративного спецрахунку компанії", "label": "salary", "subset": "hard"}
+{"text": "З днем народження! Купи собі щось приємне", "label": "family", "subset": "standard"}
+{"text": "Мамі на ліки та вітаміни від сина", "label": "family", "subset": "standard"}
+{"text": "Синочку на кишенькові витрати", "label": "family", "subset": "standard"}
+{"text": "З ювілеєм від родини Ковальчуків", "label": "family", "subset": "standard"}
+{"text": "Донечці на каву та смаколики", "label": "family", "subset": "standard"}
+{"text": "На подарунок племінниці до дня народження", "label": "family", "subset": "standard"}
+{"text": "С днем рождения, братуха! От души", "label": "family", "subset": "standard"}
+{"text": "Бабусі на продукти, бережи себе", "label": "family", "subset": "standard"}
+{"text": "Татові до пенсії, гарного дня!", "label": "family", "subset": "standard"}
+{"text": "Подарунок онуку від дідуся", "label": "family", "subset": "standard"}
+{"text": "Від мами з любовʼю, тримай на солодке", "label": "family", "subset": "standard"}
+{"text": "Кумі на свято, поцілуй похресника", "label": "family", "subset": "standard"}
+{"text": "На карманные расходы дочке", "label": "family", "subset": "standard"}
+{"text": "Братику на подарунок від сестри", "label": "family", "subset": "standard"}
+{"text": "Коханій на манікюр і квіти", "label": "family", "subset": "standard"}
+{"text": "Сестричці на обновки до весни", "label": "family", "subset": "standard"}
+{"text": "Малому на морозиво та кіно", "label": "family", "subset": "standard"}
+{"text": "З річницею весілля вас, любі!", "label": "family", "subset": "standard"}
+{"text": "З 8 березня, люба матусю!", "label": "family", "subset": "standard"}
+{"text": "Подарунок на новосілля від друзів", "label": "family", "subset": "standard"}
+{"text": "Дітям на солодощі від тьоті Наталі", "label": "family", "subset": "standard"}
+{"text": "На день народження донечки, вітаємо!", "label": "family", "subset": "standard"}
+{"text": "Мамі від дітей на відпочинок", "label": "family", "subset": "standard"}
+{"text": "С праздником, дорогая сестренка!", "label": "family", "subset": "standard"}
+{"text": "Онучці на платтячко до випускного", "label": "family", "subset": "standard"}
+{"text": "Любимому мужу на мелкие радости", "label": "family", "subset": "standard"}
+{"text": "Допомога батькам від доньки", "label": "family", "subset": "standard"}
+{"text": "Куму на ДН, гарно відсвяткувати!", "label": "family", "subset": "standard"}
+{"text": "Подарочек на Николая для племяша", "label": "family", "subset": "standard"}
+{"text": "Мамі на санаторій, оздоровлюйся", "label": "family", "subset": "standard"}
+{"text": "Сину на сесію, смачно їж", "label": "family", "subset": "standard"}
+{"text": "С днем ангела, тетя Валя!", "label": "family", "subset": "standard"}
+{"text": "Від тата на кишенькові, не трать все одразу", "label": "family", "subset": "standard"}
+{"text": "Батькам на гостинці з міста", "label": "family", "subset": "standard"}
+{"text": "З днем захисника, брате, обіймаю!", "label": "family", "subset": "standard"}
+{"text": "Дорогій дружині просто так для настрою", "label": "family", "subset": "standard"}
+{"text": "Подарунок хрещениці на 10 років", "label": "family", "subset": "standard"}
+{"text": "Внуку на день рождения от бабушки Тани", "label": "family", "subset": "standard"}
+{"text": "Любій невістці на свято", "label": "family", "subset": "standard"}
+{"text": "Допомога сестрі, тримайся, все буде добре", "label": "family", "subset": "standard"}
+{"text": "На весільний подарунок молодим від родичів", "label": "family", "subset": "standard"}
+{"text": "Матусі на подарунок до дня матері", "label": "family", "subset": "standard"}
+{"text": "Брату на смаколики від сестрички", "label": "family", "subset": "standard"}
+{"text": "Кишенькові онуку на тиждень", "label": "family", "subset": "standard"}
+{"text": "Подарунок братику на повноліття", "label": "family", "subset": "standard"}
+{"text": "Сестре на подарок от нас с Сашей", "label": "family", "subset": "standard"}
+{"text": "Татові на новий інструмент до свята", "label": "family", "subset": "standard"}
+{"text": "Мамі на новий телефон, доклали з братом", "label": "family", "subset": "standard"}
+{"text": "Доні на нові кросівки від батьків", "label": "family", "subset": "standard"}
+{"text": "З днем народження кумонько!", "label": "family", "subset": "standard"}
+{"text": "мамуль лови на вітамінки і фрукти", "label": "family", "subset": "hard"}
+{"text": "хбдей бро гульни як слід", "label": "family", "subset": "hard"}
+{"text": "малому на обіди в універі", "label": "family", "subset": "hard"}
+{"text": "донечці на нові кросівки від тата", "label": "family", "subset": "hard"}
+{"text": "з др чувак відірвись по повній", "label": "family", "subset": "hard"}
+{"text": "бабці на базар на сир і ягідки", "label": "family", "subset": "hard"}
+{"text": "сеструні на манікюрчик і кавусю", "label": "family", "subset": "hard"}
+{"text": "братусі на нову гру в стімі", "label": "family", "subset": "hard"}
+{"text": "купи собі щось красиве від коханого", "label": "family", "subset": "hard"}
+{"text": "мамі на смаколики до чаю цьом", "label": "family", "subset": "hard"}
+{"text": "на посиденьки в пʼятницю від олега", "label": "family", "subset": "hard"}
+{"text": "племінниці на ляльку від хрещеної", "label": "family", "subset": "hard"}
+{"text": "татові на зимову рибалку і термос", "label": "family", "subset": "hard"}
+{"text": "малому на морозиво і чіпси", "label": "family", "subset": "hard"}
+{"text": "з днем варення старий вітаю", "label": "family", "subset": "hard"}
+{"text": "на кіно і попкорн для соні", "label": "family", "subset": "hard"}
+{"text": "студенту на пельмені шоб не пух з голоду", "label": "family", "subset": "hard"}
+{"text": "потіш себе чимось солодким зайка", "label": "family", "subset": "hard"}
+{"text": "хрещенику на днюху від дядька", "label": "family", "subset": "hard"}
+{"text": "кумі на квіти й мартіні", "label": "family", "subset": "hard"}
+{"text": "татусь тримай на нові свічки в гараж", "label": "family", "subset": "hard"}
+{"text": "мамі на санаторій від дітей", "label": "family", "subset": "hard"}
+{"text": "брату на двіж у клубі", "label": "family", "subset": "hard"}
+{"text": "коханій на спа салон релаксуй", "label": "family", "subset": "hard"}
+{"text": "малому на самокат докидаю", "label": "family", "subset": "hard"}
+{"text": "з ювілейчиком дорогенька від нас усіх", "label": "family", "subset": "hard"}
+{"text": "сестрі на сукню до випускного", "label": "family", "subset": "hard"}
+{"text": "дєду на тютюн і газети", "label": "family", "subset": "hard"}
+{"text": "на піцу дівчатам гарно посидіти", "label": "family", "subset": "hard"}
+{"text": "синулі на кишенькові витрати", "label": "family", "subset": "hard"}
+{"text": "онуку на канцтовари й зошити", "label": "family", "subset": "hard"}
+{"text": "мамусі на нові окуляри від дочки", "label": "family", "subset": "hard"}
+{"text": "бро тримай на пивас і чіпсики", "label": "family", "subset": "hard"}
+{"text": "днюшні від компанії шоб круто відпочив", "label": "family", "subset": "hard"}
+{"text": "кумові на шашлик до вихідних", "label": "family", "subset": "hard"}
+{"text": "доні на смаколики від бабці", "label": "family", "subset": "hard"}
+{"text": "малому за гарний табель презент", "label": "family", "subset": "hard"}
+{"text": "моїй принцесі на шопінг", "label": "family", "subset": "hard"}
+{"text": "дружині на квіточки без приводу", "label": "family", "subset": "hard"}
+{"text": "від кумасиків малечі на обновки", "label": "family", "subset": "hard"}
+{"text": "з хеппі бьорздеєм тебе козаче", "label": "family", "subset": "hard"}
+{"text": "братикові на новенькі навушники", "label": "family", "subset": "hard"}
+{"text": "мамі на відпочинок від вови", "label": "family", "subset": "hard"}
+{"text": "студенту на гуртожиток і сосиски", "label": "family", "subset": "hard"}
+{"text": "похресниці на золоті сережки", "label": "family", "subset": "hard"}
+{"text": "татові на запчастини до ниви", "label": "family", "subset": "hard"}
+{"text": "на смачну вечерю любій мамулі", "label": "family", "subset": "hard"}
+{"text": "сеструсі на каву з круасанчиком", "label": "family", "subset": "hard"}
+{"text": "племіннику на лего під ялиночку", "label": "family", "subset": "hard"}
+{"text": "подружці на помаду й туш цьомаю", "label": "family", "subset": "hard"}
+{"text": "Повернення боргу згідно розписки від 12.02.2024", "label": "loan", "subset": "standard"}
+{"text": "Возврат долга за прошлый месяц", "label": "loan", "subset": "standard"}
+{"text": "Безвідсоткова поворотна фінансова допомога згідно договору № 14/03 від 14.03.2023р. Без ПДВ.", "label": "loan", "subset": "standard"}
+{"text": "Повернення позики за договором №25-Ф від 10.01.2024", "label": "loan", "subset": "standard"}
+{"text": "отдаю долг, спасибо что выручил", "label": "loan", "subset": "standard"}
+{"text": "Надання поворотної фінансової допомоги згідно договору №3 від 05.05.2024 року", "label": "loan", "subset": "standard"}
+{"text": "повертаю борг за ремонт авто", "label": "loan", "subset": "standard"}
+{"text": "Часткове повернення боргу згідно розписки", "label": "loan", "subset": "standard"}
+{"text": "Возврат займа учредителю согласно договора №12/22 от 15.11.2022", "label": "loan", "subset": "standard"}
+{"text": "віддаю шо позичав минулого тижня", "label": "loan", "subset": "standard"}
+{"text": "Повернення безвідсоткової поворотної позики директору ТОВ", "label": "loan", "subset": "standard"}
+{"text": "Долг вернул в полном объеме", "label": "loan", "subset": "standard"}
+{"text": "Надання позики фізичній особі згідно договору б/н від 01.06.2024", "label": "loan", "subset": "standard"}
+{"text": "повернення раніше отриманої поворотної фін допомоги", "label": "loan", "subset": "standard"}
+{"text": "отдаю часть долга, остаток переведу в пятницу", "label": "loan", "subset": "standard"}
+{"text": "Погашення заборгованості за договором позики №45/1", "label": "loan", "subset": "standard"}
+{"text": "вертаю позичені кошти", "label": "loan", "subset": "standard"}
+{"text": "Безпроцентный заем средств по соглашению №18", "label": "loan", "subset": "standard"}
+{"text": "Останній платіж по боргу", "label": "loan", "subset": "standard"}
+{"text": "Поворотна фінансова допомога від засновника для поповнення обігових коштів", "label": "loan", "subset": "standard"}
+{"text": "отдаю долг за стоматолога", "label": "loan", "subset": "standard"}
+{"text": "Позика грошових коштів на термін 6 місяців згідно розписки", "label": "loan", "subset": "standard"}
+{"text": "повернення фінансової позики від 03.04.2023", "label": "loan", "subset": "standard"}
+{"text": "Возврат части долга", "label": "loan", "subset": "standard"}
+{"text": "Віддаю решту боргу, дякую", "label": "loan", "subset": "standard"}
+{"text": "Перерахування суми позики згідно договору №7-Б", "label": "loan", "subset": "standard"}
+{"text": "вертаю борг шо брав у долг", "label": "loan", "subset": "standard"}
+{"text": "Предоставление возвратной финансовой помощи на пополнение оборотных средств", "label": "loan", "subset": "standard"}
+{"text": "повернення боргу Коваленко О. В.", "label": "loan", "subset": "standard"}
+{"text": "Тіло позики за договором позики №11", "label": "loan", "subset": "standard"}
+{"text": "Закриття боргу перед Сидоренко В.П.", "label": "loan", "subset": "standard"}
+{"text": "Возврат беспроцентного займа по договору 33 от 10.08.2023", "label": "loan", "subset": "standard"}
+{"text": "Віддаю позику, вибач за затримку", "label": "loan", "subset": "standard"}
+{"text": "Надання безвідсоткової позики співробітнику відповідно до наказу №14", "label": "loan", "subset": "standard"}
+{"text": "закрив борг повністю", "label": "loan", "subset": "standard"}
+{"text": "Перерахування поворотної фіндопомоги згідно додаткової угоди №1", "label": "loan", "subset": "standard"}
+{"text": "возврат заемных средств согласно акта сверки", "label": "loan", "subset": "standard"}
+{"text": "вертаю кошти що ти мені позичав", "label": "loan", "subset": "standard"}
+{"text": "Повернення тіла кредиту згідно графіку платежів", "label": "loan", "subset": "standard"}
+{"text": "Долг за прошлый вторник", "label": "loan", "subset": "standard"}
+{"text": "Безвідсоткова поворотна позика на розвиток бізнесу", "label": "loan", "subset": "standard"}
+{"text": "Погашення позики частина 2", "label": "loan", "subset": "standard"}
+{"text": "Отдаю долг по расписке от 20 мая", "label": "loan", "subset": "standard"}
+{"text": "Надання ПФД згідно протоколу зборів засновників №5", "label": "loan", "subset": "standard"}
+{"text": "повертаю борг за купівлю будматеріалів", "label": "loan", "subset": "standard"}
+{"text": "Закрытие долга, претензий не имею", "label": "loan", "subset": "standard"}
+{"text": "Повернення позички згідно усного договору", "label": "loan", "subset": "standard"}
+{"text": "Возврат займа директору предприятия", "label": "loan", "subset": "standard"}
+{"text": "віддаю перепозичені кошти", "label": "loan", "subset": "standard"}
+{"text": "Повернення коштів згідно договору безвідсоткової позики №89", "label": "loan", "subset": "standard"}
+{"text": "пфд за договором 14/08 без пдв", "label": "loan", "subset": "hard"}
+{"text": "віддаю те що перехоплював минулого вівторка", "label": "loan", "subset": "hard"}
+{"text": "закриваю наш спільний хвіст за розпискою", "label": "loan", "subset": "hard"}
+{"text": "поверн. тимчас. фін. допомоги зг. дог. 45-б", "label": "loan", "subset": "hard"}
+{"text": "скидаю назад те що виручив на вихідних", "label": "loan", "subset": "hard"}
+{"text": "повне дострокове погашення по creditkasa дог 992811", "label": "loan", "subset": "hard"}
+{"text": "повертаю ту суму що брав на ремонт машини", "label": "loan", "subset": "hard"}
+{"text": "закриття овердрафту згідно умов реструктуризації", "label": "loan", "subset": "hard"}
+{"text": "другий транш по поверненню фіндопомоги від засновника", "label": "loan", "subset": "hard"}
+{"text": "закрив мікрокредит в манивео договір 48194", "label": "loan", "subset": "hard"}
+{"text": "повертаю що займав на пару днів спасибі", "label": "loan", "subset": "hard"}
+{"text": "повернення залишку безвідсоткової поворотної допомоги флп коваль", "label": "loan", "subset": "hard"}
+{"text": "щомісячний аннуїтет за споживчим договором 4091/22", "label": "loan", "subset": "hard"}
+{"text": "віддаю назад твої десять тисяч, дуже виручив", "label": "loan", "subset": "hard"}
+{"text": "закриття залишку тіла по кредитній лінії", "label": "loan", "subset": "hard"}
+{"text": "віддаю зайняте до кінця місяця як обіцяв", "label": "loan", "subset": "hard"}
+{"text": "сплата заборгованості за графіком платежів договір п-88", "label": "loan", "subset": "hard"}
+{"text": "швидкогроші внесення обов'язкового платежу дог 738210", "label": "loan", "subset": "hard"}
+{"text": "скинув те шо брав у тебе минулого тижня", "label": "loan", "subset": "hard"}
+{"text": "повн поворот фіндоп за дог 11 від 03 01 24", "label": "loan", "subset": "hard"}
+{"text": "закриваю заборгованість перед сергієм по розписці", "label": "loan", "subset": "hard"}
+{"text": "повернення фіндопомоги згідно акту звірки від 12.04", "label": "loan", "subset": "hard"}
+{"text": "віддаю перехоплені кошти, виручив сильно", "label": "loan", "subset": "hard"}
+{"text": "часткове дострокове зняття обтяження кредитмаркет дог 5124", "label": "loan", "subset": "hard"}
+{"text": "повертаю назад залишок за домовленістю від січня", "label": "loan", "subset": "hard"}
+{"text": "поверн безпроц фін підтримки від учасника тов", "label": "loan", "subset": "hard"}
+{"text": "гашу свій мінус по розстрочці за техніку", "label": "loan", "subset": "hard"}
+{"text": "закриття зобов'язань згідно мирової угоди по позичці", "label": "loan", "subset": "hard"}
+{"text": "повертаю що перепозичав на картку тоді", "label": "loan", "subset": "hard"}
+{"text": "щомісячний внесок за лізинговим графіком погашення", "label": "loan", "subset": "hard"}
+{"text": "переказ у рахунок повернення фіндопомоги згідно листа 22", "label": "loan", "subset": "hard"}
+{"text": "закриваю борг за розпискою петренко в.і.", "label": "loan", "subset": "hard"}
+{"text": "віддаю твою частку, що брав взайми на відпустку", "label": "loan", "subset": "hard"}
+{"text": "платіж згідно графіка реструктуризації заборгованості", "label": "loan", "subset": "hard"}
+{"text": "creditplus закриття залишку тіла кредиту 091823", "label": "loan", "subset": "hard"}
+{"text": "повернення тимчасово залучених коштів директору", "label": "loan", "subset": "hard"}
+{"text": "скидаю ту суму яку перехопив у тебе в п'ятницю", "label": "loan", "subset": "hard"}
+{"text": "повертаю залишок по розрахунку запозичення", "label": "loan", "subset": "hard"}
+{"text": "закриття траншу поворотної допомоги за актом 04", "label": "loan", "subset": "hard"}
+{"text": "віддаю шо позичав перед святами дякую", "label": "loan", "subset": "hard"}
+{"text": "повернення коштів наданих на зворотній основі", "label": "loan", "subset": "hard"}
+{"text": "закриваю питання по заборгованості згідно договору пфд", "label": "loan", "subset": "hard"}
+{"text": "погашення прострочки по мікропозиці є-гроші дог 8128", "label": "loan", "subset": "hard"}
+{"text": "віддаю назад те чим виручив на оренду офісу", "label": "loan", "subset": "hard"}
+{"text": "виконання зобов'язання з повернення коштів за договором позики 08", "label": "loan", "subset": "hard"}
+{"text": "повертаю взяті раніше кошти за домовленістю", "label": "loan", "subset": "hard"}
+{"text": "ccloan достроковий платіж по тілу", "label": "loan", "subset": "hard"}
+{"text": "закриваю свій залишок за старою розпискою від лютого", "label": "loan", "subset": "hard"}
+{"text": "віддаю назад що брав на капіталку мотора", "label": "loan", "subset": "hard"}
+{"text": "погашення частини зобов'язань за договором безвідсоткової допомоги", "label": "loan", "subset": "hard"}
+{"text": "Поповнення балансу користувача ID 491028 Favbet", "label": "gambling", "subset": "standard"}
+{"text": "Поповнення ігрового рахунку Cosmolot акаунт 883921", "label": "gambling", "subset": "standard"}
+{"text": "Виплата виграшу з онлайн-казино згідно з правилами", "label": "gambling", "subset": "standard"}
+{"text": "Оплата депозиту для участі в азартних іграх онлайн", "label": "gambling", "subset": "standard"}
+{"text": "Поповнення балансу акаунта в БК Vbet 928374", "label": "gambling", "subset": "standard"}
+{"text": "Виведення коштів з ігрового рахунку Parimatch ID 55432", "label": "gambling", "subset": "standard"}
+{"text": "Внесення коштів на баланс гравця Pin-Up 110948", "label": "gambling", "subset": "standard"}
+{"text": "Поповнення рахунку для гри в покер PokerMatch 47382", "label": "gambling", "subset": "standard"}
+{"text": "Депозит у слот-клуб Слотокінг, гравець #73921", "label": "gambling", "subset": "standard"}
+{"text": "Оплата участі в покерному турнірі (бай-ін) ID 88392", "label": "gambling", "subset": "standard"}
+{"text": "Поповнення рахунку букмекерської контори GGBet", "label": "gambling", "subset": "standard"}
+{"text": "Зарахування виграшу від ставки на спорт, квиток №948271", "label": "gambling", "subset": "standard"}
+{"text": "Поповнення особистого кабінету казино FirstCasino", "label": "gambling", "subset": "standard"}
+{"text": "Поповнення ігрового балансу Champion Casino", "label": "gambling", "subset": "standard"}
+{"text": "Виплата виграшу за парі №83920194 від 12.04", "label": "gambling", "subset": "standard"}
+{"text": "Закинув на депо в казино", "label": "gambling", "subset": "standard"}
+{"text": "На ставки на футбол сьогодні ввечері", "label": "gambling", "subset": "standard"}
+{"text": "Кешаут з покеру за вихідні", "label": "gambling", "subset": "standard"}
+{"text": "Поповнення депозиту SuperGra, логін maks_bet", "label": "gambling", "subset": "standard"}
+{"text": "Розрахунок за ставкою експрес на лігу чемпіонів", "label": "gambling", "subset": "standard"}
+{"text": "Поповнення рахунку гравця №9382101 в онлайн лотереї", "label": "gambling", "subset": "standard"}
+{"text": "Оплата участі в грі на ігрових автоматах (слоти)", "label": "gambling", "subset": "standard"}
+{"text": "Депозит на гру в блекджек та рулетку", "label": "gambling", "subset": "standard"}
+{"text": "Вывод выигрыша с покер рума", "label": "gambling", "subset": "standard"}
+{"text": "Пополнение счета в букмекерской конторе Фавбет", "label": "gambling", "subset": "standard"}
+{"text": "Скинь на депіт в космолот", "label": "gambling", "subset": "standard"}
+{"text": "Виплата чистого виграшу з азартної гри ID 77291", "label": "gambling", "subset": "standard"}
+{"text": "Поповнення балансу для спортивних ставок, гравець 304928", "label": "gambling", "subset": "standard"}
+{"text": "Бай-ін на суботній покерний турнір Texas Holdem", "label": "gambling", "subset": "standard"}
+{"text": "Взнос на игровой счет казино онлайн", "label": "gambling", "subset": "standard"}
+{"text": "Поповнення гаманця на сайті ставок 1xBet", "label": "gambling", "subset": "standard"}
+{"text": "Депозит гравця 9948202 для гри в онлайн-рулетку", "label": "gambling", "subset": "standard"}
+{"text": "Выплата выигрыша по купону ставки 448392", "label": "gambling", "subset": "standard"}
+{"text": "Зарахування призових з покерного турніру", "label": "gambling", "subset": "standard"}
+{"text": "Поповнення рахунку Slots City ID 384729", "label": "gambling", "subset": "standard"}
+{"text": "Переказ на ігровий депозит букмекерської компанії", "label": "gambling", "subset": "standard"}
+{"text": "На фріспіни в казино", "label": "gambling", "subset": "standard"}
+{"text": "Оплата гри в онлайн-покер акаунт shark_ua", "label": "gambling", "subset": "standard"}
+{"text": "Поповнення рахунку онлайн-букмекера для лайв-ставок", "label": "gambling", "subset": "standard"}
+{"text": "Виграв у казино, ділюся долею зі спінів", "label": "gambling", "subset": "standard"}
+{"text": "Депнул в слоты, пополнение баланса", "label": "gambling", "subset": "standard"}
+{"text": "Поповнення віртуального ігрового балансу казино Вулкан", "label": "gambling", "subset": "standard"}
+{"text": "Виплата виграшу з онлайн-автоматів за заявкою 39482", "label": "gambling", "subset": "standard"}
+{"text": "Оплата депозиту гравця у букмекерській мережі", "label": "gambling", "subset": "standard"}
+{"text": "Пополнение аккаунта для ставок на киберспорт GGbet", "label": "gambling", "subset": "standard"}
+{"text": "Виведення грошей з рахунку БК після виграшу", "label": "gambling", "subset": "standard"}
+{"text": "Залишок виграшу в рулетку за 14 число", "label": "gambling", "subset": "standard"}
+{"text": "Поповнення балансу гравця 583920 казино Favbet", "label": "gambling", "subset": "standard"}
+{"text": "Байін у турнір з онлайн покеру", "label": "gambling", "subset": "standard"}
+{"text": "Списання на поповнення балансу в азартні ігри онлайн", "label": "gambling", "subset": "standard"}
+{"text": "Поповнення балансу Favik ID 9948210", "label": "gambling", "subset": "hard"}
+{"text": "Вивід заносу з солодкого бонанзи", "label": "gambling", "subset": "hard"}
+{"text": "Деп на космічний лот аккаунт 382011", "label": "gambling", "subset": "hard"}
+{"text": "Бай-ін на вечірній турнір з холдему", "label": "gambling", "subset": "hard"}
+{"text": "Закинути на експрес з коефом 4.5", "label": "gambling", "subset": "hard"}
+{"text": "Поповнення V-Bet рахунку 448190", "label": "gambling", "subset": "hard"}
+{"text": "Кешаут виграшу з літачка авіатор", "label": "gambling", "subset": "hard"}
+{"text": "Депчик на рулетку і лайв столи", "label": "gambling", "subset": "hard"}
+{"text": "Розрахунок по ординару на ЛЧ", "label": "gambling", "subset": "hard"}
+{"text": "Оплата участі в сателіті GGpoker", "label": "gambling", "subset": "hard"}
+{"text": "Пін-Ап поповнення гаманця 837199", "label": "gambling", "subset": "hard"}
+{"text": "Закинув на нічний лудоманський стрім", "label": "gambling", "subset": "hard"}
+{"text": "Поповнення балансу Pari id 550123", "label": "gambling", "subset": "hard"}
+{"text": "Вейджер відкрутив, виводжу залишок", "label": "gambling", "subset": "hard"}
+{"text": "Слотс сіті депо за промокодом", "label": "gambling", "subset": "hard"}
+{"text": "Занос на собаках Pragmatic кешаут", "label": "gambling", "subset": "hard"}
+{"text": "Поповнення Парік профіль 2991823", "label": "gambling", "subset": "hard"}
+{"text": "На фріспіни у книжках Ра", "label": "gambling", "subset": "hard"}
+{"text": "Байін за кеш-стіл 1/2 NLH", "label": "gambling", "subset": "hard"}
+{"text": "Поповнення рахунку беттора #827119", "label": "gambling", "subset": "hard"}
+{"text": "Виплата по ставці тотал більше 2.5", "label": "gambling", "subset": "hard"}
+{"text": "Деп під бонус на перший депозит x2", "label": "gambling", "subset": "hard"}
+{"text": "Закинути на слоти Champion casino", "label": "gambling", "subset": "hard"}
+{"text": "Кешаут з 1він id 938472", "label": "gambling", "subset": "hard"}
+{"text": "Поповнення балансу для ставок на кіберспорт дота", "label": "gambling", "subset": "hard"}
+{"text": "Докупка фішок ребай у покерному клубі", "label": "gambling", "subset": "hard"}
+{"text": "Виграш з експресу на UFC", "label": "gambling", "subset": "hard"}
+{"text": "Поповнення First Casino профіль 71829", "label": "gambling", "subset": "hard"}
+{"text": "Закинути копійку на крутки в геймінаторах", "label": "gambling", "subset": "hard"}
+{"text": "Додеп на відіграш бонусу", "label": "gambling", "subset": "hard"}
+{"text": "Виплата з Мостбету на картку", "label": "gambling", "subset": "hard"}
+{"text": "СлотсКінг поповнення ігрового ніку", "label": "gambling", "subset": "hard"}
+{"text": "Залив на фори та кутові по матчу", "label": "gambling", "subset": "hard"}
+{"text": "Кешаут після успішного заносу на слотах", "label": "gambling", "subset": "hard"}
+{"text": "Старзи бай-ін в Sunday Million", "label": "gambling", "subset": "hard"}
+{"text": "Депозит у контору на фінал турніру", "label": "gambling", "subset": "hard"}
+{"text": "Поповнення рахунку супергра id 88310", "label": "gambling", "subset": "hard"}
+{"text": "Оплата спінів у Megaways", "label": "gambling", "subset": "hard"}
+{"text": "Вивід профіту з блекджека", "label": "gambling", "subset": "hard"}
+{"text": "Поповнення VBET гаманець 109283", "label": "gambling", "subset": "hard"}
+{"text": "Деп на лайв дилера рулетка", "label": "gambling", "subset": "hard"}
+{"text": "Ставка на перемогу андердога в лізі", "label": "gambling", "subset": "hard"}
+{"text": "Кешаут з космолота акк 48291", "label": "gambling", "subset": "hard"}
+{"text": "Турнірний внесок Spin and Go", "label": "gambling", "subset": "hard"}
+{"text": "Поповнення через термінал на 1x id 774829", "label": "gambling", "subset": "hard"}
+{"text": "Заніс х500 у цукерках виведення", "label": "gambling", "subset": "hard"}
+{"text": "Баланс Fav Sport клієнт 481920", "label": "gambling", "subset": "hard"}
+{"text": "Ре-ентрі в Головну подію серії", "label": "gambling", "subset": "hard"}
+{"text": "Відбив вейджер на бонусці виплата", "label": "gambling", "subset": "hard"}
+{"text": "Поповнення PinUp Bet аккаунт 33910", "label": "gambling", "subset": "hard"}
+{"text": "Покупка USDT Binance P2P ордер 204958372619", "label": "crypto", "subset": "standard"}
+{"text": "Обмін крипти USDT trc20", "label": "crypto", "subset": "standard"}
+{"text": "Оплата по ордеру Bybit p2p #94820184", "label": "crypto", "subset": "standard"}
+{"text": "За біткоїн переказ", "label": "crypto", "subset": "standard"}
+{"text": "Вивід з Binance на карту гривня за USDT", "label": "crypto", "subset": "standard"}
+{"text": "WhiteBIT P2P купівля крипти", "label": "crypto", "subset": "standard"}
+{"text": "Розрахунок за криптовалюту юсдт", "label": "crypto", "subset": "standard"}
+{"text": "Продаж USDT через P2P ордер 492019482", "label": "crypto", "subset": "standard"}
+{"text": "За покупку тезера TRC-20", "label": "crypto", "subset": "standard"}
+{"text": "Оплата ордера OKX P2P trade 10394827", "label": "crypto", "subset": "standard"}
+{"text": "Переказ за біткоіни згідно домовленості", "label": "crypto", "subset": "standard"}
+{"text": "Купівля крипти через Kuna", "label": "crypto", "subset": "standard"}
+{"text": "P2P переказ Binance ордер 849302847561", "label": "crypto", "subset": "standard"}
+{"text": "Продаж BTC на P2P платформі", "label": "crypto", "subset": "standard"}
+{"text": "За USDT від Олексія p2p", "label": "crypto", "subset": "standard"}
+{"text": "Обмінник крипта на гривню USDT", "label": "crypto", "subset": "standard"}
+{"text": "Поповнення балансу криптобіржі Bybit", "label": "crypto", "subset": "standard"}
+{"text": "Розрахунок за покупку Ethereum", "label": "crypto", "subset": "standard"}
+{"text": "Виплата по P2P угоді бінанс", "label": "crypto", "subset": "standard"}
+{"text": "За тезер trc20 від покупця", "label": "crypto", "subset": "standard"}
+{"text": "P2p обмен крипты ордер 59382018", "label": "crypto", "subset": "standard"}
+{"text": "Вывод с биржи Whitebit за usdt", "label": "crypto", "subset": "standard"}
+{"text": "Оплата за юсдт п2п бинанс", "label": "crypto", "subset": "standard"}
+{"text": "Купівля стейблкоїнів USDT", "label": "crypto", "subset": "standard"}
+{"text": "Переказ за крипту ETH p2p", "label": "crypto", "subset": "standard"}
+{"text": "Закриття ордеру на продаж USDT #749201847", "label": "crypto", "subset": "standard"}
+{"text": "Обмін криптовалюти на картку", "label": "crypto", "subset": "standard"}
+{"text": "Bybit p2p переказ за крипту", "label": "crypto", "subset": "standard"}
+{"text": "Розрахунок за токени SOL біржа", "label": "crypto", "subset": "standard"}
+{"text": "Продаж крипти USDT TRC 20", "label": "crypto", "subset": "standard"}
+{"text": "Ордер байбіт p2p 394810293", "label": "crypto", "subset": "standard"}
+{"text": "За юсдт через п2п обмін", "label": "crypto", "subset": "standard"}
+{"text": "Выплата за криптовалюту биткоин", "label": "crypto", "subset": "standard"}
+{"text": "P2P угода купівля тезерів", "label": "crypto", "subset": "standard"}
+{"text": "Binance P2P order 293847102938", "label": "crypto", "subset": "standard"}
+{"text": "Переказ коштів за крипту з бінансу", "label": "crypto", "subset": "standard"}
+{"text": "Whitebit p2p ордер 1948204829", "label": "crypto", "subset": "standard"}
+{"text": "Оплата крипти USDT за курсом", "label": "crypto", "subset": "standard"}
+{"text": "За купівлю біткоїнів через криптообмінник", "label": "crypto", "subset": "standard"}
+{"text": "Продажа USDT p2p перевод на карту", "label": "crypto", "subset": "standard"}
+{"text": "Вывод крипты в фиат p2p", "label": "crypto", "subset": "standard"}
+{"text": "Розрахунок по P2P замовленню OKX", "label": "crypto", "subset": "standard"}
+{"text": "Купівля крипти тонкоїн TON", "label": "crypto", "subset": "standard"}
+{"text": "Ордер 93840284729 бинанс п2п usdt", "label": "crypto", "subset": "standard"}
+{"text": "За тезери з криптогаманця", "label": "crypto", "subset": "standard"}
+{"text": "Обмін USDT на гривню P2P угода", "label": "crypto", "subset": "standard"}
+{"text": "P2P Bybit ордер 84920183 розрахунок", "label": "crypto", "subset": "standard"}
+{"text": "Продаж криптоактивів бінанс p2p", "label": "crypto", "subset": "standard"}
+{"text": "Виплата за ордером обміну криптовалюти", "label": "crypto", "subset": "standard"}
+{"text": "Купівля USDT ERC20 через P2P", "label": "crypto", "subset": "standard"}
+{"text": "п2п ордер 948202 бінанс", "label": "crypto", "subset": "hard"}
+{"text": "розрахунок за стейбли trc20", "label": "crypto", "subset": "hard"}
+{"text": "bybit p2p trade ID 4819024", "label": "crypto", "subset": "hard"}
+{"text": "за юсдт по курсу 41.35", "label": "crypto", "subset": "hard"}
+{"text": "Whitebit код активація", "label": "crypto", "subset": "hard"}
+{"text": "вивід коштів з Trustee Plus", "label": "crypto", "subset": "hard"}
+{"text": "закриття p2p ордеру на okx", "label": "crypto", "subset": "hard"}
+{"text": "за 350 тезерів", "label": "crypto", "subset": "hard"}
+{"text": "поповнення спотового балансу через п2п", "label": "crypto", "subset": "hard"}
+{"text": "купівля solana у phantom", "label": "crypto", "subset": "hard"}
+{"text": "бінанс п2п нікнейм AlexCrypto", "label": "crypto", "subset": "hard"}
+{"text": "обмін на usdc мережа bep20", "label": "crypto", "subset": "hard"}
+{"text": "за біточок переказ", "label": "crypto", "subset": "hard"}
+{"text": "p2p ордер 103958 байбіт", "label": "crypto", "subset": "hard"}
+{"text": "за цифрові активи юздт", "label": "crypto", "subset": "hard"}
+{"text": "виплата з майнінг пулу ethermine", "label": "crypto", "subset": "hard"}
+{"text": "закинь на метамаск в мережі арбітрум", "label": "crypto", "subset": "hard"}
+{"text": "за сатоші згідно домовленості", "label": "crypto", "subset": "hard"}
+{"text": "ордер kucoin p2p 84729", "label": "crypto", "subset": "hard"}
+{"text": "покупка ефіру erc-20", "label": "crypto", "subset": "hard"}
+{"text": "розрахунок за стейблкоїни", "label": "crypto", "subset": "hard"}
+{"text": "вивід з холодного гаманця леджер", "label": "crypto", "subset": "hard"}
+{"text": "p2p обмін huobi order 39281", "label": "crypto", "subset": "hard"}
+{"text": "за тезери з біржі", "label": "crypto", "subset": "hard"}
+{"text": "переказ за usdt trc-20", "label": "crypto", "subset": "hard"}
+{"text": "викуп юсдт від постачальника", "label": "crypto", "subset": "hard"}
+{"text": "ордер на бітгет p2p 948102", "label": "crypto", "subset": "hard"}
+{"text": "за токени тон у телеграм валлет", "label": "crypto", "subset": "hard"}
+{"text": "обмін кешу на юсдт через касу", "label": "crypto", "subset": "hard"}
+{"text": "комісія валідатора за транзакцію", "label": "crypto", "subset": "hard"}
+{"text": "вивід заробленого з фармінгу дефі", "label": "crypto", "subset": "hard"}
+{"text": "за 100 юсдт trc20", "label": "crypto", "subset": "hard"}
+{"text": "розрахунок за пул ліквідності на uniswap", "label": "crypto", "subset": "hard"}
+{"text": "переказ за покупку асіка для майнінгу", "label": "crypto", "subset": "hard"}
+{"text": "бінанс п2п сплата ордеру", "label": "crypto", "subset": "hard"}
+{"text": "bybit express order 294812", "label": "crypto", "subset": "hard"}
+{"text": "за ефірчик по біржовому стакану", "label": "crypto", "subset": "hard"}
+{"text": "покупка toncoin через p2p бот", "label": "crypto", "subset": "hard"}
+{"text": "закриття маржинальної позиції", "label": "crypto", "subset": "hard"}
+{"text": "за стейбли на траствалет", "label": "crypto", "subset": "hard"}
+{"text": "компенсація за gas fee в мережі ефіру", "label": "crypto", "subset": "hard"}
+{"text": "вивід монет з біткоїн криптомату", "label": "crypto", "subset": "hard"}
+{"text": "p2p транзакція mexc 48291", "label": "crypto", "subset": "hard"}
+{"text": "обмінний пункт юсдт на гривню", "label": "crypto", "subset": "hard"}
+{"text": "за монети xrp", "label": "crypto", "subset": "hard"}
+{"text": "оплата тезер trc 20 заявка 9481", "label": "crypto", "subset": "hard"}
+{"text": "закидання на стейкінг бінанс ерн", "label": "crypto", "subset": "hard"}
+{"text": "p2p угода gate.io 59301", "label": "crypto", "subset": "hard"}
+{"text": "викуп криптодоларів за готівку", "label": "crypto", "subset": "hard"}
+{"text": "переказ за btc згідно курсу біржі", "label": "crypto", "subset": "hard"}
+{"text": "Оплата за автозапчастини згідно з рахунком-фактурою №СФ-00492 від 14.11.2023 без ПДВ", "label": "goods_services", "subset": "standard"}
+{"text": "За послуги з розробки програмного забезпечення відповідно до Акту №12 від 05.02.2024", "label": "goods_services", "subset": "standard"}
+{"text": "Оплата замовлення №884391 в інтернет-магазині будівельних інструментів", "label": "goods_services", "subset": "standard"}
+{"text": "Предоплата за изготовление металлопластиковых окон по договору №45-М от 12.01.2024", "label": "goods_services", "subset": "standard"}
+{"text": "За поліграфічні послуги та друк буклетів згідно рах. 518 від 22.03.2024", "label": "goods_services", "subset": "standard"}
+{"text": "Оплата товару: кава зернова та сиропи згідно накладної №РН-8941", "label": "goods_services", "subset": "standard"}
+{"text": "За ремонт та технічне обслуговування кондиціонерів згідно договору №18/05", "label": "goods_services", "subset": "standard"}
+{"text": "Оплата стоматологічних послуг згідно квитанції №90432 Кравченко О.В.", "label": "goods_services", "subset": "standard"}
+{"text": "За будівельні матеріали (цемент, гіпсокартон) згідно рахунку №1093 від 04.04.2024", "label": "goods_services", "subset": "standard"}
+{"text": "Оплата за послуги перевезення вантажу по Україні згідно ТТН №20450893240", "label": "goods_services", "subset": "standard"}
+{"text": "За надання маркетингових послуг згідно акту №4 від 29.02.2024 без ПДВ", "label": "goods_services", "subset": "standard"}
+{"text": "Оплата за канцелярські товари для офісу згідно рахунку №228", "label": "goods_services", "subset": "standard"}
+{"text": "За шиномонтаж та заміну оливи згідно наряду-замовлення №732", "label": "goods_services", "subset": "standard"}
+{"text": "Оплата за навчальний курс підвищення кваліфікації згідно рахунку №К-443", "label": "goods_services", "subset": "standard"}
+{"text": "За виготовлення корпусної кухні згідно замовлення №302/К", "label": "goods_services", "subset": "standard"}
+{"text": "Оплата консультаційних послуг згідно договору №11-ЮР від 10.03.2024", "label": "goods_services", "subset": "standard"}
+{"text": "За сантехнічні роботи та монтаж радіаторів згідно кошторису №8", "label": "goods_services", "subset": "standard"}
+{"text": "Оплата замовлення 783229 на маркетплейсі за чохли до авто", "label": "goods_services", "subset": "standard"}
+{"text": "Оплата за пошив корпоративного спецодягу згідно з рахунком №55/2", "label": "goods_services", "subset": "standard"}
+{"text": "За юридичний супровід угоди купівлі-продажу згідно акту надання послуг №39", "label": "goods_services", "subset": "standard"}
+{"text": "Закупка картонної упаковки та скотчу згідно рахунку №892", "label": "goods_services", "subset": "standard"}
+{"text": "Оплата за фарбувальні роботи приміщення згідно акту здачі-приймання №14", "label": "goods_services", "subset": "standard"}
+{"text": "Оплата за послуги хімчистки текстилю згідно договору №77", "label": "goods_services", "subset": "standard"}
+{"text": "За послуги порізки та кромкування ДСП згідно замовлення №1459", "label": "goods_services", "subset": "standard"}
+{"text": "Оплата медичних послуг (МРТ та консультація фахівця) за квитанцією №4920", "label": "goods_services", "subset": "standard"}
+{"text": "Предоплата за изготовление гранитной столешницы по заказу 238", "label": "goods_services", "subset": "standard"}
+{"text": "Оплата ремонту електродвигуна за актом виконаних робіт №23 від 15.01.2024", "label": "goods_services", "subset": "standard"}
+{"text": "За професійний клінінг вітрин магазину згідно рах. №122", "label": "goods_services", "subset": "standard"}
+{"text": "Оплата за дизельний генератор потужністю 10 кВт згідно рахунку №198", "label": "goods_services", "subset": "standard"}
+{"text": "За земляні роботи та копання траншеї екскаватором згідно акту №33", "label": "goods_services", "subset": "standard"}
+{"text": "Оплата замовлення №459021 меблева фурнітура та ручки", "label": "goods_services", "subset": "standard"}
+{"text": "За кейтерингове обслуговування банкету згідно рахунку №05/11", "label": "goods_services", "subset": "standard"}
+{"text": "Оплата послуг нотаріуса за посвідчення договору дарування майна", "label": "goods_services", "subset": "standard"}
+{"text": "За придбання робочого спецодягу та рукавиць за видатковою накладною №1023", "label": "goods_services", "subset": "standard"}
+{"text": "Оплата послуг з розробки ландшафтного проекту за договором №03-ЛД", "label": "goods_services", "subset": "standard"}
+{"text": "За предметну фотозйомку товарів для сайту згідно рахунку-фактури №71", "label": "goods_services", "subset": "standard"}
+{"text": "Оплата ветеринарних послуг та вакцинації тварин чек №1209", "label": "goods_services", "subset": "standard"}
+{"text": "Заправка та відновлення лазерних картриджів згідно акту №54", "label": "goods_services", "subset": "standard"}
+{"text": "Оплата за паливні талони А-95 згідно рахунку-фактури №Т-902 від ТОВ Енерджі", "label": "goods_services", "subset": "standard"}
+{"text": "За вивезення та утилізацію будівельного сміття згідно замовлення №41", "label": "goods_services", "subset": "standard"}
+{"text": "Оплата за друк та поклейку зовнішньої реклами за актом №6", "label": "goods_services", "subset": "standard"}
+{"text": "За письмовий переклад технічної інструкції згідно рахунку №84", "label": "goods_services", "subset": "standard"}
+{"text": "Оплата рихтування та кузовного ремонту авто за нарядом СТО №348", "label": "goods_services", "subset": "standard"}
+{"text": "За монтаж та налаштування системи відеоспостереження згідно акту від 20.02.2024", "label": "goods_services", "subset": "standard"}
+{"text": "Оплата за партію сухого корму для тварин згідно видаткової накладної №903", "label": "goods_services", "subset": "standard"}
+{"text": "За регламентне технічне обслуговування ліфта згідно договору №12-Л", "label": "goods_services", "subset": "standard"}
+{"text": "Оплата за партію декоративної штукатурки згідно рахунку №881", "label": "goods_services", "subset": "standard"}
+{"text": "За послуги запису та обробки аудіоролика згідно акту №09/1", "label": "goods_services", "subset": "standard"}
+{"text": "Оплата комплексу лабораторних аналізів води згідно рах. №4421", "label": "goods_services", "subset": "standard"}
+{"text": "За проектування системи припливної вентиляції згідно договору №56-ПВ", "label": "goods_services", "subset": "standard"}
+{"text": "заміна мастила та фільтрів рено меган днз АА1234ВВ", "label": "goods_services", "subset": "hard"}
+{"text": "друк банера 3х6 по специфікації 12/04", "label": "goods_services", "subset": "hard"}
+{"text": "розробка лендінгу згідно узгодженого тз v2", "label": "goods_services", "subset": "hard"}
+{"text": "заправка трьох лазерних картриджів кр-22", "label": "goods_services", "subset": "hard"}
+{"text": "чистка кондюка у кабінеті 305 плюс антисептик", "label": "goods_services", "subset": "hard"}
+{"text": "стомат кабінет пломбування 26 зуба анестезія", "label": "goods_services", "subset": "hard"}
+{"text": "фурнітура блум та петлі для шафи купє замовлення 882", "label": "goods_services", "subset": "hard"}
+{"text": "генеральний клінінг після майстрів кв 48", "label": "goods_services", "subset": "hard"}
+{"text": "за бампер передній шрот польща ауді а6 с6", "label": "goods_services", "subset": "hard"}
+{"text": "перетяжка дивана та двох крісел тканиною велюр", "label": "goods_services", "subset": "hard"}
+{"text": "кейтеринг на презентацію: сет тапас канапе та кава", "label": "goods_services", "subset": "hard"}
+{"text": "шиномонтаж перевзути 4 колеса r17 та баланс", "label": "goods_services", "subset": "hard"}
+{"text": "виготовлення вивіски лайтбокс з монтажем на фасад", "label": "goods_services", "subset": "hard"}
+{"text": "корекція фарбування брів майстер оксана", "label": "goods_services", "subset": "hard"}
+{"text": "місячний абонемент спортзал безлім плюс басейн", "label": "goods_services", "subset": "hard"}
+{"text": "пошиття блекаут штор та тюлі по індивідуальним замірам", "label": "goods_services", "subset": "hard"}
+{"text": "передзимове то котла бош та заміна датчика", "label": "goods_services", "subset": "hard"}
+{"text": "консультація педіатра розширена та довідка в секцію", "label": "goods_services", "subset": "hard"}
+{"text": "заміна розбитого модуля екрану айфон 12 олеg", "label": "goods_services", "subset": "hard"}
+{"text": "будматеріали гіпсокартон кнауф та направляючі профілі", "label": "goods_services", "subset": "hard"}
+{"text": "лазерна епіляція комплекс гомілки та бікіні", "label": "goods_services", "subset": "hard"}
+{"text": "керамічна плитка голден тайл 18 пачок декор", "label": "goods_services", "subset": "hard"}
+{"text": "індивідуальна сесія з психотерапевтом за 14.10", "label": "goods_services", "subset": "hard"}
+{"text": "локальне фарбування заднього крила та поліровка ланос", "label": "goods_services", "subset": "hard"}
+{"text": "вивезення будсміття з обєкту камаз 1 ходка", "label": "goods_services", "subset": "hard"}
+{"text": "друк візиток 1000шт шовкодрук софт тач", "label": "goods_services", "subset": "hard"}
+{"text": "косметика holy land відновлюючий крем та лосьйон", "label": "goods_services", "subset": "hard"}
+{"text": "монтаж натяжної стелі сатин спальня 16 кв м", "label": "goods_services", "subset": "hard"}
+{"text": "детейлінг полірування кузова та хімчистка ковроліну", "label": "goods_services", "subset": "hard"}
+{"text": "кава в зернах бленд арабіка 10кг для офісної кавомашини", "label": "goods_services", "subset": "hard"}
+{"text": "укладка ламінату 33 клас 45 квадратів підкладка", "label": "goods_services", "subset": "hard"}
+{"text": "ветеринарні препарати сімпаріка тріо та шампунь", "label": "goods_services", "subset": "hard"}
+{"text": "дублікат домофонного чіпа та ключів 4 комплекти", "label": "goods_services", "subset": "hard"}
+{"text": "букет піоноподібних троянд з листівкою та доставка курєром", "label": "goods_services", "subset": "hard"}
+{"text": "комплект бездротової сигналізації аякс плюс монтаж", "label": "goods_services", "subset": "hard"}
+{"text": "пакет з 5 занять уроки вокалу для початківців", "label": "goods_services", "subset": "hard"}
+{"text": "заміна розбитого склопакета двохкамерного з аргоном", "label": "goods_services", "subset": "hard"}
+{"text": "суха хімчистка пуховика з хутром та пальта", "label": "goods_services", "subset": "hard"}
+{"text": "комплект зимової гуми nokian tyres 205 55 r16", "label": "goods_services", "subset": "hard"}
+{"text": "розпив нішевої парфумерії баккара 10мл том форд 5мл", "label": "goods_services", "subset": "hard"}
+{"text": "утеплення фасаду мінеральною ватою робота та сітка", "label": "goods_services", "subset": "hard"}
+{"text": "гігієнічна чистка зубів ультразвук плюс air flow", "label": "goods_services", "subset": "hard"}
+{"text": "набір інструментів intertool 108 одиниць валіза", "label": "goods_services", "subset": "hard"}
+{"text": "нарощування вій 2д ефект лисички майстер ірина", "label": "goods_services", "subset": "hard"}
+{"text": "подача газелі та послуги вантажників переїзд 3 години", "label": "goods_services", "subset": "hard"}
+{"text": "компютерна діагностика помилок та адаптація дроселя", "label": "goods_services", "subset": "hard"}
+{"text": "дизайн проєкт трикімнатної квартири 3d візуалізація", "label": "goods_services", "subset": "hard"}
+{"text": "годинна фотосесія в студії лайт відбір вихідників", "label": "goods_services", "subset": "hard"}
+{"text": "спліт система c&h інвертор з базовим монтажем траси", "label": "goods_services", "subset": "hard"}
+{"text": "виготовлення дубової стільниці за ескізом клієнта", "label": "goods_services", "subset": "hard"}
+{"text": "Оренда квартири за листопад 2023", "label": "rent_utilities", "subset": "standard"}
+{"text": "Аренда квартиры за текущий месяц", "label": "rent_utilities", "subset": "standard"}
+{"text": "Орендна плата згідно договору оренди №12/04 від 01.04.2023", "label": "rent_utilities", "subset": "standard"}
+{"text": "За аренду кв. 45 ул. Шевченка", "label": "rent_utilities", "subset": "standard"}
+{"text": "Оплата за оренду житла за травень", "label": "rent_utilities", "subset": "standard"}
+{"text": "Оренда паркомісця №14 за січень", "label": "rent_utilities", "subset": "standard"}
+{"text": "Аренда гаража кооператив Схід", "label": "rent_utilities", "subset": "standard"}
+{"text": "Оренда офісного приміщення за грудень", "label": "rent_utilities", "subset": "standard"}
+{"text": "За съем квартиры на Позняках", "label": "rent_utilities", "subset": "standard"}
+{"text": "Оплата за оренду складу за червень 2024", "label": "rent_utilities", "subset": "standard"}
+{"text": "Комунальні послуги за жовтень 2023 р.", "label": "rent_utilities", "subset": "standard"}
+{"text": "Оплата за спожиту електроенергію о/р 2938472910", "label": "rent_utilities", "subset": "standard"}
+{"text": "За світло за березень", "label": "rent_utilities", "subset": "standard"}
+{"text": "Оплата за розподіл газу о/р 100293847", "label": "rent_utilities", "subset": "standard"}
+{"text": "Газопостачання, особовий рахунок 0928374", "label": "rent_utilities", "subset": "standard"}
+{"text": "Оплата за водопостачання та водовідведення за кв. 112", "label": "rent_utilities", "subset": "standard"}
+{"text": "Холодна вода та стоки за лютий", "label": "rent_utilities", "subset": "standard"}
+{"text": "Гаряча вода, лічильник 83921", "label": "rent_utilities", "subset": "standard"}
+{"text": "Опалення за січень 2024, кв. 54", "label": "rent_utilities", "subset": "standard"}
+{"text": "Членські внески ОСББ за червень", "label": "rent_utilities", "subset": "standard"}
+{"text": "Утримання будинку та прибудинкової території, ОСББ Затишок", "label": "rent_utilities", "subset": "standard"}
+{"text": "Оплата інтернет послуг договір 482910", "label": "rent_utilities", "subset": "standard"}
+{"text": "За інтернет Lanet дог. 19283", "label": "rent_utilities", "subset": "standard"}
+{"text": "Поповнення рахунку Інтернет Київстар о/р 09812345", "label": "rent_utilities", "subset": "standard"}
+{"text": "Оплата за послуги домофону за 2 квартал", "label": "rent_utilities", "subset": "standard"}
+{"text": "Вивіз побутових відходів ТОВ Екостайл", "label": "rent_utilities", "subset": "standard"}
+{"text": "Комуналка за лютий (світло+вода+газ)", "label": "rent_utilities", "subset": "standard"}
+{"text": "Оплата ЖКП кв 89 вул Франка", "label": "rent_utilities", "subset": "standard"}
+{"text": "За квартплату за квітень", "label": "rent_utilities", "subset": "standard"}
+{"text": "Комунальні платежі згідно квитанцій за травень", "label": "rent_utilities", "subset": "standard"}
+{"text": "Оплата за газ ТОВ Нафтогаз України о/р 4920194", "label": "rent_utilities", "subset": "standard"}
+{"text": "Ясно електроенергія о/р 837291029", "label": "rent_utilities", "subset": "standard"}
+{"text": "За теплопостачання КП Теплоенерго за листопад", "label": "rent_utilities", "subset": "standard"}
+{"text": "Абонплата за інтернет та кабельне ТБ", "label": "rent_utilities", "subset": "standard"}
+{"text": "Внесок на утримання будинку та прибудинкової території за липень", "label": "rent_utilities", "subset": "standard"}
+{"text": "Оплата послуг консьєржа за травень кв. 12", "label": "rent_utilities", "subset": "standard"}
+{"text": "За світло і воду по лічильникам кв. 34", "label": "rent_utilities", "subset": "standard"}
+{"text": "Квартплата і опалення за січень", "label": "rent_utilities", "subset": "standard"}
+{"text": "Оплата за електроенергію згідно показників лічильника", "label": "rent_utilities", "subset": "standard"}
+{"text": "Оренда кімнати за серпень", "label": "rent_utilities", "subset": "standard"}
+{"text": "Часткова оплата комунальних послуг за грудень", "label": "rent_utilities", "subset": "standard"}
+{"text": "Суборенда нежитлового приміщення за березень зг договору 05", "label": "rent_utilities", "subset": "standard"}
+{"text": "За домофон Цифрал 3 квартал", "label": "rent_utilities", "subset": "standard"}
+{"text": "Оплата за обслуговування ліфта ОСББ Надія", "label": "rent_utilities", "subset": "standard"}
+{"text": "Тріолан інтернет о/р 83910", "label": "rent_utilities", "subset": "standard"}
+{"text": "Оплата за доставку газу (розподіл) за вересень", "label": "rent_utilities", "subset": "standard"}
+{"text": "За комуналку на Мазепи 14 кв 8", "label": "rent_utilities", "subset": "standard"}
+{"text": "Оплата за технічне обслуговування внутрішньобудинкових газових мереж", "label": "rent_utilities", "subset": "standard"}
+{"text": "Аренда квартиры + коммуналка за октябрь", "label": "rent_utilities", "subset": "standard"}
+{"text": "Оренда приміщення кав'ярні за червень згідно акту", "label": "rent_utilities", "subset": "standard"}
+{"text": "ясно березень о/р 2938104", "label": "rent_utilities", "subset": "hard"}
+{"text": "хазяйці на картку за метри на пушкінській", "label": "rent_utilities", "subset": "hard"}
+{"text": "нафтогаз за лютий 42 куби", "label": "rent_utilities", "subset": "hard"}
+{"text": "дтек кіловати день ніч лічильник", "label": "rent_utilities", "subset": "hard"}
+{"text": "тріолану на місяць вперед оптика", "label": "rent_utilities", "subset": "hard"}
+{"text": "внесок в осбб за двокімнатну травень", "label": "rent_utilities", "subset": "hard"}
+{"text": "водоканал холодна гаряча по показниках", "label": "rent_utilities", "subset": "hard"}
+{"text": "за стіни і дах господині до 15 числа", "label": "rent_utilities", "subset": "hard"}
+{"text": "доставка блакитного палива розподіл нафтогаз", "label": "rent_utilities", "subset": "hard"}
+{"text": "київстар домашній нет поповнення особового", "label": "rent_utilities", "subset": "hard"}
+{"text": "теплоенерго гігакалорії за опалювальний лютий", "label": "rent_utilities", "subset": "hard"}
+{"text": "вивіз тпв та прибудинкова територія жек", "label": "rent_utilities", "subset": "hard"}
+{"text": "за паркомісце в підземному за місяць", "label": "rent_utilities", "subset": "hard"}
+{"text": "абонплата ланет гігабіт до першого числа", "label": "rent_utilities", "subset": "hard"}
+{"text": "хазяїну кв 42 за житло травень", "label": "rent_utilities", "subset": "hard"}
+{"text": "струм по лічильнику за минулий місяць", "label": "rent_utilities", "subset": "hard"}
+{"text": "обслуговування домофону цифрал півріччя", "label": "rent_utilities", "subset": "hard"}
+{"text": "поквартирна плата жека за січень", "label": "rent_utilities", "subset": "hard"}
+{"text": "газзбут перерахунок по показниках лічильника", "label": "rent_utilities", "subset": "hard"}
+{"text": "за ключ і проживання червень валентині", "label": "rent_utilities", "subset": "hard"}
+{"text": "обленерго за спалені 250 квт", "label": "rent_utilities", "subset": "hard"}
+{"text": "воля кабельне плюс мережа особовий 193821", "label": "rent_utilities", "subset": "hard"}
+{"text": "о/р 9482103 водопостачання та водовідведення стоки", "label": "rent_utilities", "subset": "hard"}
+{"text": "консьєржці та охорона закритий двір осбб", "label": "rent_utilities", "subset": "hard"}
+{"text": "гаражний кооператив експлуатаційний внесок за бокс 12", "label": "rent_utilities", "subset": "hard"}
+{"text": "компенсація спалених кіловат по квитанції орендодавцю", "label": "rent_utilities", "subset": "hard"}
+{"text": "ясна світло пок 3410-3620 кв 14", "label": "rent_utilities", "subset": "hard"}
+{"text": "за орендовані квадрати на подолі березень", "label": "rent_utilities", "subset": "hard"}
+{"text": "локалнет за трафік особовий 48201", "label": "rent_utilities", "subset": "hard"}
+{"text": "розрахунок з петровичем за кімнати 18", "label": "rent_utilities", "subset": "hard"}
+{"text": "нафтогаз україни абонплата за трубу", "label": "rent_utilities", "subset": "hard"}
+{"text": "теплопостачання батареї за грудень", "label": "rent_utilities", "subset": "hard"}
+{"text": "за комору в підвалі осбб реквізити", "label": "rent_utilities", "subset": "hard"}
+{"text": "дніпровські енергетичні послуги платіжка струм", "label": "rent_utilities", "subset": "hard"}
+{"text": "за хату власнику на картку за наступний місяць", "label": "rent_utilities", "subset": "hard"}
+{"text": "міськводоканал лічильник ванна і кухня куби", "label": "rent_utilities", "subset": "hard"}
+{"text": "абонентська плата провайдеру тенет одеса", "label": "rent_utilities", "subset": "hard"}
+{"text": "за дах над головою ользі сергіївні кв 5", "label": "rent_utilities", "subset": "hard"}
+{"text": "обслуговування ліфта та місць заг користування", "label": "rent_utilities", "subset": "hard"}
+{"text": "за світло у гаражі намотало 80квт лічильник", "label": "rent_utilities", "subset": "hard"}
+{"text": "полтавагаз збут платіж за спожитий обсяг", "label": "rent_utilities", "subset": "hard"}
+{"text": "переказ власниці за лічильниками по платіжках", "label": "rent_utilities", "subset": "hard"}
+{"text": "житлосервіс утримання конструкцій будинку", "label": "rent_utilities", "subset": "hard"}
+{"text": "київтеплоенерго платіж за гкал опалення", "label": "rent_utilities", "subset": "hard"}
+{"text": "щомісячний за однушку на лівобережній хазяйці", "label": "rent_utilities", "subset": "hard"}
+{"text": "поповнення ланнет за кабель wi-fi", "label": "rent_utilities", "subset": "hard"}
+{"text": "за спожиту холодну воду хазяйці за лічильником", "label": "rent_utilities", "subset": "hard"}
+{"text": "за нежитлові комерційні площі фоп бондаренко", "label": "rent_utilities", "subset": "hard"}
+{"text": "гаряче водопостачання та водовідведення 6 кубів", "label": "rent_utilities", "subset": "hard"}
+{"text": "внески співвласників багатоквартирного будинку кв 88", "label": "rent_utilities", "subset": "hard"}
+{"text": "Благодійний внесок на статутну діяльність БО БФ Повернись Живим", "label": "charity", "subset": "standard"}
+{"text": "На fpv дрони для 3 ОШБр", "label": "charity", "subset": "standard"}
+{"text": "Добровільна пожертва на підтримку армії", "label": "charity", "subset": "standard"}
+{"text": "Збір на пікап хлопцям під Бахмут", "label": "charity", "subset": "standard"}
+{"text": "Благодійна допомога постраждалим від затоплення", "label": "charity", "subset": "standard"}
+{"text": "На корм для тварин притулку Сіріус", "label": "charity", "subset": "standard"}
+{"text": "Донат на мавік для 72 бригади", "label": "charity", "subset": "standard"}
+{"text": "Благодійний внесок без ПДВ на реабілітацію військових", "label": "charity", "subset": "standard"}
+{"text": "На турнікети та тактичну медицину", "label": "charity", "subset": "standard"}
+{"text": "Благотворительный взнос на закупку медикаментов для раненых", "label": "charity", "subset": "standard"}
+{"text": "Збір на Старлінк і генератор для пацанів", "label": "charity", "subset": "standard"}
+{"text": "Донатик на помсту", "label": "charity", "subset": "standard"}
+{"text": "Пожертва на відновлення дитячої лікарні", "label": "charity", "subset": "standard"}
+{"text": "На маскувальні сітки та спанбонд", "label": "charity", "subset": "standard"}
+{"text": "Благодійний платіж на статутні цілі фонду", "label": "charity", "subset": "standard"}
+{"text": "На нічник снайперам 93 ОМБр", "label": "charity", "subset": "standard"}
+{"text": "Збір Сергія Притули на комплекс БПЛА", "label": "charity", "subset": "standard"}
+{"text": "Донат на РЕБ для штурмової роти", "label": "charity", "subset": "standard"}
+{"text": "На ремонт корча для евакуації поранених", "label": "charity", "subset": "standard"}
+{"text": "Безповоротна благодійна допомога захисникам України", "label": "charity", "subset": "standard"}
+{"text": "донат на пташки", "label": "charity", "subset": "standard"}
+{"text": "Пожертвование на приют бездомных животных Кошкин дом", "label": "charity", "subset": "standard"}
+{"text": "На тепловізор для розвідки", "label": "charity", "subset": "standard"}
+{"text": "Благодійний внесок: програма допомоги ВПО", "label": "charity", "subset": "standard"}
+{"text": "Збір на квадрокоптер DJI Mavic 3 Thermal", "label": "charity", "subset": "standard"}
+{"text": "На соляру волонтерам для доставки гуманітарки", "label": "charity", "subset": "standard"}
+{"text": "Донат на бронежилети 6 класу", "label": "charity", "subset": "standard"}
+{"text": "Благодійний внесок на лікування ветеранів війни", "label": "charity", "subset": "standard"}
+{"text": "На окопні свічки та парафін", "label": "charity", "subset": "standard"}
+{"text": "Донат на безпілотники Стерненка", "label": "charity", "subset": "standard"}
+{"text": "Пожертва для дитячого будинку Надія", "label": "charity", "subset": "standard"}
+{"text": "Збір на зимову гуму для військового буса", "label": "charity", "subset": "standard"}
+{"text": "Благодійна пожертва на ліквідацію наслідків обстрілу", "label": "charity", "subset": "standard"}
+{"text": "На рації Motorola для зв'язківців", "label": "charity", "subset": "standard"}
+{"text": "доначу на скорішу перемогу", "label": "charity", "subset": "standard"}
+{"text": "Благотворительный донат в фонд Таблеточки", "label": "charity", "subset": "standard"}
+{"text": "На термобілизну та спальники бійцям на нуль", "label": "charity", "subset": "standard"}
+{"text": "Благодійний внесок на статутні цілі ГО Волонтерська сотня", "label": "charity", "subset": "standard"}
+{"text": "Збір на аптечки IFAK для морпіхів", "label": "charity", "subset": "standard"}
+{"text": "На каски та активні навушники хлопцям", "label": "charity", "subset": "standard"}
+{"text": "Донат на гуманітарні пакунки для пенсіонерів Херсону", "label": "charity", "subset": "standard"}
+{"text": "Збір на медевак для бойових медиків", "label": "charity", "subset": "standard"}
+{"text": "Добровільний благодійний внесок від громадянина України", "label": "charity", "subset": "standard"}
+{"text": "на дрончик щоб русню палити", "label": "charity", "subset": "standard"}
+{"text": "Благодійний внесок: проект протезування Незламні", "label": "charity", "subset": "standard"}
+{"text": "Пожертва на психологічну реабілітацію дітей війни", "label": "charity", "subset": "standard"}
+{"text": "На запчастини для саперного авто", "label": "charity", "subset": "standard"}
+{"text": "Донат на тактичні ноші та шини", "label": "charity", "subset": "standard"}
+{"text": "Благодійна матеріальна допомога сім'ям загиблих воїнів", "label": "charity", "subset": "standard"}
+{"text": "докинув у баночку на пташку для 72 бригади", "label": "charity", "subset": "hard"}
+{"text": "на бавовну та теплі привіти окупантам", "label": "charity", "subset": "hard"}
+{"text": "у банку Стерненка на fpv", "label": "charity", "subset": "hard"}
+{"text": "хвостикам на корм у притулок Сіріус", "label": "charity", "subset": "hard"}
+{"text": "на ремонт корча для хлопців на нулі", "label": "charity", "subset": "hard"}
+{"text": "підписка на фонд ПЖ щомісячна", "label": "charity", "subset": "hard"}
+{"text": "на мавік 3t з тепловізором пацанам", "label": "charity", "subset": "hard"}
+{"text": "донатик у банку Притули", "label": "charity", "subset": "hard"}
+{"text": "на турнікети cat gen7 для такмеду", "label": "charity", "subset": "hard"}
+{"text": "копійка на русоріз від підписника", "label": "charity", "subset": "hard"}
+{"text": "у баночку на генератор для стабпункту", "label": "charity", "subset": "hard"}
+{"text": "на окопні свічки та парафін для волонтерів", "label": "charity", "subset": "hard"}
+{"text": "трохи на пальне для евакуаційного буса", "label": "charity", "subset": "hard"}
+{"text": "таблеточки для підопічних фонду", "label": "charity", "subset": "hard"}
+{"text": "на старлінк та зарядну станцію роті", "label": "charity", "subset": "hard"}
+{"text": "на спанбонд для плетіння маскувальних сіток", "label": "charity", "subset": "hard"}
+{"text": "підсилення для 3 ошбр на нічники", "label": "charity", "subset": "hard"}
+{"text": "ребятам на передок на резину для пікапа", "label": "charity", "subset": "hard"}
+{"text": "на рюкзак медика для Госпітальєрів", "label": "charity", "subset": "hard"}
+{"text": "скидка у банку на помсту за Харків", "label": "charity", "subset": "hard"}
+{"text": "на глушилку та реб проти дронів бійцям", "label": "charity", "subset": "hard"}
+{"text": "безпритульним собакам з Курахового на лікування", "label": "charity", "subset": "hard"}
+{"text": "у монобанку на оптику для снайперів", "label": "charity", "subset": "hard"}
+{"text": "на активні навушники та шолом для мінометки", "label": "charity", "subset": "hard"}
+{"text": "на цинкові гроби для окупантів у банку", "label": "charity", "subset": "hard"}
+{"text": "внесок БО БФ Солом'янські котики", "label": "charity", "subset": "hard"}
+{"text": "гуманітарка на дитяче харчування переселенцям", "label": "charity", "subset": "hard"}
+{"text": "на цівку та обвіс для трофейного кулемета", "label": "charity", "subset": "hard"}
+{"text": "на акумулятори та пропелери для дронарів", "label": "charity", "subset": "hard"}
+{"text": "щомісячна кава для ЗСУ через фонд", "label": "charity", "subset": "hard"}
+{"text": "на соляру волонтерському евакуатору", "label": "charity", "subset": "hard"}
+{"text": "посильна крапля на залізних птахів", "label": "charity", "subset": "hard"}
+{"text": "на сухі борщі та енергетичні батончики хлопцям", "label": "charity", "subset": "hard"}
+{"text": "допомога шелтеру для тварин Бест Френдс", "label": "charity", "subset": "hard"}
+{"text": "закриваю хвіст збору на бус медикам", "label": "charity", "subset": "hard"}
+{"text": "на броніки та кевларові пакети для взводу", "label": "charity", "subset": "hard"}
+{"text": "на хімічні грілки та термобілизну воїнам", "label": "charity", "subset": "hard"}
+{"text": "на оклюзійні наліпки та гемостатики на фронт", "label": "charity", "subset": "hard"}
+{"text": "залишок зарплати на нічні очі розвідці", "label": "charity", "subset": "hard"}
+{"text": "у волонтерську баночку на прилад нічного бачення", "label": "charity", "subset": "hard"}
+{"text": "дрібʼязок на пекельні крила для кацапів", "label": "charity", "subset": "hard"}
+{"text": "на гарячі обіди для біженців у шелтері", "label": "charity", "subset": "hard"}
+{"text": "докидаю до цілі на пікап для арті", "label": "charity", "subset": "hard"}
+{"text": "на корм та стерилізацію котиків з прифронтових", "label": "charity", "subset": "hard"}
+{"text": "регулярний внесок до фонду Голоси дітей", "label": "charity", "subset": "hard"}
+{"text": "на портативні станції eco flow підрозділу", "label": "charity", "subset": "hard"}
+{"text": "пацанам на оптичний приціл у банку", "label": "charity", "subset": "hard"}
+{"text": "на моторали та гарнітури зв'язківцям", "label": "charity", "subset": "hard"}
+{"text": "на квадрик для вивозу 300х з позицій", "label": "charity", "subset": "hard"}
+{"text": "внесок на мобільну лазню для захисників", "label": "charity", "subset": "hard"}

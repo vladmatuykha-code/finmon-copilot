@@ -1,0 +1,130 @@
+[
+ {
+  "strategy": "fixed",
+  "embed": "minilm",
+  "mode": "bm25",
+  "recall@5": 0.867,
+  "mrr@10": 0.732,
+  "ms_per_query": 0.8
+ },
+ {
+  "strategy": "fixed",
+  "embed": "minilm",
+  "mode": "dense",
+  "recall@5": 0.567,
+  "mrr@10": 0.465,
+  "ms_per_query": 28.0
+ },
+ {
+  "strategy": "fixed",
+  "embed": "minilm",
+  "mode": "hybrid",
+  "recall@5": 0.733,
+  "mrr@10": 0.562,
+  "ms_per_query": 7.8
+ },
+ {
+  "strategy": "structural_noctx",
+  "embed": "minilm",
+  "mode": "bm25",
+  "recall@5": 0.867,
+  "mrr@10": 0.765,
+  "ms_per_query": 0.9
+ },
+ {
+  "strategy": "structural_noctx",
+  "embed": "minilm",
+  "mode": "dense",
+  "recall@5": 0.8,
+  "mrr@10": 0.573,
+  "ms_per_query": 6.1
+ },
+ {
+  "strategy": "structural_noctx",
+  "embed": "minilm",
+  "mode": "hybrid",
+  "recall@5": 0.8,
+  "mrr@10": 0.702,
+  "ms_per_query": 9.8
+ },
+ {
+  "strategy": "structural",
+  "embed": "minilm",
+  "mode": "bm25",
+  "recall@5": 0.8,
+  "mrr@10": 0.739,
+  "ms_per_query": 1.0
+ },
+ {
+  "strategy": "structural",
+  "embed": "minilm",
+  "mode": "dense",
+  "recall@5": 0.533,
+  "mrr@10": 0.434,
+  "ms_per_query": 10.7
+ },
+ {
+  "strategy": "structural",
+  "embed": "minilm",
+  "mode": "hybrid",
+  "recall@5": 0.8,
+  "mrr@10": 0.557,
+  "ms_per_query": 15.3
+ },
+ {
+  "strategy": "structural_short",
+  "embed": "minilm",
+  "mode": "bm25",
+  "recall@5": 0.833,
+  "mrr@10": 0.759,
+  "ms_per_query": 1.0
+ },
+ {
+  "strategy": "structural_short",
+  "embed": "minilm",
+  "mode": "dense",
+  "recall@5": 0.733,
+  "mrr@10": 0.581,
+  "ms_per_query": 10.9
+ },
+ {
+  "strategy": "structural_short",
+  "embed": "minilm",
+  "mode": "hybrid",
+  "recall@5": 0.833,
+  "mrr@10": 0.706,
+  "ms_per_query": 15.5
+ },
+ {
+  "strategy": "structural_noctx",
+  "embed": "e5",
+  "mode": "dense",
+  "recall@5": 0.867,
+  "mrr@10": 0.684,
+  "ms_per_query": 102.6
+ },
+ {
+  "strategy": "structural_noctx",
+  "embed": "e5",
+  "mode": "hybrid",
+  "recall@5": 0.9,
+  "mrr@10": 0.773,
+  "ms_per_query": 85.0
+ },
+ {
+  "strategy": "structural_short",
+  "embed": "e5",
+  "mode": "dense",
+  "recall@5": 0.767,
+  "mrr@10": 0.683,
+  "ms_per_query": 76.1
+ },
+ {
+  "strategy": "structural_short",
+  "embed": "e5",
+  "mode": "hybrid",
+  "recall@5": 0.933,
+  "mrr@10": 0.769,
+  "ms_per_query": 77.9
+ }
+]

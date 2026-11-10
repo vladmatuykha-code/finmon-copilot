@@ -1,0 +1,35 @@
+[project]
+name = "finmon-copilot"
+version = "0.2.0"
+description = "Мультиагентний помічник аналітика фінмоніторингу: LangGraph + Claude і Gemini + RAG по Закону 361-IX і Положенню НБУ №65"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=2.7",
+    "langgraph>=1.2",
+    "langchain-text-splitters>=0.3",
+    "qdrant-client>=1.15",
+    "fastembed>=0.7",
+    "rank-bm25>=0.2.2",
+    "pydantic>=2.8",
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.30",
+    "scikit-learn>=1.5",
+    "numpy>=1.26",
+    "python-dotenv>=1.0",
+    "google-genai>=1.50",
+    "prometheus-client>=0.20",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+nlp = ["torch>=2.5", "transformers>=4.50", "peft>=0.13", "accelerate>=1.0", "sentencepiece>=0.2"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["finmon*"]
+
+[tool.pytest.ini_options]
+filterwarnings = ["ignore::DeprecationWarning"]

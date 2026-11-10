@@ -1,0 +1,10 @@
+.env
+.venv/
+__pycache__/
+data/index/
+traces/
+*.pyc
+.pytest_cache/
+models/
+evals/results/*_partial.json
+docs/PROJECT_GUIDE_RU.md

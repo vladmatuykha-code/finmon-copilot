@@ -1,0 +1,434 @@
+{
+ "meta": {
+  "train": 2159,
+  "val": 239,
+  "test": 799,
+  "test_standard": 399,
+  "test_hard": 400,
+  "device": "mps",
+  "base_model": "FacebookAI/xlm-roberta-base",
+  "torch": "2.15.0"
+ },
+ "rows": [
+  {
+   "model": "Ключові слова",
+   "accuracy": 0.482,
+   "macro_f1": 0.612,
+   "acc_standard": 0.764,
+   "acc_hard": 0.2,
+   "risky_recall": 0.593,
+   "per_class_recall": {
+    "salary": 0.39,
+    "family": 0.48,
+    "loan": 0.59,
+    "gambling": 0.56,
+    "crypto": 0.63,
+    "goods_services": 0.46,
+    "rent_utilities": 0.41,
+    "charity": 0.333
+   },
+   "trainable_params": 0,
+   "train_seconds": 0,
+   "ms_per_1000": 27.7,
+   "usd_per_1000": 0
+  },
+  {
+   "model": "TF-IDF + логістична регресія",
+   "accuracy": 0.8,
+   "macro_f1": 0.8,
+   "acc_standard": 0.942,
+   "acc_hard": 0.657,
+   "risky_recall": 0.793,
+   "per_class_recall": {
+    "salary": 0.8,
+    "family": 0.86,
+    "loan": 0.85,
+    "gambling": 0.82,
+    "crypto": 0.71,
+    "goods_services": 0.59,
+    "rent_utilities": 0.8,
+    "charity": 0.97
+   },
+   "trainable_params": 203520,
+   "train_seconds": 0.4,
+   "ms_per_1000": 40.2,
+   "usd_per_1000": 0
+  },
+  {
+   "model": "XLM-RoBERTa, повне дотренування",
+   "accuracy": 0.844,
+   "macro_f1": 0.843,
+   "acc_standard": 0.957,
+   "acc_hard": 0.73,
+   "risky_recall": 0.8,
+   "per_class_recall": {
+    "salary": 0.84,
+    "family": 0.97,
+    "loan": 0.69,
+    "gambling": 0.91,
+    "crypto": 0.8,
+    "goods_services": 0.79,
+    "rent_utilities": 0.89,
+    "charity": 0.859
+   },
+   "trainable_params": 278049800,
+   "total_params": 278049800,
+   "train_seconds": 187.5,
+   "epochs": [
+    {
+     "epoch": 1,
+     "val_macro_f1": 0.954,
+     "loss_last_batch": 0.9118
+    },
+    {
+     "epoch": 2,
+     "val_macro_f1": 0.996,
+     "loss_last_batch": 0.1266
+    },
+    {
+     "epoch": 3,
+     "val_macro_f1": 0.996,
+     "loss_last_batch": 0.0841
+    },
+    {
+     "epoch": 4,
+     "val_macro_f1": 0.996,
+     "loss_last_batch": 0.113
+    }
+   ],
+   "ms_per_1000": 3162.9,
+   "usd_per_1000": 0,
+   "model_mb": 1112.2
+  },
+  {
+   "model": "XLM-RoBERTa + LoRA",
+   "accuracy": 0.87,
+   "macro_f1": 0.871,
+   "acc_standard": 0.972,
+   "acc_hard": 0.767,
+   "risky_recall": 0.81,
+   "per_class_recall": {
+    "salary": 0.91,
+    "family": 0.94,
+    "loan": 0.8,
+    "gambling": 0.79,
+    "crypto": 0.84,
+    "goods_services": 0.85,
+    "rent_utilities": 0.89,
+    "charity": 0.939
+   },
+   "trainable_params": 1186568,
+   "total_params": 279236368,
+   "train_seconds": 109.8,
+   "epochs": [
+    {
+     "epoch": 1,
+     "val_macro_f1": 0.898,
+     "loss_last_batch": 0.6998
+    },
+    {
+     "epoch": 2,
+     "val_macro_f1": 0.975,
+     "loss_last_batch": 0.0407
+    },
+    {
+     "epoch": 3,
+     "val_macro_f1": 0.988,
+     "loss_last_batch": 0.2125
+    },
+    {
+     "epoch": 4,
+     "val_macro_f1": 1.0,
+     "loss_last_batch": 0.0495
+    },
+    {
+     "epoch": 5,
+     "val_macro_f1": 1.0,
+     "loss_last_batch": 0.03
+    },
+    {
+     "epoch": 6,
+     "val_macro_f1": 1.0,
+     "loss_last_batch": 0.012
+    },
+    {
+     "epoch": 7,
+     "val_macro_f1": 1.0,
+     "loss_last_batch": 0.0166
+    },
+    {
+     "epoch": 8,
+     "val_macro_f1": 1.0,
+     "loss_last_batch": 0.0005
+    }
+   ],
+   "ms_per_1000": 2670.2,
+   "usd_per_1000": 0,
+   "adapter_mb": 4.8,
+   "errors_sample": [
+    {
+     "text": "Больничные за декабрь месяц",
+     "true": "salary",
+     "pred": "charity",
+     "subset": "standard"
+    },
+    {
+     "text": "переказ згідно договору найму за відпрацьовані зміни у цеху",
+     "true": "salary",
+     "pred": "goods_services",
+     "subset": "hard"
+    },
+    {
+     "text": "кварталка за перевиконання індивідуального плану продажів",
+     "true": "salary",
+     "pred": "rent_utilities",
+     "subset": "hard"
+    },
+    {
+     "text": "закриття спринтів і місячний ретейнер ТОВ Вектор",
+     "true": "salary",
+     "pred": "charity",
+     "subset": "hard"
+    },
+    {
+     "text": "ставка плюс відсоток від особистого виробітку за два тижні",
+     "true": "salary",
+     "pred": "gambling",
+     "subset": "hard"
+    },
+    {
+     "text": "закриття табеля змінності чергового підрозділу за добу",
+     "true": "salary",
+     "pred": "charity",
+     "subset": "hard"
+    },
+    {
+     "text": "оплата перепрацювань згідно внутрішнього погодинного трекінгу",
+     "true": "salary",
+     "pred": "goods_services",
+     "subset": "hard"
+    },
+    {
+     "text": "виплата згідно зведеного реєстру коштів персоналу відділу логістики",
+     "true": "salary",
+     "pred": "goods_services",
+     "subset": "hard"
+    },
+    {
+     "text": "зарахування коштів робітникам з корпоративного спецрахунку компанії",
+     "true": "salary",
+     "pred": "goods_services",
+     "subset": "hard"
+    },
+    {
+     "text": "З днем захисника, брате, обіймаю!",
+     "true": "family",
+     "pred": "charity",
+     "subset": "standard"
+    },
+    {
+     "text": "хбдей бро гульни як слід",
+     "true": "family",
+     "pred": "gambling",
+     "subset": "hard"
+    },
+    {
+     "text": "на кіно і попкорн для соні",
+     "true": "family",
+     "pred": "goods_services",
+     "subset": "hard"
+    },
+    {
+     "text": "дєду на тютюн і газети",
+     "true": "family",
+     "pred": "charity",
+     "subset": "hard"
+    },
+    {
+     "text": "з хеппі бьорздеєм тебе козаче",
+     "true": "family",
+     "pred": "charity",
+     "subset": "hard"
+    },
+    {
+     "text": "студенту на гуртожиток і сосиски",
+     "true": "family",
+     "pred": "charity",
+     "subset": "hard"
+    },
+    {
+     "text": "Поворотна фінансова допомога від засновника для поповнення обігових коштів",
+     "true": "loan",
+     "pred": "crypto",
+     "subset": "standard"
+    },
+    {
+     "text": "Долг за прошлый вторник",
+     "true": "loan",
+     "pred": "crypto",
+     "subset": "standard"
+    },
+    {
+     "text": "Надання ПФД згідно протоколу зборів засновників №5",
+     "true": "loan",
+     "pred": "crypto",
+     "subset": "standard"
+    },
+    {
+     "text": "пфд за договором 14/08 без пдв",
+     "true": "loan",
+     "pred": "crypto",
+     "subset": "hard"
+    },
+    {
+     "text": "закриваю наш спільний хвіст за розпискою",
+     "true": "loan",
+     "pred": "charity",
+     "subset": "hard"
+    },
+    {
+     "text": "повертаю ту суму що брав на ремонт машини",
+     "true": "loan",
+     "pred": "goods_services",
+     "subset": "hard"
+    },
+    {
+     "text": "закриття овердрафту згідно умов реструктуризації",
+     "true": "loan",
+     "pred": "rent_utilities",
+     "subset": "hard"
+    },
+    {
+     "text": "щомісячний аннуїтет за споживчим договором 4091/22",
+     "true": "loan",
+     "pred": "goods_services",
+     "subset": "hard"
+    },
+    {
+     "text": "віддаю зайняте до кінця місяця як обіцяв",
+     "true": "loan",
+     "pred": "salary",
+     "subset": "hard"
+    },
+    {
+     "text": "сплата заборгованості за графіком платежів договір п-88",
+     "true": "loan",
+     "pred": "goods_services",
+     "subset": "hard"
+    },
+    {
+     "text": "швидкогроші внесення обов'язкового платежу дог 738210",
+     "true": "loan",
+     "pred": "crypto",
+     "subset": "hard"
+    },
+    {
+     "text": "скинув те шо брав у тебе минулого тижня",
+     "true": "loan",
+     "pred": "salary",
+     "subset": "hard"
+    },
+    {
+     "text": "закриваю заборгованість перед сергієм по розписці",
+     "true": "loan",
+     "pred": "rent_utilities",
+     "subset": "hard"
+    },
+    {
+     "text": "гашу свій мінус по розстрочці за техніку",
+     "true": "loan",
+     "pred": "goods_services",
+     "subset": "hard"
+    },
+    {
+     "text": "щомісячний внесок за лізинговим графіком погашення",
+     "true": "loan",
+     "pred": "salary",
+     "subset": "hard"
+    },
+    {
+     "text": "віддаю твою частку, що брав взайми на відпустку",
+     "true": "loan",
+     "pred": "crypto",
+     "subset": "hard"
+    },
+    {
+     "text": "платіж згідно графіка реструктуризації заборгованості",
+     "true": "loan",
+     "pred": "salary",
+     "subset": "hard"
+    },
+    {
+     "text": "скидаю ту суму яку перехопив у тебе в п'ятницю",
+     "true": "loan",
+     "pred": "salary",
+     "subset": "hard"
+    },
+    {
+     "text": "ccloan достроковий платіж по тілу",
+     "true": "loan",
+     "pred": "salary",
+     "subset": "hard"
+    },
+    {
+     "text": "закриваю свій залишок за старою розпискою від лютого",
+     "true": "loan",
+     "pred": "goods_services",
+     "subset": "hard"
+    },
+    {
+     "text": "Скинь на депіт в космолот",
+     "true": "gambling",
+     "pred": "charity",
+     "subset": "standard"
+    },
+    {
+     "text": "Поповнення балансу Favik ID 9948210",
+     "true": "gambling",
+     "pred": "crypto",
+     "subset": "hard"
+    },
+    {
+     "text": "Вивід заносу з солодкого бонанзи",
+     "true": "gambling",
+     "pred": "charity",
+     "subset": "hard"
+    },
+    {
+     "text": "Деп на космічний лот аккаунт 382011",
+     "true": "gambling",
+     "pred": "charity",
+     "subset": "hard"
+    },
+    {
+     "text": "Бай-ін на вечірній турнір з холдему",
+     "true": "gambling",
+     "pred": "charity",
+     "subset": "hard"
+    }
+   ]
+  },
+  {
+   "model": "Claude Haiku без навчання",
+   "accuracy": 0.971,
+   "macro_f1": 0.979,
+   "acc_standard": 0.972,
+   "acc_hard": 0.97,
+   "risky_recall": 0.977,
+   "per_class_recall": {
+    "salary": 0.95,
+    "family": 0.98,
+    "loan": 0.96,
+    "gambling": 0.98,
+    "crypto": 0.99,
+    "goods_services": 0.99,
+    "rent_utilities": 0.96,
+    "charity": 0.96
+   },
+   "trainable_params": 0,
+   "train_seconds": 0,
+   "ms_per_1000": 43125.9,
+   "usd_per_1000": 0.007
+  }
+ ]
+}

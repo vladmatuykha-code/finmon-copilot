@@ -1,0 +1,46 @@
+# Правила алертів FinMon Copilot. Перевірка: promtool check rules alerts.yml && promtool test rules alerts_test.yml
+groups:
+  - name: finmon
+    rules:
+      - alert: FinmonDown
+        expr: up{job="finmon"} == 0
+        for: 2m
+        labels: {severity: critical}
+        annotations:
+          summary: "Сервіс FinMon Copilot не відповідає"
+
+      - alert: FinmonHighErrorRate
+        expr: |
+          sum(rate(finmon_investigation_errors_total[10m]))
+            / (sum(rate(finmon_investigations_total[10m])) + sum(rate(finmon_investigation_errors_total[10m]))) > 0.05
+        for: 10m
+        labels: {severity: critical}
+        annotations:
+          summary: "Понад 5% розборів падають з помилкою"
+
+      - alert: FinmonSlowInvestigations
+        expr: histogram_quantile(0.95, sum by (le) (rate(finmon_investigation_seconds_bucket[15m]))) > 120
+        for: 15m
+        labels: {severity: warning}
+        annotations:
+          summary: "95% розборів довші за 2 хвилини"
+
+      - alert: FinmonCostPerAlertHigh
+        expr: |
+          sum(rate(finmon_investigation_cost_usd_sum[30m])) / sum(rate(finmon_investigation_cost_usd_count[30m])) > 0.10
+        for: 30m
+        labels: {severity: warning}
+        annotations:
+          summary: "Середня вартість розбору вища за $0.10 (норма для routed — $0.035)"
+
+      - alert: FinmonProviderFallback
+        expr: sum(increase(finmon_provider_fallbacks_total[10m])) > 0
+        labels: {severity: warning}
+        annotations:
+          summary: "Основний провайдер моделей недоступний, працює резервний"
+
+      - alert: FinmonGroundingViolation
+        expr: sum(increase(finmon_grounding_violations_total[1h])) > 0
+        labels: {severity: warning}
+        annotations:
+          summary: "Агент послався на транзакцію чи норму, яких не отримував від інструментів"

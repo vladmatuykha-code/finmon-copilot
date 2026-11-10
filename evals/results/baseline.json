@@ -1,0 +1,322 @@
+[
+ {
+  "n": 40,
+  "accuracy": 1.0,
+  "macro_f1": 1.0,
+  "escalate_recall": 1.0,
+  "escalate_precision": 1.0,
+  "missed_schemes": 0,
+  "false_escalations": 0,
+  "per_class": {
+   "ESCALATE": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+   },
+   "REQUEST_INFO": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+   },
+   "CLOSE": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+   }
+  },
+  "confusion": {
+   "ESCALATE": {
+    "ESCALATE": 18,
+    "REQUEST_INFO": 0,
+    "CLOSE": 0
+   },
+   "REQUEST_INFO": {
+    "ESCALATE": 0,
+    "REQUEST_INFO": 6,
+    "CLOSE": 0
+   },
+   "CLOSE": {
+    "ESCALATE": 0,
+    "REQUEST_INFO": 0,
+    "CLOSE": 16
+   }
+  },
+  "model": "logistic_regression",
+  "train_size": 240,
+  "cv_accuracy_train": 1.0,
+  "errors": []
+ },
+ {
+  "n": 40,
+  "accuracy": 0.75,
+  "macro_f1": 0.683,
+  "escalate_recall": 0.889,
+  "escalate_precision": 0.8,
+  "missed_schemes": 2,
+  "false_escalations": 4,
+  "per_class": {
+   "ESCALATE": {
+    "precision": 0.8,
+    "recall": 0.889,
+    "f1": 0.842
+   },
+   "REQUEST_INFO": {
+    "precision": 1.0,
+    "recall": 0.333,
+    "f1": 0.5
+   },
+   "CLOSE": {
+    "precision": 0.667,
+    "recall": 0.75,
+    "f1": 0.706
+   }
+  },
+  "confusion": {
+   "ESCALATE": {
+    "ESCALATE": 16,
+    "REQUEST_INFO": 0,
+    "CLOSE": 2
+   },
+   "REQUEST_INFO": {
+    "ESCALATE": 0,
+    "REQUEST_INFO": 2,
+    "CLOSE": 4
+   },
+   "CLOSE": {
+    "ESCALATE": 4,
+    "REQUEST_INFO": 0,
+    "CLOSE": 12
+   }
+  },
+  "model": "logistic_regression (нові схеми)",
+  "train_size": 240,
+  "errors": [
+   {
+    "alert_id": "A003",
+    "typology": "fp_name_match",
+    "true": "CLOSE",
+    "pred": "ESCALATE"
+   },
+   {
+    "alert_id": "A006",
+    "typology": "turnover_spike",
+    "true": "REQUEST_INFO",
+    "pred": "CLOSE"
+   },
+   {
+    "alert_id": "A012",
+    "typology": "fp_fop_business",
+    "true": "CLOSE",
+    "pred": "ESCALATE"
+   },
+   {
+    "alert_id": "A016",
+    "typology": "sanctions_hit",
+    "true": "ESCALATE",
+    "pred": "CLOSE"
+   },
+   {
+    "alert_id": "A019",
+    "typology": "unexplained_inflow",
+    "true": "REQUEST_INFO",
+    "pred": "CLOSE"
+   },
+   {
+    "alert_id": "A020",
+    "typology": "sanctions_hit",
+    "true": "ESCALATE",
+    "pred": "CLOSE"
+   },
+   {
+    "alert_id": "A024",
+    "typology": "unexplained_inflow",
+    "true": "REQUEST_INFO",
+    "pred": "CLOSE"
+   },
+   {
+    "alert_id": "A029",
+    "typology": "fp_fop_business",
+    "true": "CLOSE",
+    "pred": "ESCALATE"
+   },
+   {
+    "alert_id": "A031",
+    "typology": "turnover_spike",
+    "true": "REQUEST_INFO",
+    "pred": "CLOSE"
+   },
+   {
+    "alert_id": "A033",
+    "typology": "fp_name_match",
+    "true": "CLOSE",
+    "pred": "ESCALATE"
+   }
+  ]
+ },
+ {
+  "n": 40,
+  "accuracy": 1.0,
+  "macro_f1": 1.0,
+  "escalate_recall": 1.0,
+  "escalate_precision": 1.0,
+  "missed_schemes": 0,
+  "false_escalations": 0,
+  "per_class": {
+   "ESCALATE": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+   },
+   "REQUEST_INFO": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+   },
+   "CLOSE": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+   }
+  },
+  "confusion": {
+   "ESCALATE": {
+    "ESCALATE": 18,
+    "REQUEST_INFO": 0,
+    "CLOSE": 0
+   },
+   "REQUEST_INFO": {
+    "ESCALATE": 0,
+    "REQUEST_INFO": 6,
+    "CLOSE": 0
+   },
+   "CLOSE": {
+    "ESCALATE": 0,
+    "REQUEST_INFO": 0,
+    "CLOSE": 16
+   }
+  },
+  "model": "gradient_boosting",
+  "train_size": 240,
+  "cv_accuracy_train": 0.988,
+  "errors": []
+ },
+ {
+  "n": 40,
+  "accuracy": 0.7,
+  "macro_f1": 0.643,
+  "escalate_recall": 0.889,
+  "escalate_precision": 0.667,
+  "missed_schemes": 2,
+  "false_escalations": 6,
+  "per_class": {
+   "ESCALATE": {
+    "precision": 0.667,
+    "recall": 0.889,
+    "f1": 0.762
+   },
+   "REQUEST_INFO": {
+    "precision": 1.0,
+    "recall": 0.333,
+    "f1": 0.5
+   },
+   "CLOSE": {
+    "precision": 0.714,
+    "recall": 0.625,
+    "f1": 0.667
+   }
+  },
+  "confusion": {
+   "ESCALATE": {
+    "ESCALATE": 16,
+    "REQUEST_INFO": 0,
+    "CLOSE": 2
+   },
+   "REQUEST_INFO": {
+    "ESCALATE": 2,
+    "REQUEST_INFO": 2,
+    "CLOSE": 2
+   },
+   "CLOSE": {
+    "ESCALATE": 6,
+    "REQUEST_INFO": 0,
+    "CLOSE": 10
+   }
+  },
+  "model": "gradient_boosting (нові схеми)",
+  "train_size": 240,
+  "errors": [
+   {
+    "alert_id": "A003",
+    "typology": "fp_name_match",
+    "true": "CLOSE",
+    "pred": "ESCALATE"
+   },
+   {
+    "alert_id": "A006",
+    "typology": "turnover_spike",
+    "true": "REQUEST_INFO",
+    "pred": "ESCALATE"
+   },
+   {
+    "alert_id": "A019",
+    "typology": "unexplained_inflow",
+    "true": "REQUEST_INFO",
+    "pred": "CLOSE"
+   },
+   {
+    "alert_id": "A023",
+    "typology": "fp_volunteer",
+    "true": "CLOSE",
+    "pred": "ESCALATE"
+   },
+   {
+    "alert_id": "A024",
+    "typology": "unexplained_inflow",
+    "true": "REQUEST_INFO",
+    "pred": "CLOSE"
+   },
+   {
+    "alert_id": "A025",
+    "typology": "fp_group_payment",
+    "true": "CLOSE",
+    "pred": "ESCALATE"
+   },
+   {
+    "alert_id": "A027",
+    "typology": "money_mule",
+    "true": "ESCALATE",
+    "pred": "CLOSE"
+   },
+   {
+    "alert_id": "A028",
+    "typology": "money_mule",
+    "true": "ESCALATE",
+    "pred": "CLOSE"
+   },
+   {
+    "alert_id": "A031",
+    "typology": "turnover_spike",
+    "true": "REQUEST_INFO",
+    "pred": "ESCALATE"
+   },
+   {
+    "alert_id": "A032",
+    "typology": "fp_volunteer",
+    "true": "CLOSE",
+    "pred": "ESCALATE"
+   },
+   {
+    "alert_id": "A033",
+    "typology": "fp_name_match",
+    "true": "CLOSE",
+    "pred": "ESCALATE"
+   },
+   {
+    "alert_id": "A038",
+    "typology": "fp_group_payment",
+    "true": "CLOSE",
+    "pred": "ESCALATE"
+   }
+  ]
+ }
+]

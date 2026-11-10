@@ -1,0 +1,34 @@
+# Модульні тести правил: promtool test rules alerts_test.yml
+rule_files:
+  - alerts.yml
+evaluation_interval: 1m
+tests:
+  - interval: 1m
+    input_series:
+      - series: 'finmon_investigations_total{config="routed",decision="ESCALATE"}'
+        values: '0+10x30'
+      - series: 'finmon_investigation_errors_total{config="routed",error="ProviderUnavailable"}'
+        values: '0+2x30'
+      - series: 'finmon_provider_fallbacks_total{from_model="claude-haiku-5-5",to_model="gemini-3.8-flash",reason="http_529"}'
+        values: '0 0 0 0 0 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3'
+      - series: 'up{job="finmon"}'
+        values: '1 1 1 1 1 0 0 0 0 0'
+    alert_rule_test:
+      - eval_time: 25m
+        alertname: FinmonHighErrorRate
+        exp_alerts:
+          - exp_labels: {severity: critical}
+            exp_annotations: {summary: "Понад 5% розборів падають з помилкою"}
+      - eval_time: 7m
+        alertname: FinmonProviderFallback
+        exp_alerts:
+          - exp_labels: {severity: warning}
+            exp_annotations: {summary: "Основний провайдер моделей недоступний, працює резервний"}
+      - eval_time: 9m
+        alertname: FinmonDown
+        exp_alerts:
+          - exp_labels: {severity: critical, job: finmon}
+            exp_annotations: {summary: "Сервіс FinMon Copilot не відповідає"}
+      - eval_time: 25m
+        alertname: FinmonGroundingViolation
+        exp_alerts: []

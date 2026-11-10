@@ -1,0 +1,951 @@
+[
+ {
+  "n": 40,
+  "accuracy": 0.575,
+  "macro_f1": 0.563,
+  "escalate_recall": 0.667,
+  "escalate_precision": 1.0,
+  "missed_schemes": 0,
+  "false_escalations": 0,
+  "per_class": {
+   "ESCALATE": {
+    "precision": 1.0,
+    "recall": 0.667,
+    "f1": 0.8
+   },
+   "REQUEST_INFO": {
+    "precision": 0.261,
+    "recall": 1.0,
+    "f1": 0.414
+   },
+   "CLOSE": {
+    "precision": 1.0,
+    "recall": 0.312,
+    "f1": 0.476
+   }
+  },
+  "confusion": {
+   "ESCALATE": {
+    "ESCALATE": 12,
+    "REQUEST_INFO": 6,
+    "CLOSE": 0
+   },
+   "REQUEST_INFO": {
+    "ESCALATE": 0,
+    "REQUEST_INFO": 6,
+    "CLOSE": 0
+   },
+   "CLOSE": {
+    "ESCALATE": 0,
+    "REQUEST_INFO": 11,
+    "CLOSE": 5
+   }
+  },
+  "config": "haiku_v1",
+  "prompt_version": "v1",
+  "roles": {
+   "triage": "claude-haiku-5-5",
+   "investigator": "claude-haiku-5-5",
+   "reviewer": "claude-haiku-5-5"
+  },
+  "failed": 0,
+  "failures": {},
+  "cost_total_usd": 0.557,
+  "cost_per_alert_usd": 0.0139,
+  "latency_p50_s": 85.5,
+  "tool_calls_avg": 16.8,
+  "revision_rate": 0.8,
+  "reviewer_changed_decision": 1,
+  "evidence_grounded_rate": 1.0,
+  "legal_refs_grounded_rate": 1.0,
+  "searched_regulations_rate": 1.0,
+  "errors": [
+   {
+    "alert_id": "A001",
+    "typology": "fp_family_support",
+    "true": "CLOSE",
+    "pred": "REQUEST_INFO"
+   },
+   {
+    "alert_id": "A003",
+    "typology": "fp_name_match",
+    "true": "CLOSE",
+    "pred": "REQUEST_INFO"
+   },
+   {
+    "alert_id": "A005",
+    "typology": "fp_it_freelancer",
+    "true": "CLOSE",
+    "pred": "REQUEST_INFO"
+   },
+   {
+    "alert_id": "A007",
+    "typology": "transit_company",
+    "true": "ESCALATE",
+    "pred": "REQUEST_INFO"
+   },
+   {
+    "alert_id": "A009",
+    "typology": "pep_unexplained",
+    "true": "ESCALATE",
+    "pred": "REQUEST_INFO"
+   },
+   {
+    "alert_id": "A015",
+    "typology": "fp_salary_bonus",
+    "true": "CLOSE",
+    "pred": "REQUEST_INFO"
+   },
+   {
+    "alert_id": "A018",
+    "typology": "pep_unexplained",
+    "true": "ESCALATE",
+    "pred": "REQUEST_INFO"
+   },
+   {
+    "alert_id": "A021",
+    "typology": "loan_third_party_repayment",
+    "true": "ESCALATE",
+    "pred": "REQUEST_INFO"
+   },
+   {
+    "alert_id": "A022",
+    "typology": "fp_car_sale",
+    "true": "CLOSE",
+    "pred": "REQUEST_INFO"
+   },
+   {
+    "alert_id": "A023",
+    "typology": "fp_volunteer",
+    "true": "CLOSE",
+    "pred": "REQUEST_INFO"
+   },
+   {
+    "alert_id": "A025",
+    "typology": "fp_group_payment",
+    "true": "CLOSE",
+    "pred": "REQUEST_INFO"
+   },
+   {
+    "alert_id": "A026",
+    "typology": "illegal_gambling",
+    "true": "ESCALATE",
+    "pred": "REQUEST_INFO"
+   },
+   {
+    "alert_id": "A029",
+    "typology": "fp_fop_business",
+    "true": "CLOSE",
+    "pred": "REQUEST_INFO"
+   },
+   {
+    "alert_id": "A032",
+    "typology": "fp_volunteer",
+    "true": "CLOSE",
+    "pred": "REQUEST_INFO"
+   },
+   {
+    "alert_id": "A034",
+    "typology": "fp_it_freelancer",
+    "true": "CLOSE",
+    "pred": "REQUEST_INFO"
+   },
+   {
+    "alert_id": "A035",
+    "typology": "loan_third_party_repayment",
+    "true": "ESCALATE",
+    "pred": "REQUEST_INFO"
+   },
+   {
+    "alert_id": "A038",
+    "typology": "fp_group_payment",
+    "true": "CLOSE",
+    "pred": "REQUEST_INFO"
+   }
+  ],
+  "wall_clock_s": 469.4
+ },
+ {
+  "n": 40,
+  "accuracy": 0.9,
+  "macro_f1": 0.861,
+  "escalate_recall": 1.0,
+  "escalate_precision": 0.947,
+  "missed_schemes": 0,
+  "false_escalations": 0,
+  "per_class": {
+   "ESCALATE": {
+    "precision": 0.947,
+    "recall": 1.0,
+    "f1": 0.973
+   },
+   "REQUEST_INFO": {
+    "precision": 0.625,
+    "recall": 0.833,
+    "f1": 0.714
+   },
+   "CLOSE": {
+    "precision": 1.0,
+    "recall": 0.812,
+    "f1": 0.897
+   }
+  },
+  "confusion": {
+   "ESCALATE": {
+    "ESCALATE": 18,
+    "REQUEST_INFO": 0,
+    "CLOSE": 0
+   },
+   "REQUEST_INFO": {
+    "ESCALATE": 1,
+    "REQUEST_INFO": 5,
+    "CLOSE": 0
+   },
+   "CLOSE": {
+    "ESCALATE": 0,
+    "REQUEST_INFO": 3,
+    "CLOSE": 13
+   }
+  },
+  "config": "haiku",
+  "prompt_version": "v2",
+  "roles": {
+   "triage": "claude-haiku-5-5",
+   "investigator": "claude-haiku-5-5",
+   "reviewer": "claude-haiku-5-5"
+  },
+  "failed": 0,
+  "failures": {},
+  "cost_total_usd": 0.416,
+  "cost_per_alert_usd": 0.0104,
+  "latency_p50_s": 54.5,
+  "tool_calls_avg": 15.4,
+  "revision_rate": 0.4,
+  "reviewer_changed_decision": 1,
+  "evidence_grounded_rate": 1.0,
+  "legal_refs_grounded_rate": 1.0,
+  "searched_regulations_rate": 1.0,
+  "errors": [
+   {
+    "alert_id": "A015",
+    "typology": "fp_salary_bonus",
+    "true": "CLOSE",
+    "pred": "REQUEST_INFO"
+   },
+   {
+    "alert_id": "A023",
+    "typology": "fp_volunteer",
+    "true": "CLOSE",
+    "pred": "REQUEST_INFO"
+   },
+   {
+    "alert_id": "A024",
+    "typology": "unexplained_inflow",
+    "true": "REQUEST_INFO",
+    "pred": "ESCALATE"
+   },
+   {
+    "alert_id": "A032",
+    "typology": "fp_volunteer",
+    "true": "CLOSE",
+    "pred": "REQUEST_INFO"
+   }
+  ],
+  "wall_clock_s": 345.7
+ },
+ {
+  "n": 40,
+  "accuracy": 0.975,
+  "macro_f1": 0.961,
+  "escalate_recall": 1.0,
+  "escalate_precision": 0.947,
+  "missed_schemes": 0,
+  "false_escalations": 0,
+  "per_class": {
+   "ESCALATE": {
+    "precision": 0.947,
+    "recall": 1.0,
+    "f1": 0.973
+   },
+   "REQUEST_INFO": {
+    "precision": 1.0,
+    "recall": 0.833,
+    "f1": 0.909
+   },
+   "CLOSE": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+   }
+  },
+  "confusion": {
+   "ESCALATE": {
+    "ESCALATE": 18,
+    "REQUEST_INFO": 0,
+    "CLOSE": 0
+   },
+   "REQUEST_INFO": {
+    "ESCALATE": 1,
+    "REQUEST_INFO": 5,
+    "CLOSE": 0
+   },
+   "CLOSE": {
+    "ESCALATE": 0,
+    "REQUEST_INFO": 0,
+    "CLOSE": 16
+   }
+  },
+  "config": "routed",
+  "prompt_version": "v2",
+  "roles": {
+   "triage": "claude-haiku-5-5",
+   "investigator": "claude-haiku-5-5",
+   "reviewer": "claude-sonnet-5-5"
+  },
+  "failed": 0,
+  "failures": {},
+  "cost_total_usd": 1.381,
+  "cost_per_alert_usd": 0.0345,
+  "latency_p50_s": 43.6,
+  "tool_calls_avg": 9.6,
+  "revision_rate": 0.025,
+  "reviewer_changed_decision": 2,
+  "evidence_grounded_rate": 1.0,
+  "legal_refs_grounded_rate": 1.0,
+  "searched_regulations_rate": 1.0,
+  "errors": [
+   {
+    "alert_id": "A019",
+    "typology": "unexplained_inflow",
+    "true": "REQUEST_INFO",
+    "pred": "ESCALATE"
+   }
+  ],
+  "wall_clock_s": 316.0
+ },
+ {
+  "n": 200,
+  "accuracy": 0.925,
+  "macro_f1": 0.87,
+  "escalate_recall": 1.0,
+  "escalate_precision": 0.9,
+  "missed_schemes": 0,
+  "false_escalations": 0,
+  "per_class": {
+   "ESCALATE": {
+    "precision": 0.9,
+    "recall": 1.0,
+    "f1": 0.947
+   },
+   "REQUEST_INFO": {
+    "precision": 0.895,
+    "recall": 0.567,
+    "f1": 0.694
+   },
+   "CLOSE": {
+    "precision": 0.963,
+    "recall": 0.975,
+    "f1": 0.969
+   }
+  },
+  "confusion": {
+   "ESCALATE": {
+    "ESCALATE": 90,
+    "REQUEST_INFO": 0,
+    "CLOSE": 0
+   },
+   "REQUEST_INFO": {
+    "ESCALATE": 10,
+    "REQUEST_INFO": 17,
+    "CLOSE": 3
+   },
+   "CLOSE": {
+    "ESCALATE": 0,
+    "REQUEST_INFO": 2,
+    "CLOSE": 78
+   }
+  },
+  "config": "routed_eval_large",
+  "dataset": "eval_large",
+  "prompt_version": "v2",
+  "roles": {
+   "triage": "claude-haiku-5-5",
+   "investigator": "claude-haiku-5-5",
+   "reviewer": "claude-sonnet-5-5"
+  },
+  "failed": 0,
+  "failures": {},
+  "cost_total_usd": 7.153,
+  "cost_per_alert_usd": 0.0358,
+  "latency_p50_s": 43.2,
+  "tool_calls_avg": 10.3,
+  "revision_rate": 0.04,
+  "provider_fallbacks": 0,
+  "reviewer_changed_decision": 19,
+  "evidence_grounded_rate": 1.0,
+  "legal_refs_grounded_rate": 1.0,
+  "searched_regulations_rate": 1.0,
+  "errors": [
+   {
+    "alert_id": "A011",
+    "typology": "unexplained_inflow",
+    "true": "REQUEST_INFO",
+    "pred": "ESCALATE"
+   },
+   {
+    "alert_id": "A028",
+    "typology": "fp_volunteer",
+    "true": "CLOSE",
+    "pred": "REQUEST_INFO"
+   },
+   {
+    "alert_id": "A030",
+    "typology": "source_of_funds_unclear",
+    "true": "REQUEST_INFO",
+    "pred": "ESCALATE"
+   },
+   {
+    "alert_id": "A045",
+    "typology": "source_of_funds_unclear",
+    "true": "REQUEST_INFO",
+    "pred": "ESCALATE"
+   },
+   {
+    "alert_id": "A067",
+    "typology": "unexplained_inflow",
+    "true": "REQUEST_INFO",
+    "pred": "ESCALATE"
+   },
+   {
+    "alert_id": "A070",
+    "typology": "source_of_funds_unclear",
+    "true": "REQUEST_INFO",
+    "pred": "CLOSE"
+   },
+   {
+    "alert_id": "A091",
+    "typology": "turnover_spike",
+    "true": "REQUEST_INFO",
+    "pred": "CLOSE"
+   },
+   {
+    "alert_id": "A114",
+    "typology": "source_of_funds_unclear",
+    "true": "REQUEST_INFO",
+    "pred": "ESCALATE"
+   },
+   {
+    "alert_id": "A123",
+    "typology": "turnover_spike",
+    "true": "REQUEST_INFO",
+    "pred": "ESCALATE"
+   },
+   {
+    "alert_id": "A133",
+    "typology": "unexplained_inflow",
+    "true": "REQUEST_INFO",
+    "pred": "ESCALATE"
+   },
+   {
+    "alert_id": "A137",
+    "typology": "unexplained_inflow",
+    "true": "REQUEST_INFO",
+    "pred": "ESCALATE"
+   },
+   {
+    "alert_id": "A139",
+    "typology": "unexplained_inflow",
+    "true": "REQUEST_INFO",
+    "pred": "ESCALATE"
+   },
+   {
+    "alert_id": "A140",
+    "typology": "fp_car_sale",
+    "true": "CLOSE",
+    "pred": "REQUEST_INFO"
+   },
+   {
+    "alert_id": "A142",
+    "typology": "turnover_spike",
+    "true": "REQUEST_INFO",
+    "pred": "CLOSE"
+   },
+   {
+    "alert_id": "A190",
+    "typology": "turnover_spike",
+    "true": "REQUEST_INFO",
+    "pred": "ESCALATE"
+   }
+  ],
+  "wall_clock_s": 1508.9
+ },
+ {
+  "n": 40,
+  "accuracy": 0.975,
+  "macro_f1": 0.96,
+  "escalate_recall": 1.0,
+  "escalate_precision": 1.0,
+  "missed_schemes": 0,
+  "false_escalations": 0,
+  "per_class": {
+   "ESCALATE": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+   },
+   "REQUEST_INFO": {
+    "precision": 1.0,
+    "recall": 0.833,
+    "f1": 0.909
+   },
+   "CLOSE": {
+    "precision": 0.941,
+    "recall": 1.0,
+    "f1": 0.97
+   }
+  },
+  "confusion": {
+   "ESCALATE": {
+    "ESCALATE": 18,
+    "REQUEST_INFO": 0,
+    "CLOSE": 0
+   },
+   "REQUEST_INFO": {
+    "ESCALATE": 0,
+    "REQUEST_INFO": 5,
+    "CLOSE": 1
+   },
+   "CLOSE": {
+    "ESCALATE": 0,
+    "REQUEST_INFO": 0,
+    "CLOSE": 16
+   }
+  },
+  "config": "sonnet",
+  "prompt_version": "v2",
+  "roles": {
+   "triage": "claude-sonnet-5-5",
+   "investigator": "claude-sonnet-5-5",
+   "reviewer": "claude-sonnet-5-5"
+  },
+  "failed": 0,
+  "failures": {},
+  "cost_total_usd": 3.624,
+  "cost_per_alert_usd": 0.0906,
+  "latency_p50_s": 33.0,
+  "tool_calls_avg": 6.1,
+  "revision_rate": 0.075,
+  "reviewer_changed_decision": 0,
+  "evidence_grounded_rate": 1.0,
+  "legal_refs_grounded_rate": 1.0,
+  "searched_regulations_rate": 1.0,
+  "errors": [
+   {
+    "alert_id": "A006",
+    "typology": "turnover_spike",
+    "true": "REQUEST_INFO",
+    "pred": "CLOSE"
+   }
+  ],
+  "wall_clock_s": 258.7
+ },
+ {
+  "n": 40,
+  "accuracy": 0.975,
+  "macro_f1": 0.96,
+  "escalate_recall": 1.0,
+  "escalate_precision": 1.0,
+  "missed_schemes": 0,
+  "false_escalations": 0,
+  "per_class": {
+   "ESCALATE": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+   },
+   "REQUEST_INFO": {
+    "precision": 1.0,
+    "recall": 0.833,
+    "f1": 0.909
+   },
+   "CLOSE": {
+    "precision": 0.941,
+    "recall": 1.0,
+    "f1": 0.97
+   }
+  },
+  "confusion": {
+   "ESCALATE": {
+    "ESCALATE": 18,
+    "REQUEST_INFO": 0,
+    "CLOSE": 0
+   },
+   "REQUEST_INFO": {
+    "ESCALATE": 0,
+    "REQUEST_INFO": 5,
+    "CLOSE": 1
+   },
+   "CLOSE": {
+    "ESCALATE": 0,
+    "REQUEST_INFO": 0,
+    "CLOSE": 16
+   }
+  },
+  "config": "opus",
+  "prompt_version": "v2",
+  "roles": {
+   "triage": "claude-opus-5-5",
+   "investigator": "claude-opus-5-5",
+   "reviewer": "claude-opus-5-5"
+  },
+  "failed": 0,
+  "failures": {},
+  "cost_total_usd": 10.197,
+  "cost_per_alert_usd": 0.2549,
+  "latency_p50_s": 55.0,
+  "tool_calls_avg": 9.2,
+  "revision_rate": 0.225,
+  "reviewer_changed_decision": 2,
+  "evidence_grounded_rate": 1.0,
+  "legal_refs_grounded_rate": 1.0,
+  "searched_regulations_rate": 1.0,
+  "errors": [
+   {
+    "alert_id": "A031",
+    "typology": "turnover_spike",
+    "true": "REQUEST_INFO",
+    "pred": "CLOSE"
+   }
+  ],
+  "wall_clock_s": 468.0
+ },
+ {
+  "n": 40,
+  "accuracy": 1.0,
+  "macro_f1": 1.0,
+  "escalate_recall": 1.0,
+  "escalate_precision": 1.0,
+  "missed_schemes": 0,
+  "false_escalations": 0,
+  "per_class": {
+   "ESCALATE": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+   },
+   "REQUEST_INFO": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+   },
+   "CLOSE": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+   }
+  },
+  "confusion": {
+   "ESCALATE": {
+    "ESCALATE": 18,
+    "REQUEST_INFO": 0,
+    "CLOSE": 0
+   },
+   "REQUEST_INFO": {
+    "ESCALATE": 0,
+    "REQUEST_INFO": 6,
+    "CLOSE": 0
+   },
+   "CLOSE": {
+    "ESCALATE": 0,
+    "REQUEST_INFO": 0,
+    "CLOSE": 16
+   }
+  },
+  "config": "gemini",
+  "dataset": "eval",
+  "prompt_version": "v2",
+  "roles": {
+   "triage": "gemini-3.8-flash",
+   "investigator": "gemini-3.8-flash",
+   "reviewer": "gemini-3.8-flash"
+  },
+  "failed": 0,
+  "failures": {},
+  "cost_total_usd": 1.917,
+  "cost_per_alert_usd": 0.0479,
+  "latency_p50_s": 63.0,
+  "tool_calls_avg": 9.9,
+  "revision_rate": 0.0,
+  "provider_fallbacks": 0,
+  "reviewer_changed_decision": 0,
+  "evidence_grounded_rate": 1.0,
+  "legal_refs_grounded_rate": 1.0,
+  "searched_regulations_rate": 1.0,
+  "errors": [],
+  "wall_clock_s": 673.2
+ },
+ {
+  "n": 40,
+  "accuracy": 0.925,
+  "macro_f1": 0.895,
+  "escalate_recall": 0.944,
+  "escalate_precision": 1.0,
+  "missed_schemes": 1,
+  "false_escalations": 0,
+  "per_class": {
+   "ESCALATE": {
+    "precision": 1.0,
+    "recall": 0.944,
+    "f1": 0.971
+   },
+   "REQUEST_INFO": {
+    "precision": 1.0,
+    "recall": 0.667,
+    "f1": 0.8
+   },
+   "CLOSE": {
+    "precision": 0.842,
+    "recall": 1.0,
+    "f1": 0.914
+   }
+  },
+  "confusion": {
+   "ESCALATE": {
+    "ESCALATE": 17,
+    "REQUEST_INFO": 0,
+    "CLOSE": 1
+   },
+   "REQUEST_INFO": {
+    "ESCALATE": 0,
+    "REQUEST_INFO": 4,
+    "CLOSE": 2
+   },
+   "CLOSE": {
+    "ESCALATE": 0,
+    "REQUEST_INFO": 0,
+    "CLOSE": 16
+   }
+  },
+  "config": "gemini_lite",
+  "dataset": "eval",
+  "prompt_version": "v2",
+  "roles": {
+   "triage": "gemini-3.5-flash-lite",
+   "investigator": "gemini-3.5-flash-lite",
+   "reviewer": "gemini-3.5-flash-lite"
+  },
+  "failed": 0,
+  "failures": {},
+  "cost_total_usd": 0.612,
+  "cost_per_alert_usd": 0.0153,
+  "latency_p50_s": 13.4,
+  "tool_calls_avg": 5.8,
+  "revision_rate": 0.025,
+  "provider_fallbacks": 0,
+  "reviewer_changed_decision": 0,
+  "evidence_grounded_rate": 1.0,
+  "legal_refs_grounded_rate": 1.0,
+  "searched_regulations_rate": 0.975,
+  "errors": [
+   {
+    "alert_id": "A006",
+    "typology": "turnover_spike",
+    "true": "REQUEST_INFO",
+    "pred": "CLOSE"
+   },
+   {
+    "alert_id": "A016",
+    "typology": "sanctions_hit",
+    "true": "ESCALATE",
+    "pred": "CLOSE"
+   },
+   {
+    "alert_id": "A037",
+    "typology": "source_of_funds_unclear",
+    "true": "REQUEST_INFO",
+    "pred": "CLOSE"
+   }
+  ],
+  "wall_clock_s": 145.9
+ },
+ {
+  "n": 200,
+  "accuracy": 0.905,
+  "macro_f1": 0.837,
+  "escalate_recall": 0.967,
+  "escalate_precision": 0.978,
+  "missed_schemes": 3,
+  "false_escalations": 0,
+  "per_class": {
+   "ESCALATE": {
+    "precision": 0.978,
+    "recall": 0.967,
+    "f1": 0.972
+   },
+   "REQUEST_INFO": {
+    "precision": 1.0,
+    "recall": 0.467,
+    "f1": 0.636
+   },
+   "CLOSE": {
+    "precision": 0.825,
+    "recall": 1.0,
+    "f1": 0.904
+   }
+  },
+  "confusion": {
+   "ESCALATE": {
+    "ESCALATE": 87,
+    "REQUEST_INFO": 0,
+    "CLOSE": 3
+   },
+   "REQUEST_INFO": {
+    "ESCALATE": 2,
+    "REQUEST_INFO": 14,
+    "CLOSE": 14
+   },
+   "CLOSE": {
+    "ESCALATE": 0,
+    "REQUEST_INFO": 0,
+    "CLOSE": 80
+   }
+  },
+  "config": "gemini_lite_eval_large",
+  "dataset": "eval_large",
+  "prompt_version": "v2",
+  "roles": {
+   "triage": "gemini-3.5-flash-lite",
+   "investigator": "gemini-3.5-flash-lite",
+   "reviewer": "gemini-3.5-flash-lite"
+  },
+  "failed": 0,
+  "failures": {},
+  "cost_total_usd": 3.068,
+  "cost_per_alert_usd": 0.0153,
+  "latency_p50_s": 13.9,
+  "tool_calls_avg": 5.7,
+  "revision_rate": 0.045,
+  "provider_fallbacks": 0,
+  "reviewer_changed_decision": 0,
+  "evidence_grounded_rate": 1.0,
+  "legal_refs_grounded_rate": 0.995,
+  "searched_regulations_rate": 1.0,
+  "errors": [
+   {
+    "alert_id": "A011",
+    "typology": "unexplained_inflow",
+    "true": "REQUEST_INFO",
+    "pred": "ESCALATE"
+   },
+   {
+    "alert_id": "A017",
+    "typology": "turnover_spike",
+    "true": "REQUEST_INFO",
+    "pred": "CLOSE"
+   },
+   {
+    "alert_id": "A030",
+    "typology": "source_of_funds_unclear",
+    "true": "REQUEST_INFO",
+    "pred": "CLOSE"
+   },
+   {
+    "alert_id": "A043",
+    "typology": "sanctions_hit",
+    "true": "ESCALATE",
+    "pred": "CLOSE"
+   },
+   {
+    "alert_id": "A075",
+    "typology": "turnover_spike",
+    "true": "REQUEST_INFO",
+    "pred": "CLOSE"
+   },
+   {
+    "alert_id": "A076",
+    "typology": "turnover_spike",
+    "true": "REQUEST_INFO",
+    "pred": "CLOSE"
+   },
+   {
+    "alert_id": "A090",
+    "typology": "source_of_funds_unclear",
+    "true": "REQUEST_INFO",
+    "pred": "CLOSE"
+   },
+   {
+    "alert_id": "A091",
+    "typology": "turnover_spike",
+    "true": "REQUEST_INFO",
+    "pred": "CLOSE"
+   },
+   {
+    "alert_id": "A092",
+    "typology": "source_of_funds_unclear",
+    "true": "REQUEST_INFO",
+    "pred": "CLOSE"
+   },
+   {
+    "alert_id": "A096",
+    "typology": "turnover_spike",
+    "true": "REQUEST_INFO",
+    "pred": "CLOSE"
+   },
+   {
+    "alert_id": "A099",
+    "typology": "turnover_spike",
+    "true": "REQUEST_INFO",
+    "pred": "CLOSE"
+   },
+   {
+    "alert_id": "A114",
+    "typology": "source_of_funds_unclear",
+    "true": "REQUEST_INFO",
+    "pred": "CLOSE"
+   },
+   {
+    "alert_id": "A123",
+    "typology": "turnover_spike",
+    "true": "REQUEST_INFO",
+    "pred": "CLOSE"
+   },
+   {
+    "alert_id": "A133",
+    "typology": "unexplained_inflow",
+    "true": "REQUEST_INFO",
+    "pred": "CLOSE"
+   },
+   {
+    "alert_id": "A142",
+    "typology": "turnover_spike",
+    "true": "REQUEST_INFO",
+    "pred": "CLOSE"
+   },
+   {
+    "alert_id": "A145",
+    "typology": "source_of_funds_unclear",
+    "true": "REQUEST_INFO",
+    "pred": "ESCALATE"
+   },
+   {
+    "alert_id": "A167",
+    "typology": "sanctions_hit",
+    "true": "ESCALATE",
+    "pred": "CLOSE"
+   },
+   {
+    "alert_id": "A171",
+    "typology": "sanctions_hit",
+    "true": "ESCALATE",
+    "pred": "CLOSE"
+   },
+   {
+    "alert_id": "A190",
+    "typology": "turnover_spike",
+    "true": "REQUEST_INFO",
+    "pred": "CLOSE"
+   }
+  ],
+  "wall_clock_s": 575.1
+ }
+]

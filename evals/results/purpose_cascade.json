@@ -1,0 +1,6468 @@
+{
+ "rows": [
+  {
+   "threshold": 0.0,
+   "share_to_llm": 0.0,
+   "usd_per_1000": 0.0,
+   "accuracy": 0.87,
+   "acc_standard": 0.972,
+   "acc_hard": 0.767,
+   "macro_f1": 0.871,
+   "risky_recall": 0.81
+  },
+  {
+   "threshold": 0.8,
+   "share_to_llm": 0.101,
+   "usd_per_1000": 0.0002,
+   "accuracy": 0.914,
+   "acc_standard": 0.982,
+   "acc_hard": 0.845,
+   "macro_f1": 0.915,
+   "risky_recall": 0.88
+  },
+  {
+   "threshold": 0.9,
+   "share_to_llm": 0.133,
+   "usd_per_1000": 0.0003,
+   "accuracy": 0.926,
+   "acc_standard": 0.985,
+   "acc_hard": 0.868,
+   "macro_f1": 0.927,
+   "risky_recall": 0.89
+  },
+  {
+   "threshold": 0.95,
+   "share_to_llm": 0.168,
+   "usd_per_1000": 0.0003,
+   "accuracy": 0.939,
+   "acc_standard": 0.987,
+   "acc_hard": 0.89,
+   "macro_f1": 0.94,
+   "risky_recall": 0.92
+  },
+  {
+   "threshold": 0.98,
+   "share_to_llm": 0.205,
+   "usd_per_1000": 0.0004,
+   "accuracy": 0.95,
+   "acc_standard": 0.985,
+   "acc_hard": 0.915,
+   "macro_f1": 0.951,
+   "risky_recall": 0.927
+  },
+  {
+   "threshold": 0.99,
+   "share_to_llm": 0.237,
+   "usd_per_1000": 0.0005,
+   "accuracy": 0.959,
+   "acc_standard": 0.985,
+   "acc_hard": 0.932,
+   "macro_f1": 0.96,
+   "risky_recall": 0.94
+  },
+  {
+   "threshold": 1.01,
+   "share_to_llm": 1.0,
+   "usd_per_1000": 0.002,
+   "accuracy": 0.982,
+   "acc_standard": 0.977,
+   "acc_hard": 0.988,
+   "macro_f1": 0.988,
+   "risky_recall": 0.987
+  }
+ ],
+ "items": [
+  {
+   "text": "Зарахування заробітної плати за першу половину жовтня 2023 р. згідно відомості № 142",
+   "true": "salary",
+   "subset": "standard",
+   "lora": "salary",
+   "lora_conf": 1.0,
+   "haiku": "salary"
+  },
+  {
+   "text": "Виплата з/п за другу половину листопада 2023 р. Без ПДВ",
+   "true": "salary",
+   "subset": "standard",
+   "lora": "salary",
+   "lora_conf": 0.998,
+   "haiku": "salary"
+  },
+  {
+   "text": "Перерахування авансу за грудень 2023 р. зг. трудового договору",
+   "true": "salary",
+   "subset": "standard",
+   "lora": "salary",
+   "lora_conf": 0.999,
+   "haiku": "salary"
+  },
+  {
+   "text": "Оплата тимчасової непрацездатності (лікарняний) згідно листка № 8472910482",
+   "true": "salary",
+   "subset": "standard",
+   "lora": "salary",
+   "lora_conf": 1.0,
+   "haiku": "salary"
+  },
+  {
+   "text": "Виплата відпускних за період з 10.07 по 24.07 згідно наказу № 45-В",
+   "true": "salary",
+   "subset": "standard",
+   "lora": "salary",
+   "lora_conf": 1.0,
+   "haiku": "salary"
+  },
+  {
+   "text": "Заробітна плата за січень 2024 року згідно штатного розпису",
+   "true": "salary",
+   "subset": "standard",
+   "lora": "salary",
+   "lora_conf": 1.0,
+   "haiku": "salary"
+  },
+  {
+   "text": "Виплата щомісячної премії за виробничі результати за 3 квартал",
+   "true": "salary",
+   "subset": "standard",
+   "lora": "salary",
+   "lora_conf": 1.0,
+   "haiku": "salary"
+  },
+  {
+   "text": "Аванс з заробітної плати за травень 2024 року",
+   "true": "salary",
+   "subset": "standard",
+   "lora": "salary",
+   "lora_conf": 1.0,
+   "haiku": "salary"
+  },
+  {
+   "text": "Остаточний розрахунок при звільненні згідно наказу № 118-К",
+   "true": "salary",
+   "subset": "standard",
+   "lora": "salary",
+   "lora_conf": 0.999,
+   "haiku": "salary"
+  },
+  {
+   "text": "Оплата перших п'яти днів лікарняного за рахунок роботодавця",
+   "true": "salary",
+   "subset": "standard",
+   "lora": "salary",
+   "lora_conf": 0.988,
+   "haiku": "salary"
+  },
+  {
+   "text": "Зарплата за вересень 2023 року відповідно до банківського реєстру № 52",
+   "true": "salary",
+   "subset": "standard",
+   "lora": "salary",
+   "lora_conf": 1.0,
+   "haiku": "salary"
+  },
+  {
+   "text": "Річна винагорода за підсумками роботи згідно колективного договору",
+   "true": "salary",
+   "subset": "standard",
+   "lora": "salary",
+   "lora_conf": 1.0,
+   "haiku": "salary"
+  },
+  {
+   "text": "Доплата за роботу в нічні зміни та святкові дні за квітень",
+   "true": "salary",
+   "subset": "standard",
+   "lora": "salary",
+   "lora_conf": 0.996,
+   "haiku": "salary"
+  },
+  {
+   "text": "Компенсація за невикористані дні щорічної відпустки",
+   "true": "salary",
+   "subset": "standard",
+   "lora": "salary",
+   "lora_conf": 1.0,
+   "haiku": "salary"
+  },
+  {
+   "text": "Перерахування заробітної плати згідно відомості № 31 від 05.08.2024",
+   "true": "salary",
+   "subset": "standard",
+   "lora": "salary",
+   "lora_conf": 1.0,
+   "haiku": "salary"
+  },
+  {
+   "text": "Виплата відпускних виплат згідно графіка відпусток на 2024 рік",
+   "true": "salary",
+   "subset": "standard",
+   "lora": "salary",
+   "lora_conf": 1.0,
+   "haiku": "salary"
+  },
+  {
+   "text": "Виплата премії за успішне виконання плану продажів за червень",
+   "true": "salary",
+   "subset": "standard",
+   "lora": "salary",
+   "lora_conf": 1.0,
+   "haiku": "salary"
+  },
+  {
+   "text": "Зарахування коштів: лікарняні за рахунок Пенсійного фонду України",
+   "true": "salary",
+   "subset": "standard",
+   "lora": "salary",
+   "lora_conf": 0.995,
+   "haiku": "salary"
+  },
+  {
+   "text": "Виплата другої частини заробітної плати за лютий 2024 р.",
+   "true": "salary",
+   "subset": "standard",
+   "lora": "salary",
+   "lora_conf": 1.0,
+   "haiku": "salary"
+  },
+  {
+   "text": "Виплата заробітної плати штатним працівникам за відпрацьований час",
+   "true": "salary",
+   "subset": "standard",
+   "lora": "salary",
+   "lora_conf": 1.0,
+   "haiku": "salary"
+  },
+  {
+   "text": "Зарплата за листопад",
+   "true": "salary",
+   "subset": "standard",
+   "lora": "salary",
+   "lora_conf": 1.0,
+   "haiku": "salary"
+  },
+  {
+   "text": "Аванс на карту за першу половину місяця",
+   "true": "salary",
+   "subset": "standard",
+   "lora": "salary",
+   "lora_conf": 0.999,
+   "haiku": "salary"
+  },
+  {
+   "text": "Зп за червень від ФОП Мельник",
+   "true": "salary",
+   "subset": "standard",
+   "lora": "salary",
+   "lora_conf": 1.0,
+   "haiku": "salary"
+  },
+  {
+   "text": "Премія за закриття проекту згідно розпорядження керівника",
+   "true": "salary",
+   "subset": "standard",
+   "lora": "salary",
+   "lora_conf": 1.0,
+   "haiku": "salary"
+  },
+  {
+   "text": "Зарплатня за квітень 2024",
+   "true": "salary",
+   "subset": "standard",
+   "lora": "salary",
+   "lora_conf": 1.0,
+   "haiku": "salary"
+  },
+  {
+   "text": "Відпускні за 14 днів липня",
+   "true": "salary",
+   "subset": "standard",
+   "lora": "salary",
+   "lora_conf": 1.0,
+   "haiku": "salary"
+  },
+  {
+   "text": "З/п за відпрацьовані години в кафе",
+   "true": "salary",
+   "subset": "standard",
+   "lora": "salary",
+   "lora_conf": 1.0,
+   "haiku": "salary"
+  },
+  {
+   "text": "Аванс за серпень згідно табелю обліку робочого часу",
+   "true": "salary",
+   "subset": "standard",
+   "lora": "salary",
+   "lora_conf": 1.0,
+   "haiku": "salary"
+  },
+  {
+   "text": "Розрахункові за червень місяць",
+   "true": "salary",
+   "subset": "standard",
+   "lora": "salary",
+   "lora_conf": 0.766,
+   "haiku": "salary"
+  },
+  {
+   "text": "Зп за першу половину липня 2024",
+   "true": "salary",
+   "subset": "standard",
+   "lora": "salary",
+   "lora_conf": 1.0,
+   "haiku": "salary"
+  },
+  {
+   "text": "Лікарняні за 7 днів травня",
+   "true": "salary",
+   "subset": "standard",
+   "lora": "salary",
+   "lora_conf": 0.999,
+   "haiku": "salary"
+  },
+  {
+   "text": "Доплата за понаднормові години роботи в травні",
+   "true": "salary",
+   "subset": "standard",
+   "lora": "salary",
+   "lora_conf": 1.0,
+   "haiku": "salary"
+  },
+  {
+   "text": "Щомісячна заробітна плата згідно контракту № 48",
+   "true": "salary",
+   "subset": "standard",
+   "lora": "salary",
+   "lora_conf": 1.0,
+   "haiku": "salary"
+  },
+  {
+   "text": "Преміальні виплати за підсумками місяця",
+   "true": "salary",
+   "subset": "standard",
+   "lora": "salary",
+   "lora_conf": 1.0,
+   "haiku": "salary"
+  },
+  {
+   "text": "Зарплата за стажування та випробувальний термін",
+   "true": "salary",
+   "subset": "standard",
+   "lora": "salary",
+   "lora_conf": 1.0,
+   "haiku": "salary"
+  },
+  {
+   "text": "Виплата авансового платежу по зарплаті за лютий",
+   "true": "salary",
+   "subset": "standard",
+   "lora": "salary",
+   "lora_conf": 1.0,
+   "haiku": "salary"
+  },
+  {
+   "text": "Залишок зп за січень 2024 року",
+   "true": "salary",
+   "subset": "standard",
+   "lora": "salary",
+   "lora_conf": 1.0,
+   "haiku": "salary"
+  },
+  {
+   "text": "Оплата відпустки з 01.06 по 15.06",
+   "true": "salary",
+   "subset": "standard",
+   "lora": "salary",
+   "lora_conf": 1.0,
+   "haiku": "salary"
+  },
+  {
+   "text": "Погодинна зарплата за відпрацьовані зміни на складі",
+   "true": "salary",
+   "subset": "standard",
+   "lora": "salary",
+   "lora_conf": 1.0,
+   "haiku": "salary"
+  },
+  {
+   "text": "Премія співробітнику за підсумками півріччя",
+   "true": "salary",
+   "subset": "standard",
+   "lora": "salary",
+   "lora_conf": 1.0,
+   "haiku": "salary"
+  },
+  {
+   "text": "Зарплата за октябрь 2023",
+   "true": "salary",
+   "subset": "standard",
+   "lora": "salary",
+   "lora_conf": 1.0,
+   "haiku": "salary"
+  },
+  {
+   "text": "Аванс за текущий месяц по табелю",
+   "true": "salary",
+   "subset": "standard",
+   "lora": "salary",
+   "lora_conf": 1.0,
+   "haiku": "salary"
+  },
+  {
+   "text": "Зп за вторую половину месяца",
+   "true": "salary",
+   "subset": "standard",
+   "lora": "salary",
+   "lora_conf": 1.0,
+   "haiku": "salary"
+  },
+  {
+   "text": "Отпускные выплаты за август согласно заявлению",
+   "true": "salary",
+   "subset": "standard",
+   "lora": "salary",
+   "lora_conf": 1.0,
+   "haiku": "salary"
+  },
+  {
+   "text": "Больничные за декабрь месяц",
+   "true": "salary",
+   "subset": "standard",
+   "lora": "charity",
+   "lora_conf": 0.525,
+   "haiku": "salary"
+  },
+  {
+   "text": "Премия за перевыполнение плана в четвертом квартале",
+   "true": "salary",
+   "subset": "standard",
+   "lora": "salary",
+   "lora_conf": 1.0,
+   "haiku": "salary"
+  },
+  {
+   "text": "Расчет при увольнении по соглашению сторон",
+   "true": "salary",
+   "subset": "standard",
+   "lora": "salary",
+   "lora_conf": 0.999,
+   "haiku": "salary"
+  },
+  {
+   "text": "Зарплата за смены в марте",
+   "true": "salary",
+   "subset": "standard",
+   "lora": "salary",
+   "lora_conf": 1.0,
+   "haiku": "salary"
+  },
+  {
+   "text": "Доплата до оклада за выслугу лет",
+   "true": "salary",
+   "subset": "standard",
+   "lora": "salary",
+   "lora_conf": 0.996,
+   "haiku": "salary"
+  },
+  {
+   "text": "Зарплатний аванс згідно трудової угоди",
+   "true": "salary",
+   "subset": "standard",
+   "lora": "salary",
+   "lora_conf": 1.0,
+   "haiku": "salary"
+  },
+  {
+   "text": "Реєстр ЗКП №45892 зарахування коштів співробітнику",
+   "true": "salary",
+   "subset": "hard",
+   "lora": "salary",
+   "lora_conf": 0.898,
+   "haiku": "salary"
+  },
+  {
+   "text": "виплата по табелю обліку робочого часу за квітень",
+   "true": "salary",
+   "subset": "hard",
+   "lora": "salary",
+   "lora_conf": 1.0,
+   "haiku": "salary"
+  },
+  {
+   "text": "закриті овертайми та нічні чергування за минулий місяць",
+   "true": "salary",
+   "subset": "hard",
+   "lora": "salary",
+   "lora_conf": 0.99,
+   "haiku": "salary"
+  },
+  {
+   "text": "винагорода гіг-контрактора за березень ТОВ СофтДев",
+   "true": "salary",
+   "subset": "hard",
+   "lora": "salary",
+   "lora_conf": 0.997,
+   "haiku": "salary"
+  },
+  {
+   "text": "компенсація невикористаних днів щорічного відпочинку при звільненні",
+   "true": "salary",
+   "subset": "hard",
+   "lora": "salary",
+   "lora_conf": 1.0,
+   "haiku": "salary"
+  },
+  {
+   "text": "зпшка зайшла за другу половину місяця",
+   "true": "salary",
+   "subset": "hard",
+   "lora": "salary",
+   "lora_conf": 1.0,
+   "haiku": "salary"
+  },
+  {
+   "text": "нарахування по листку непрацездатності перші 5 днів",
+   "true": "salary",
+   "subset": "hard",
+   "lora": "salary",
+   "lora_conf": 1.0,
+   "haiku": "salary"
+  },
+  {
+   "text": "щомісячний фікс згідно умов трудової угоди",
+   "true": "salary",
+   "subset": "hard",
+   "lora": "salary",
+   "lora_conf": 1.0,
+   "haiku": "salary"
+  },
+  {
+   "text": "квартальний бонус за виконання KPI ТОВ Технології",
+   "true": "salary",
+   "subset": "hard",
+   "lora": "salary",
+   "lora_conf": 0.88,
+   "haiku": "salary"
+  },
+  {
+   "text": "відпрацьовані години згідно затвердженого рейту за лютий",
+   "true": "salary",
+   "subset": "hard",
+   "lora": "salary",
+   "lora_conf": 1.0,
+   "haiku": "salary"
+  },
+  {
+   "text": "залишок получки за минулий відпрацьований місяць",
+   "true": "salary",
+   "subset": "hard",
+   "lora": "salary",
+   "lora_conf": 0.999,
+   "haiku": "salary"
+  },
+  {
+   "text": "payroll transfer dev team sprint 44",
+   "true": "salary",
+   "subset": "hard",
+   "lora": "salary",
+   "lora_conf": 0.999,
+   "haiku": "salary"
+  },
+  {
+   "text": "вихідна допомога у зв'язку зі скороченням штату підприємства",
+   "true": "salary",
+   "subset": "hard",
+   "lora": "salary",
+   "lora_conf": 1.0,
+   "haiku": "salary"
+  },
+  {
+   "text": "доплата за шкідливі умови праці та нічні зміни",
+   "true": "salary",
+   "subset": "hard",
+   "lora": "salary",
+   "lora_conf": 0.515,
+   "haiku": "salary"
+  },
+  {
+   "text": "згідно відомості нарахування штатному персоналу за червень",
+   "true": "salary",
+   "subset": "hard",
+   "lora": "salary",
+   "lora_conf": 0.795,
+   "haiku": "salary"
+  },
+  {
+   "text": "реферальний бонус за найм сініор інженера від ейчар",
+   "true": "salary",
+   "subset": "hard",
+   "lora": "salary",
+   "lora_conf": 0.987,
+   "haiku": "salary"
+  },
+  {
+   "text": "оплата днів перебування на електронному лікарняному",
+   "true": "salary",
+   "subset": "hard",
+   "lora": "salary",
+   "lora_conf": 0.802,
+   "haiku": "salary"
+  },
+  {
+   "text": "тринадцята за підсумками успішного фінансового року від компанії",
+   "true": "salary",
+   "subset": "hard",
+   "lora": "salary",
+   "lora_conf": 0.994,
+   "haiku": "salary"
+  },
+  {
+   "text": "авансець на картку за першу декаду поточного місяця",
+   "true": "salary",
+   "subset": "hard",
+   "lora": "salary",
+   "lora_conf": 1.0,
+   "haiku": "salary"
+  },
+  {
+   "text": "остаточний розрахунок працівника при розірванні трудового контракту",
+   "true": "salary",
+   "subset": "hard",
+   "lora": "salary",
+   "lora_conf": 0.993,
+   "haiku": "salary"
+  },
+  {
+   "text": "надбавка за вислугу років та кваліфікаційну категорію",
+   "true": "salary",
+   "subset": "hard",
+   "lora": "salary",
+   "lora_conf": 0.999,
+   "haiku": "salary"
+  },
+  {
+   "text": "переказ згідно договору найму за відпрацьовані зміни у цеху",
+   "true": "salary",
+   "subset": "hard",
+   "lora": "goods_services",
+   "lora_conf": 1.0,
+   "haiku": "salary"
+  },
+  {
+   "text": "компенсація за дні вимушеного простою підприємства",
+   "true": "salary",
+   "subset": "hard",
+   "lora": "salary",
+   "lora_conf": 0.996,
+   "haiku": "salary"
+  },
+  {
+   "text": "кварталка за перевиконання індивідуального плану продажів",
+   "true": "salary",
+   "subset": "hard",
+   "lora": "rent_utilities",
+   "lora_conf": 0.98,
+   "haiku": "salary"
+  },
+  {
+   "text": "поповнення картки в рамках корпоративного зарплатного проекту",
+   "true": "salary",
+   "subset": "hard",
+   "lora": "salary",
+   "lora_conf": 0.991,
+   "haiku": "salary"
+  },
+  {
+   "text": "закриття спринтів і місячний ретейнер ТОВ Вектор",
+   "true": "salary",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 0.967,
+   "haiku": "salary"
+  },
+  {
+   "text": "допомога по вагітності та пологах за рахунок роботодавця",
+   "true": "salary",
+   "subset": "hard",
+   "lora": "salary",
+   "lora_conf": 0.56,
+   "haiku": "salary"
+  },
+  {
+   "text": "ставка плюс відсоток від особистого виробітку за два тижні",
+   "true": "salary",
+   "subset": "hard",
+   "lora": "gambling",
+   "lora_conf": 1.0,
+   "haiku": "salary"
+  },
+  {
+   "text": "нарахування за понаднормовий час праці у святкові дні",
+   "true": "salary",
+   "subset": "hard",
+   "lora": "salary",
+   "lora_conf": 1.0,
+   "haiku": "salary"
+  },
+  {
+   "text": "регулярна виплата за виконання трудових обов'язків за першу половину",
+   "true": "salary",
+   "subset": "hard",
+   "lora": "salary",
+   "lora_conf": 1.0,
+   "haiku": "salary"
+  },
+  {
+   "text": "на карту залишок окладу за травень згідно штатного розпису",
+   "true": "salary",
+   "subset": "hard",
+   "lora": "salary",
+   "lora_conf": 0.95,
+   "haiku": "salary"
+  },
+  {
+   "text": "лікарняний е-бюлетень №10293847 оплата непрацездатності",
+   "true": "salary",
+   "subset": "hard",
+   "lora": "salary",
+   "lora_conf": 1.0,
+   "haiku": "salary"
+  },
+  {
+   "text": "підсумковий пейрол штатних фахівців за вересень",
+   "true": "salary",
+   "subset": "hard",
+   "lora": "salary",
+   "lora_conf": 0.698,
+   "haiku": "salary"
+  },
+  {
+   "text": "виплата молодшому спеціалісту за період випробувального терміну",
+   "true": "salary",
+   "subset": "hard",
+   "lora": "salary",
+   "lora_conf": 0.993,
+   "haiku": "salary"
+  },
+  {
+   "text": "заохочувальна винагорода за річні досягнення комерційного відділу",
+   "true": "salary",
+   "subset": "hard",
+   "lora": "salary",
+   "lora_conf": 0.969,
+   "haiku": "salary"
+  },
+  {
+   "text": "закриття табеля змінності чергового підрозділу за добу",
+   "true": "salary",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 0.989,
+   "haiku": "salary"
+  },
+  {
+   "text": "компенсація добових чергувань згідно з наказом керівника №12",
+   "true": "salary",
+   "subset": "hard",
+   "lora": "salary",
+   "lora_conf": 0.697,
+   "haiku": "salary"
+  },
+  {
+   "text": "мотивуюча надбавка за результатами проходження квартального аудиту",
+   "true": "salary",
+   "subset": "hard",
+   "lora": "salary",
+   "lora_conf": 0.959,
+   "haiku": "salary"
+  },
+  {
+   "text": "оплата перепрацювань згідно внутрішнього погодинного трекінгу",
+   "true": "salary",
+   "subset": "hard",
+   "lora": "goods_services",
+   "lora_conf": 1.0,
+   "haiku": "salary"
+  },
+  {
+   "text": "перерахунок коштів за період перебування у щорічній відпустці",
+   "true": "salary",
+   "subset": "hard",
+   "lora": "salary",
+   "lora_conf": 1.0,
+   "haiku": "salary"
+  },
+  {
+   "text": "зп залишок за серпень згідно посадового окладу",
+   "true": "salary",
+   "subset": "hard",
+   "lora": "salary",
+   "lora_conf": 1.0,
+   "haiku": "salary"
+  },
+  {
+   "text": "доплата за тимчасове суміщення посад у фінансовому відділі",
+   "true": "salary",
+   "subset": "hard",
+   "lora": "salary",
+   "lora_conf": 0.95,
+   "haiku": "salary"
+  },
+  {
+   "text": "виплата згідно зведеного реєстру коштів персоналу відділу логістики",
+   "true": "salary",
+   "subset": "hard",
+   "lora": "goods_services",
+   "lora_conf": 0.971,
+   "haiku": "salary"
+  },
+  {
+   "text": "щомісячний ретейнер акредитованого гіг-фахівця Дія Сіті",
+   "true": "salary",
+   "subset": "hard",
+   "lora": "salary",
+   "lora_conf": 0.504,
+   "haiku": "gambling"
+  },
+  {
+   "text": "матеріальне заохочення кращому фахівцю місяця від дирекції",
+   "true": "salary",
+   "subset": "hard",
+   "lora": "salary",
+   "lora_conf": 0.992,
+   "haiku": "salary"
+  },
+  {
+   "text": "перерахування коштів за листком непрацездатності від підприємства",
+   "true": "salary",
+   "subset": "hard",
+   "lora": "salary",
+   "lora_conf": 1.0,
+   "haiku": "salary"
+  },
+  {
+   "text": "розрахункові кошти за відпрацьовані дні перед складанням повноважень",
+   "true": "salary",
+   "subset": "hard",
+   "lora": "salary",
+   "lora_conf": 0.999,
+   "haiku": "salary"
+  },
+  {
+   "text": "закриття другої частини місячного посадового окладу",
+   "true": "salary",
+   "subset": "hard",
+   "lora": "salary",
+   "lora_conf": 0.999,
+   "haiku": "salary"
+  },
+  {
+   "text": "нарахування відрядної оплати праці за обсяг випущеної продукції",
+   "true": "salary",
+   "subset": "hard",
+   "lora": "salary",
+   "lora_conf": 0.992,
+   "haiku": "salary"
+  },
+  {
+   "text": "зарахування коштів робітникам з корпоративного спецрахунку компанії",
+   "true": "salary",
+   "subset": "hard",
+   "lora": "goods_services",
+   "lora_conf": 0.538,
+   "haiku": "salary"
+  },
+  {
+   "text": "З днем народження! Купи собі щось приємне",
+   "true": "family",
+   "subset": "standard",
+   "lora": "family",
+   "lora_conf": 0.999,
+   "haiku": "family"
+  },
+  {
+   "text": "Мамі на ліки та вітаміни від сина",
+   "true": "family",
+   "subset": "standard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "Синочку на кишенькові витрати",
+   "true": "family",
+   "subset": "standard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "З ювілеєм від родини Ковальчуків",
+   "true": "family",
+   "subset": "standard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "Донечці на каву та смаколики",
+   "true": "family",
+   "subset": "standard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "На подарунок племінниці до дня народження",
+   "true": "family",
+   "subset": "standard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "С днем рождения, братуха! От души",
+   "true": "family",
+   "subset": "standard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "Бабусі на продукти, бережи себе",
+   "true": "family",
+   "subset": "standard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "Татові до пенсії, гарного дня!",
+   "true": "family",
+   "subset": "standard",
+   "lora": "family",
+   "lora_conf": 0.993,
+   "haiku": "family"
+  },
+  {
+   "text": "Подарунок онуку від дідуся",
+   "true": "family",
+   "subset": "standard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "Від мами з любовʼю, тримай на солодке",
+   "true": "family",
+   "subset": "standard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "Кумі на свято, поцілуй похресника",
+   "true": "family",
+   "subset": "standard",
+   "lora": "family",
+   "lora_conf": 0.995,
+   "haiku": "family"
+  },
+  {
+   "text": "На карманные расходы дочке",
+   "true": "family",
+   "subset": "standard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "Братику на подарунок від сестри",
+   "true": "family",
+   "subset": "standard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "Коханій на манікюр і квіти",
+   "true": "family",
+   "subset": "standard",
+   "lora": "family",
+   "lora_conf": 0.998,
+   "haiku": "family"
+  },
+  {
+   "text": "Сестричці на обновки до весни",
+   "true": "family",
+   "subset": "standard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "Малому на морозиво та кіно",
+   "true": "family",
+   "subset": "standard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "З річницею весілля вас, любі!",
+   "true": "family",
+   "subset": "standard",
+   "lora": "family",
+   "lora_conf": 0.997,
+   "haiku": "family"
+  },
+  {
+   "text": "З 8 березня, люба матусю!",
+   "true": "family",
+   "subset": "standard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "none"
+  },
+  {
+   "text": "Подарунок на новосілля від друзів",
+   "true": "family",
+   "subset": "standard",
+   "lora": "family",
+   "lora_conf": 0.999,
+   "haiku": "none"
+  },
+  {
+   "text": "Дітям на солодощі від тьоті Наталі",
+   "true": "family",
+   "subset": "standard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "На день народження донечки, вітаємо!",
+   "true": "family",
+   "subset": "standard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "Мамі від дітей на відпочинок",
+   "true": "family",
+   "subset": "standard",
+   "lora": "family",
+   "lora_conf": 0.999,
+   "haiku": "family"
+  },
+  {
+   "text": "С праздником, дорогая сестренка!",
+   "true": "family",
+   "subset": "standard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "Онучці на платтячко до випускного",
+   "true": "family",
+   "subset": "standard",
+   "lora": "family",
+   "lora_conf": 0.999,
+   "haiku": "family"
+  },
+  {
+   "text": "Любимому мужу на мелкие радости",
+   "true": "family",
+   "subset": "standard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "Допомога батькам від доньки",
+   "true": "family",
+   "subset": "standard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "Куму на ДН, гарно відсвяткувати!",
+   "true": "family",
+   "subset": "standard",
+   "lora": "family",
+   "lora_conf": 0.998,
+   "haiku": "family"
+  },
+  {
+   "text": "Подарочек на Николая для племяша",
+   "true": "family",
+   "subset": "standard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "Мамі на санаторій, оздоровлюйся",
+   "true": "family",
+   "subset": "standard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "Сину на сесію, смачно їж",
+   "true": "family",
+   "subset": "standard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "С днем ангела, тетя Валя!",
+   "true": "family",
+   "subset": "standard",
+   "lora": "family",
+   "lora_conf": 0.999,
+   "haiku": "family"
+  },
+  {
+   "text": "Від тата на кишенькові, не трать все одразу",
+   "true": "family",
+   "subset": "standard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "Батькам на гостинці з міста",
+   "true": "family",
+   "subset": "standard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "З днем захисника, брате, обіймаю!",
+   "true": "family",
+   "subset": "standard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "Дорогій дружині просто так для настрою",
+   "true": "family",
+   "subset": "standard",
+   "lora": "family",
+   "lora_conf": 0.999,
+   "haiku": "family"
+  },
+  {
+   "text": "Подарунок хрещениці на 10 років",
+   "true": "family",
+   "subset": "standard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "Внуку на день рождения от бабушки Тани",
+   "true": "family",
+   "subset": "standard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "Любій невістці на свято",
+   "true": "family",
+   "subset": "standard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "Допомога сестрі, тримайся, все буде добре",
+   "true": "family",
+   "subset": "standard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "На весільний подарунок молодим від родичів",
+   "true": "family",
+   "subset": "standard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "Матусі на подарунок до дня матері",
+   "true": "family",
+   "subset": "standard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "Брату на смаколики від сестрички",
+   "true": "family",
+   "subset": "standard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "Кишенькові онуку на тиждень",
+   "true": "family",
+   "subset": "standard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "Подарунок братику на повноліття",
+   "true": "family",
+   "subset": "standard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "Сестре на подарок от нас с Сашей",
+   "true": "family",
+   "subset": "standard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "Татові на новий інструмент до свята",
+   "true": "family",
+   "subset": "standard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "Мамі на новий телефон, доклали з братом",
+   "true": "family",
+   "subset": "standard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "Доні на нові кросівки від батьків",
+   "true": "family",
+   "subset": "standard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "З днем народження кумонько!",
+   "true": "family",
+   "subset": "standard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "мамуль лови на вітамінки і фрукти",
+   "true": "family",
+   "subset": "hard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "хбдей бро гульни як слід",
+   "true": "family",
+   "subset": "hard",
+   "lora": "gambling",
+   "lora_conf": 0.93,
+   "haiku": "family"
+  },
+  {
+   "text": "малому на обіди в універі",
+   "true": "family",
+   "subset": "hard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "донечці на нові кросівки від тата",
+   "true": "family",
+   "subset": "hard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "з др чувак відірвись по повній",
+   "true": "family",
+   "subset": "hard",
+   "lora": "family",
+   "lora_conf": 0.991,
+   "haiku": "family"
+  },
+  {
+   "text": "бабці на базар на сир і ягідки",
+   "true": "family",
+   "subset": "hard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "сеструні на манікюрчик і кавусю",
+   "true": "family",
+   "subset": "hard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "братусі на нову гру в стімі",
+   "true": "family",
+   "subset": "hard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "купи собі щось красиве від коханого",
+   "true": "family",
+   "subset": "hard",
+   "lora": "family",
+   "lora_conf": 0.945,
+   "haiku": "family"
+  },
+  {
+   "text": "мамі на смаколики до чаю цьом",
+   "true": "family",
+   "subset": "hard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "на посиденьки в пʼятницю від олега",
+   "true": "family",
+   "subset": "hard",
+   "lora": "family",
+   "lora_conf": 0.997,
+   "haiku": "family"
+  },
+  {
+   "text": "племінниці на ляльку від хрещеної",
+   "true": "family",
+   "subset": "hard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "татові на зимову рибалку і термос",
+   "true": "family",
+   "subset": "hard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "малому на морозиво і чіпси",
+   "true": "family",
+   "subset": "hard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "з днем варення старий вітаю",
+   "true": "family",
+   "subset": "hard",
+   "lora": "family",
+   "lora_conf": 0.991,
+   "haiku": "family"
+  },
+  {
+   "text": "на кіно і попкорн для соні",
+   "true": "family",
+   "subset": "hard",
+   "lora": "goods_services",
+   "lora_conf": 0.655,
+   "haiku": "family"
+  },
+  {
+   "text": "студенту на пельмені шоб не пух з голоду",
+   "true": "family",
+   "subset": "hard",
+   "lora": "family",
+   "lora_conf": 0.543,
+   "haiku": "family"
+  },
+  {
+   "text": "потіш себе чимось солодким зайка",
+   "true": "family",
+   "subset": "hard",
+   "lora": "family",
+   "lora_conf": 0.403,
+   "haiku": "family"
+  },
+  {
+   "text": "хрещенику на днюху від дядька",
+   "true": "family",
+   "subset": "hard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "кумі на квіти й мартіні",
+   "true": "family",
+   "subset": "hard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "татусь тримай на нові свічки в гараж",
+   "true": "family",
+   "subset": "hard",
+   "lora": "family",
+   "lora_conf": 0.995,
+   "haiku": "family"
+  },
+  {
+   "text": "мамі на санаторій від дітей",
+   "true": "family",
+   "subset": "hard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "брату на двіж у клубі",
+   "true": "family",
+   "subset": "hard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "коханій на спа салон релаксуй",
+   "true": "family",
+   "subset": "hard",
+   "lora": "family",
+   "lora_conf": 0.996,
+   "haiku": "family"
+  },
+  {
+   "text": "малому на самокат докидаю",
+   "true": "family",
+   "subset": "hard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "з ювілейчиком дорогенька від нас усіх",
+   "true": "family",
+   "subset": "hard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "сестрі на сукню до випускного",
+   "true": "family",
+   "subset": "hard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "дєду на тютюн і газети",
+   "true": "family",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 0.985,
+   "haiku": "family"
+  },
+  {
+   "text": "на піцу дівчатам гарно посидіти",
+   "true": "family",
+   "subset": "hard",
+   "lora": "family",
+   "lora_conf": 0.922,
+   "haiku": "family"
+  },
+  {
+   "text": "синулі на кишенькові витрати",
+   "true": "family",
+   "subset": "hard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "онуку на канцтовари й зошити",
+   "true": "family",
+   "subset": "hard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "мамусі на нові окуляри від дочки",
+   "true": "family",
+   "subset": "hard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "бро тримай на пивас і чіпсики",
+   "true": "family",
+   "subset": "hard",
+   "lora": "family",
+   "lora_conf": 0.809,
+   "haiku": "family"
+  },
+  {
+   "text": "днюшні від компанії шоб круто відпочив",
+   "true": "family",
+   "subset": "hard",
+   "lora": "family",
+   "lora_conf": 0.761,
+   "haiku": "family"
+  },
+  {
+   "text": "кумові на шашлик до вихідних",
+   "true": "family",
+   "subset": "hard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "доні на смаколики від бабці",
+   "true": "family",
+   "subset": "hard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "малому за гарний табель презент",
+   "true": "family",
+   "subset": "hard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "моїй принцесі на шопінг",
+   "true": "family",
+   "subset": "hard",
+   "lora": "family",
+   "lora_conf": 0.999,
+   "haiku": "family"
+  },
+  {
+   "text": "дружині на квіточки без приводу",
+   "true": "family",
+   "subset": "hard",
+   "lora": "family",
+   "lora_conf": 0.999,
+   "haiku": "family"
+  },
+  {
+   "text": "від кумасиків малечі на обновки",
+   "true": "family",
+   "subset": "hard",
+   "lora": "family",
+   "lora_conf": 0.999,
+   "haiku": "family"
+  },
+  {
+   "text": "з хеппі бьорздеєм тебе козаче",
+   "true": "family",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 0.555,
+   "haiku": "family"
+  },
+  {
+   "text": "братикові на новенькі навушники",
+   "true": "family",
+   "subset": "hard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "мамі на відпочинок від вови",
+   "true": "family",
+   "subset": "hard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "студенту на гуртожиток і сосиски",
+   "true": "family",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 0.532,
+   "haiku": "family"
+  },
+  {
+   "text": "похресниці на золоті сережки",
+   "true": "family",
+   "subset": "hard",
+   "lora": "family",
+   "lora_conf": 0.644,
+   "haiku": "family"
+  },
+  {
+   "text": "татові на запчастини до ниви",
+   "true": "family",
+   "subset": "hard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "на смачну вечерю любій мамулі",
+   "true": "family",
+   "subset": "hard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "сеструсі на каву з круасанчиком",
+   "true": "family",
+   "subset": "hard",
+   "lora": "family",
+   "lora_conf": 1.0,
+   "haiku": "family"
+  },
+  {
+   "text": "племіннику на лего під ялиночку",
+   "true": "family",
+   "subset": "hard",
+   "lora": "family",
+   "lora_conf": 0.999,
+   "haiku": "family"
+  },
+  {
+   "text": "подружці на помаду й туш цьомаю",
+   "true": "family",
+   "subset": "hard",
+   "lora": "family",
+   "lora_conf": 0.999,
+   "haiku": "family"
+  },
+  {
+   "text": "Повернення боргу згідно розписки від 12.02.2024",
+   "true": "loan",
+   "subset": "standard",
+   "lora": "loan",
+   "lora_conf": 1.0,
+   "haiku": "loan"
+  },
+  {
+   "text": "Возврат долга за прошлый месяц",
+   "true": "loan",
+   "subset": "standard",
+   "lora": "loan",
+   "lora_conf": 1.0,
+   "haiku": "loan"
+  },
+  {
+   "text": "Безвідсоткова поворотна фінансова допомога згідно договору № 14/03 від 14.03.2023р. Без ПДВ.",
+   "true": "loan",
+   "subset": "standard",
+   "lora": "loan",
+   "lora_conf": 0.938,
+   "haiku": "loan"
+  },
+  {
+   "text": "Повернення позики за договором №25-Ф від 10.01.2024",
+   "true": "loan",
+   "subset": "standard",
+   "lora": "loan",
+   "lora_conf": 1.0,
+   "haiku": "loan"
+  },
+  {
+   "text": "отдаю долг, спасибо что выручил",
+   "true": "loan",
+   "subset": "standard",
+   "lora": "loan",
+   "lora_conf": 1.0,
+   "haiku": "loan"
+  },
+  {
+   "text": "Надання поворотної фінансової допомоги згідно договору №3 від 05.05.2024 року",
+   "true": "loan",
+   "subset": "standard",
+   "lora": "loan",
+   "lora_conf": 0.999,
+   "haiku": "loan"
+  },
+  {
+   "text": "повертаю борг за ремонт авто",
+   "true": "loan",
+   "subset": "standard",
+   "lora": "loan",
+   "lora_conf": 0.999,
+   "haiku": "loan"
+  },
+  {
+   "text": "Часткове повернення боргу згідно розписки",
+   "true": "loan",
+   "subset": "standard",
+   "lora": "loan",
+   "lora_conf": 1.0,
+   "haiku": "loan"
+  },
+  {
+   "text": "Возврат займа учредителю согласно договора №12/22 от 15.11.2022",
+   "true": "loan",
+   "subset": "standard",
+   "lora": "loan",
+   "lora_conf": 0.999,
+   "haiku": "loan"
+  },
+  {
+   "text": "віддаю шо позичав минулого тижня",
+   "true": "loan",
+   "subset": "standard",
+   "lora": "loan",
+   "lora_conf": 1.0,
+   "haiku": "loan"
+  },
+  {
+   "text": "Повернення безвідсоткової поворотної позики директору ТОВ",
+   "true": "loan",
+   "subset": "standard",
+   "lora": "loan",
+   "lora_conf": 1.0,
+   "haiku": "loan"
+  },
+  {
+   "text": "Долг вернул в полном объеме",
+   "true": "loan",
+   "subset": "standard",
+   "lora": "loan",
+   "lora_conf": 0.877,
+   "haiku": "loan"
+  },
+  {
+   "text": "Надання позики фізичній особі згідно договору б/н від 01.06.2024",
+   "true": "loan",
+   "subset": "standard",
+   "lora": "loan",
+   "lora_conf": 1.0,
+   "haiku": "loan"
+  },
+  {
+   "text": "повернення раніше отриманої поворотної фін допомоги",
+   "true": "loan",
+   "subset": "standard",
+   "lora": "loan",
+   "lora_conf": 0.999,
+   "haiku": "loan"
+  },
+  {
+   "text": "отдаю часть долга, остаток переведу в пятницу",
+   "true": "loan",
+   "subset": "standard",
+   "lora": "loan",
+   "lora_conf": 0.999,
+   "haiku": "loan"
+  },
+  {
+   "text": "Погашення заборгованості за договором позики №45/1",
+   "true": "loan",
+   "subset": "standard",
+   "lora": "loan",
+   "lora_conf": 1.0,
+   "haiku": "loan"
+  },
+  {
+   "text": "вертаю позичені кошти",
+   "true": "loan",
+   "subset": "standard",
+   "lora": "loan",
+   "lora_conf": 1.0,
+   "haiku": "loan"
+  },
+  {
+   "text": "Безпроцентный заем средств по соглашению №18",
+   "true": "loan",
+   "subset": "standard",
+   "lora": "loan",
+   "lora_conf": 0.978,
+   "haiku": "loan"
+  },
+  {
+   "text": "Останній платіж по боргу",
+   "true": "loan",
+   "subset": "standard",
+   "lora": "loan",
+   "lora_conf": 0.998,
+   "haiku": "loan"
+  },
+  {
+   "text": "Поворотна фінансова допомога від засновника для поповнення обігових коштів",
+   "true": "loan",
+   "subset": "standard",
+   "lora": "crypto",
+   "lora_conf": 0.756,
+   "haiku": "loan"
+  },
+  {
+   "text": "отдаю долг за стоматолога",
+   "true": "loan",
+   "subset": "standard",
+   "lora": "loan",
+   "lora_conf": 1.0,
+   "haiku": "loan"
+  },
+  {
+   "text": "Позика грошових коштів на термін 6 місяців згідно розписки",
+   "true": "loan",
+   "subset": "standard",
+   "lora": "loan",
+   "lora_conf": 1.0,
+   "haiku": "loan"
+  },
+  {
+   "text": "повернення фінансової позики від 03.04.2023",
+   "true": "loan",
+   "subset": "standard",
+   "lora": "loan",
+   "lora_conf": 1.0,
+   "haiku": "loan"
+  },
+  {
+   "text": "Возврат части долга",
+   "true": "loan",
+   "subset": "standard",
+   "lora": "loan",
+   "lora_conf": 1.0,
+   "haiku": "loan"
+  },
+  {
+   "text": "Віддаю решту боргу, дякую",
+   "true": "loan",
+   "subset": "standard",
+   "lora": "loan",
+   "lora_conf": 1.0,
+   "haiku": "loan"
+  },
+  {
+   "text": "Перерахування суми позики згідно договору №7-Б",
+   "true": "loan",
+   "subset": "standard",
+   "lora": "loan",
+   "lora_conf": 1.0,
+   "haiku": "loan"
+  },
+  {
+   "text": "вертаю борг шо брав у долг",
+   "true": "loan",
+   "subset": "standard",
+   "lora": "loan",
+   "lora_conf": 1.0,
+   "haiku": "loan"
+  },
+  {
+   "text": "Предоставление возвратной финансовой помощи на пополнение оборотных средств",
+   "true": "loan",
+   "subset": "standard",
+   "lora": "loan",
+   "lora_conf": 0.998,
+   "haiku": "loan"
+  },
+  {
+   "text": "повернення боргу Коваленко О. В.",
+   "true": "loan",
+   "subset": "standard",
+   "lora": "loan",
+   "lora_conf": 1.0,
+   "haiku": "loan"
+  },
+  {
+   "text": "Тіло позики за договором позики №11",
+   "true": "loan",
+   "subset": "standard",
+   "lora": "loan",
+   "lora_conf": 1.0,
+   "haiku": "loan"
+  },
+  {
+   "text": "Закриття боргу перед Сидоренко В.П.",
+   "true": "loan",
+   "subset": "standard",
+   "lora": "loan",
+   "lora_conf": 1.0,
+   "haiku": "loan"
+  },
+  {
+   "text": "Возврат беспроцентного займа по договору 33 от 10.08.2023",
+   "true": "loan",
+   "subset": "standard",
+   "lora": "loan",
+   "lora_conf": 1.0,
+   "haiku": "loan"
+  },
+  {
+   "text": "Віддаю позику, вибач за затримку",
+   "true": "loan",
+   "subset": "standard",
+   "lora": "loan",
+   "lora_conf": 1.0,
+   "haiku": "loan"
+  },
+  {
+   "text": "Надання безвідсоткової позики співробітнику відповідно до наказу №14",
+   "true": "loan",
+   "subset": "standard",
+   "lora": "loan",
+   "lora_conf": 0.998,
+   "haiku": "loan"
+  },
+  {
+   "text": "закрив борг повністю",
+   "true": "loan",
+   "subset": "standard",
+   "lora": "loan",
+   "lora_conf": 1.0,
+   "haiku": "loan"
+  },
+  {
+   "text": "Перерахування поворотної фіндопомоги згідно додаткової угоди №1",
+   "true": "loan",
+   "subset": "standard",
+   "lora": "loan",
+   "lora_conf": 0.99,
+   "haiku": "loan"
+  },
+  {
+   "text": "возврат заемных средств согласно акта сверки",
+   "true": "loan",
+   "subset": "standard",
+   "lora": "loan",
+   "lora_conf": 0.997,
+   "haiku": "loan"
+  },
+  {
+   "text": "вертаю кошти що ти мені позичав",
+   "true": "loan",
+   "subset": "standard",
+   "lora": "loan",
+   "lora_conf": 1.0,
+   "haiku": "loan"
+  },
+  {
+   "text": "Повернення тіла кредиту згідно графіку платежів",
+   "true": "loan",
+   "subset": "standard",
+   "lora": "loan",
+   "lora_conf": 1.0,
+   "haiku": "loan"
+  },
+  {
+   "text": "Долг за прошлый вторник",
+   "true": "loan",
+   "subset": "standard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "loan"
+  },
+  {
+   "text": "Безвідсоткова поворотна позика на розвиток бізнесу",
+   "true": "loan",
+   "subset": "standard",
+   "lora": "loan",
+   "lora_conf": 1.0,
+   "haiku": "loan"
+  },
+  {
+   "text": "Погашення позики частина 2",
+   "true": "loan",
+   "subset": "standard",
+   "lora": "loan",
+   "lora_conf": 1.0,
+   "haiku": "loan"
+  },
+  {
+   "text": "Отдаю долг по расписке от 20 мая",
+   "true": "loan",
+   "subset": "standard",
+   "lora": "loan",
+   "lora_conf": 1.0,
+   "haiku": "loan"
+  },
+  {
+   "text": "Надання ПФД згідно протоколу зборів засновників №5",
+   "true": "loan",
+   "subset": "standard",
+   "lora": "crypto",
+   "lora_conf": 0.947,
+   "haiku": "loan"
+  },
+  {
+   "text": "повертаю борг за купівлю будматеріалів",
+   "true": "loan",
+   "subset": "standard",
+   "lora": "loan",
+   "lora_conf": 0.905,
+   "haiku": "loan"
+  },
+  {
+   "text": "Закрытие долга, претензий не имею",
+   "true": "loan",
+   "subset": "standard",
+   "lora": "loan",
+   "lora_conf": 1.0,
+   "haiku": "loan"
+  },
+  {
+   "text": "Повернення позички згідно усного договору",
+   "true": "loan",
+   "subset": "standard",
+   "lora": "loan",
+   "lora_conf": 1.0,
+   "haiku": "loan"
+  },
+  {
+   "text": "Возврат займа директору предприятия",
+   "true": "loan",
+   "subset": "standard",
+   "lora": "loan",
+   "lora_conf": 1.0,
+   "haiku": "loan"
+  },
+  {
+   "text": "віддаю перепозичені кошти",
+   "true": "loan",
+   "subset": "standard",
+   "lora": "loan",
+   "lora_conf": 0.998,
+   "haiku": "loan"
+  },
+  {
+   "text": "Повернення коштів згідно договору безвідсоткової позики №89",
+   "true": "loan",
+   "subset": "standard",
+   "lora": "loan",
+   "lora_conf": 1.0,
+   "haiku": "loan"
+  },
+  {
+   "text": "пфд за договором 14/08 без пдв",
+   "true": "loan",
+   "subset": "hard",
+   "lora": "crypto",
+   "lora_conf": 0.778,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "віддаю те що перехоплював минулого вівторка",
+   "true": "loan",
+   "subset": "hard",
+   "lora": "loan",
+   "lora_conf": 0.664,
+   "haiku": "loan"
+  },
+  {
+   "text": "закриваю наш спільний хвіст за розпискою",
+   "true": "loan",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 0.999,
+   "haiku": "loan"
+  },
+  {
+   "text": "поверн. тимчас. фін. допомоги зг. дог. 45-б",
+   "true": "loan",
+   "subset": "hard",
+   "lora": "loan",
+   "lora_conf": 0.984,
+   "haiku": "loan"
+  },
+  {
+   "text": "скидаю назад те що виручив на вихідних",
+   "true": "loan",
+   "subset": "hard",
+   "lora": "loan",
+   "lora_conf": 0.923,
+   "haiku": "loan"
+  },
+  {
+   "text": "повне дострокове погашення по creditkasa дог 992811",
+   "true": "loan",
+   "subset": "hard",
+   "lora": "loan",
+   "lora_conf": 1.0,
+   "haiku": "loan"
+  },
+  {
+   "text": "повертаю ту суму що брав на ремонт машини",
+   "true": "loan",
+   "subset": "hard",
+   "lora": "goods_services",
+   "lora_conf": 0.998,
+   "haiku": "loan"
+  },
+  {
+   "text": "закриття овердрафту згідно умов реструктуризації",
+   "true": "loan",
+   "subset": "hard",
+   "lora": "rent_utilities",
+   "lora_conf": 0.595,
+   "haiku": "loan"
+  },
+  {
+   "text": "другий транш по поверненню фіндопомоги від засновника",
+   "true": "loan",
+   "subset": "hard",
+   "lora": "loan",
+   "lora_conf": 0.997,
+   "haiku": "loan"
+  },
+  {
+   "text": "закрив мікрокредит в манивео договір 48194",
+   "true": "loan",
+   "subset": "hard",
+   "lora": "loan",
+   "lora_conf": 1.0,
+   "haiku": "loan"
+  },
+  {
+   "text": "повертаю що займав на пару днів спасибі",
+   "true": "loan",
+   "subset": "hard",
+   "lora": "loan",
+   "lora_conf": 1.0,
+   "haiku": "loan"
+  },
+  {
+   "text": "повернення залишку безвідсоткової поворотної допомоги флп коваль",
+   "true": "loan",
+   "subset": "hard",
+   "lora": "loan",
+   "lora_conf": 0.997,
+   "haiku": "loan"
+  },
+  {
+   "text": "щомісячний аннуїтет за споживчим договором 4091/22",
+   "true": "loan",
+   "subset": "hard",
+   "lora": "goods_services",
+   "lora_conf": 0.48,
+   "haiku": "loan"
+  },
+  {
+   "text": "віддаю назад твої десять тисяч, дуже виручив",
+   "true": "loan",
+   "subset": "hard",
+   "lora": "loan",
+   "lora_conf": 0.818,
+   "haiku": "family"
+  },
+  {
+   "text": "закриття залишку тіла по кредитній лінії",
+   "true": "loan",
+   "subset": "hard",
+   "lora": "loan",
+   "lora_conf": 1.0,
+   "haiku": "loan"
+  },
+  {
+   "text": "віддаю зайняте до кінця місяця як обіцяв",
+   "true": "loan",
+   "subset": "hard",
+   "lora": "salary",
+   "lora_conf": 0.57,
+   "haiku": "loan"
+  },
+  {
+   "text": "сплата заборгованості за графіком платежів договір п-88",
+   "true": "loan",
+   "subset": "hard",
+   "lora": "goods_services",
+   "lora_conf": 0.997,
+   "haiku": "loan"
+  },
+  {
+   "text": "швидкогроші внесення обов'язкового платежу дог 738210",
+   "true": "loan",
+   "subset": "hard",
+   "lora": "crypto",
+   "lora_conf": 0.701,
+   "haiku": "loan"
+  },
+  {
+   "text": "скинув те шо брав у тебе минулого тижня",
+   "true": "loan",
+   "subset": "hard",
+   "lora": "salary",
+   "lora_conf": 0.715,
+   "haiku": "loan"
+  },
+  {
+   "text": "повн поворот фіндоп за дог 11 від 03 01 24",
+   "true": "loan",
+   "subset": "hard",
+   "lora": "loan",
+   "lora_conf": 0.668,
+   "haiku": "loan"
+  },
+  {
+   "text": "закриваю заборгованість перед сергієм по розписці",
+   "true": "loan",
+   "subset": "hard",
+   "lora": "rent_utilities",
+   "lora_conf": 0.541,
+   "haiku": "loan"
+  },
+  {
+   "text": "повернення фіндопомоги згідно акту звірки від 12.04",
+   "true": "loan",
+   "subset": "hard",
+   "lora": "loan",
+   "lora_conf": 0.995,
+   "haiku": "loan"
+  },
+  {
+   "text": "віддаю перехоплені кошти, виручив сильно",
+   "true": "loan",
+   "subset": "hard",
+   "lora": "loan",
+   "lora_conf": 0.899,
+   "haiku": "loan"
+  },
+  {
+   "text": "часткове дострокове зняття обтяження кредитмаркет дог 5124",
+   "true": "loan",
+   "subset": "hard",
+   "lora": "loan",
+   "lora_conf": 1.0,
+   "haiku": "loan"
+  },
+  {
+   "text": "повертаю назад залишок за домовленістю від січня",
+   "true": "loan",
+   "subset": "hard",
+   "lora": "loan",
+   "lora_conf": 0.996,
+   "haiku": "loan"
+  },
+  {
+   "text": "поверн безпроц фін підтримки від учасника тов",
+   "true": "loan",
+   "subset": "hard",
+   "lora": "loan",
+   "lora_conf": 0.816,
+   "haiku": "loan"
+  },
+  {
+   "text": "гашу свій мінус по розстрочці за техніку",
+   "true": "loan",
+   "subset": "hard",
+   "lora": "goods_services",
+   "lora_conf": 0.828,
+   "haiku": "loan"
+  },
+  {
+   "text": "закриття зобов'язань згідно мирової угоди по позичці",
+   "true": "loan",
+   "subset": "hard",
+   "lora": "loan",
+   "lora_conf": 1.0,
+   "haiku": "loan"
+  },
+  {
+   "text": "повертаю що перепозичав на картку тоді",
+   "true": "loan",
+   "subset": "hard",
+   "lora": "loan",
+   "lora_conf": 0.885,
+   "haiku": "loan"
+  },
+  {
+   "text": "щомісячний внесок за лізинговим графіком погашення",
+   "true": "loan",
+   "subset": "hard",
+   "lora": "salary",
+   "lora_conf": 0.986,
+   "haiku": "loan"
+  },
+  {
+   "text": "переказ у рахунок повернення фіндопомоги згідно листа 22",
+   "true": "loan",
+   "subset": "hard",
+   "lora": "loan",
+   "lora_conf": 0.808,
+   "haiku": "loan"
+  },
+  {
+   "text": "закриваю борг за розпискою петренко в.і.",
+   "true": "loan",
+   "subset": "hard",
+   "lora": "loan",
+   "lora_conf": 0.999,
+   "haiku": "loan"
+  },
+  {
+   "text": "віддаю твою частку, що брав взайми на відпустку",
+   "true": "loan",
+   "subset": "hard",
+   "lora": "crypto",
+   "lora_conf": 0.798,
+   "haiku": "loan"
+  },
+  {
+   "text": "платіж згідно графіка реструктуризації заборгованості",
+   "true": "loan",
+   "subset": "hard",
+   "lora": "salary",
+   "lora_conf": 0.79,
+   "haiku": "loan"
+  },
+  {
+   "text": "creditplus закриття залишку тіла кредиту 091823",
+   "true": "loan",
+   "subset": "hard",
+   "lora": "loan",
+   "lora_conf": 1.0,
+   "haiku": "loan"
+  },
+  {
+   "text": "повернення тимчасово залучених коштів директору",
+   "true": "loan",
+   "subset": "hard",
+   "lora": "loan",
+   "lora_conf": 0.629,
+   "haiku": "loan"
+  },
+  {
+   "text": "скидаю ту суму яку перехопив у тебе в п'ятницю",
+   "true": "loan",
+   "subset": "hard",
+   "lora": "salary",
+   "lora_conf": 0.86,
+   "haiku": "loan"
+  },
+  {
+   "text": "повертаю залишок по розрахунку запозичення",
+   "true": "loan",
+   "subset": "hard",
+   "lora": "loan",
+   "lora_conf": 0.999,
+   "haiku": "loan"
+  },
+  {
+   "text": "закриття траншу поворотної допомоги за актом 04",
+   "true": "loan",
+   "subset": "hard",
+   "lora": "loan",
+   "lora_conf": 0.785,
+   "haiku": "loan"
+  },
+  {
+   "text": "віддаю шо позичав перед святами дякую",
+   "true": "loan",
+   "subset": "hard",
+   "lora": "loan",
+   "lora_conf": 0.984,
+   "haiku": "loan"
+  },
+  {
+   "text": "повернення коштів наданих на зворотній основі",
+   "true": "loan",
+   "subset": "hard",
+   "lora": "loan",
+   "lora_conf": 0.994,
+   "haiku": "loan"
+  },
+  {
+   "text": "закриваю питання по заборгованості згідно договору пфд",
+   "true": "loan",
+   "subset": "hard",
+   "lora": "loan",
+   "lora_conf": 0.53,
+   "haiku": "loan"
+  },
+  {
+   "text": "погашення прострочки по мікропозиці є-гроші дог 8128",
+   "true": "loan",
+   "subset": "hard",
+   "lora": "loan",
+   "lora_conf": 0.999,
+   "haiku": "loan"
+  },
+  {
+   "text": "віддаю назад те чим виручив на оренду офісу",
+   "true": "loan",
+   "subset": "hard",
+   "lora": "loan",
+   "lora_conf": 0.932,
+   "haiku": "loan"
+  },
+  {
+   "text": "виконання зобов'язання з повернення коштів за договором позики 08",
+   "true": "loan",
+   "subset": "hard",
+   "lora": "loan",
+   "lora_conf": 1.0,
+   "haiku": "loan"
+  },
+  {
+   "text": "повертаю взяті раніше кошти за домовленістю",
+   "true": "loan",
+   "subset": "hard",
+   "lora": "loan",
+   "lora_conf": 0.967,
+   "haiku": "loan"
+  },
+  {
+   "text": "ccloan достроковий платіж по тілу",
+   "true": "loan",
+   "subset": "hard",
+   "lora": "salary",
+   "lora_conf": 0.585,
+   "haiku": "loan"
+  },
+  {
+   "text": "закриваю свій залишок за старою розпискою від лютого",
+   "true": "loan",
+   "subset": "hard",
+   "lora": "goods_services",
+   "lora_conf": 0.845,
+   "haiku": "loan"
+  },
+  {
+   "text": "віддаю назад що брав на капіталку мотора",
+   "true": "loan",
+   "subset": "hard",
+   "lora": "loan",
+   "lora_conf": 0.558,
+   "haiku": "loan"
+  },
+  {
+   "text": "погашення частини зобов'язань за договором безвідсоткової допомоги",
+   "true": "loan",
+   "subset": "hard",
+   "lora": "loan",
+   "lora_conf": 0.999,
+   "haiku": "loan"
+  },
+  {
+   "text": "Поповнення балансу користувача ID 491028 Favbet",
+   "true": "gambling",
+   "subset": "standard",
+   "lora": "gambling",
+   "lora_conf": 0.999,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Поповнення ігрового рахунку Cosmolot акаунт 883921",
+   "true": "gambling",
+   "subset": "standard",
+   "lora": "gambling",
+   "lora_conf": 1.0,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Виплата виграшу з онлайн-казино згідно з правилами",
+   "true": "gambling",
+   "subset": "standard",
+   "lora": "gambling",
+   "lora_conf": 1.0,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Оплата депозиту для участі в азартних іграх онлайн",
+   "true": "gambling",
+   "subset": "standard",
+   "lora": "gambling",
+   "lora_conf": 1.0,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Поповнення балансу акаунта в БК Vbet 928374",
+   "true": "gambling",
+   "subset": "standard",
+   "lora": "gambling",
+   "lora_conf": 1.0,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Виведення коштів з ігрового рахунку Parimatch ID 55432",
+   "true": "gambling",
+   "subset": "standard",
+   "lora": "gambling",
+   "lora_conf": 0.991,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Внесення коштів на баланс гравця Pin-Up 110948",
+   "true": "gambling",
+   "subset": "standard",
+   "lora": "gambling",
+   "lora_conf": 0.998,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Поповнення рахунку для гри в покер PokerMatch 47382",
+   "true": "gambling",
+   "subset": "standard",
+   "lora": "gambling",
+   "lora_conf": 0.999,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Депозит у слот-клуб Слотокінг, гравець #73921",
+   "true": "gambling",
+   "subset": "standard",
+   "lora": "gambling",
+   "lora_conf": 1.0,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Оплата участі в покерному турнірі (бай-ін) ID 88392",
+   "true": "gambling",
+   "subset": "standard",
+   "lora": "gambling",
+   "lora_conf": 0.994,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Поповнення рахунку букмекерської контори GGBet",
+   "true": "gambling",
+   "subset": "standard",
+   "lora": "gambling",
+   "lora_conf": 1.0,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Зарахування виграшу від ставки на спорт, квиток №948271",
+   "true": "gambling",
+   "subset": "standard",
+   "lora": "gambling",
+   "lora_conf": 1.0,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Поповнення особистого кабінету казино FirstCasino",
+   "true": "gambling",
+   "subset": "standard",
+   "lora": "gambling",
+   "lora_conf": 1.0,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Поповнення ігрового балансу Champion Casino",
+   "true": "gambling",
+   "subset": "standard",
+   "lora": "gambling",
+   "lora_conf": 1.0,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Виплата виграшу за парі №83920194 від 12.04",
+   "true": "gambling",
+   "subset": "standard",
+   "lora": "gambling",
+   "lora_conf": 0.999,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Закинув на депо в казино",
+   "true": "gambling",
+   "subset": "standard",
+   "lora": "gambling",
+   "lora_conf": 0.998,
+   "haiku": "gambling"
+  },
+  {
+   "text": "На ставки на футбол сьогодні ввечері",
+   "true": "gambling",
+   "subset": "standard",
+   "lora": "gambling",
+   "lora_conf": 1.0,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Кешаут з покеру за вихідні",
+   "true": "gambling",
+   "subset": "standard",
+   "lora": "gambling",
+   "lora_conf": 1.0,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Поповнення депозиту SuperGra, логін maks_bet",
+   "true": "gambling",
+   "subset": "standard",
+   "lora": "gambling",
+   "lora_conf": 1.0,
+   "haiku": "none"
+  },
+  {
+   "text": "Розрахунок за ставкою експрес на лігу чемпіонів",
+   "true": "gambling",
+   "subset": "standard",
+   "lora": "gambling",
+   "lora_conf": 0.96,
+   "haiku": "none"
+  },
+  {
+   "text": "Поповнення рахунку гравця №9382101 в онлайн лотереї",
+   "true": "gambling",
+   "subset": "standard",
+   "lora": "gambling",
+   "lora_conf": 1.0,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Оплата участі в грі на ігрових автоматах (слоти)",
+   "true": "gambling",
+   "subset": "standard",
+   "lora": "gambling",
+   "lora_conf": 0.999,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Депозит на гру в блекджек та рулетку",
+   "true": "gambling",
+   "subset": "standard",
+   "lora": "gambling",
+   "lora_conf": 0.999,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Вывод выигрыша с покер рума",
+   "true": "gambling",
+   "subset": "standard",
+   "lora": "gambling",
+   "lora_conf": 1.0,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Пополнение счета в букмекерской конторе Фавбет",
+   "true": "gambling",
+   "subset": "standard",
+   "lora": "gambling",
+   "lora_conf": 1.0,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Скинь на депіт в космолот",
+   "true": "gambling",
+   "subset": "standard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Виплата чистого виграшу з азартної гри ID 77291",
+   "true": "gambling",
+   "subset": "standard",
+   "lora": "gambling",
+   "lora_conf": 1.0,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Поповнення балансу для спортивних ставок, гравець 304928",
+   "true": "gambling",
+   "subset": "standard",
+   "lora": "gambling",
+   "lora_conf": 1.0,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Бай-ін на суботній покерний турнір Texas Holdem",
+   "true": "gambling",
+   "subset": "standard",
+   "lora": "gambling",
+   "lora_conf": 0.998,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Взнос на игровой счет казино онлайн",
+   "true": "gambling",
+   "subset": "standard",
+   "lora": "gambling",
+   "lora_conf": 1.0,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Поповнення гаманця на сайті ставок 1xBet",
+   "true": "gambling",
+   "subset": "standard",
+   "lora": "gambling",
+   "lora_conf": 1.0,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Депозит гравця 9948202 для гри в онлайн-рулетку",
+   "true": "gambling",
+   "subset": "standard",
+   "lora": "gambling",
+   "lora_conf": 0.999,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Выплата выигрыша по купону ставки 448392",
+   "true": "gambling",
+   "subset": "standard",
+   "lora": "gambling",
+   "lora_conf": 1.0,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Зарахування призових з покерного турніру",
+   "true": "gambling",
+   "subset": "standard",
+   "lora": "gambling",
+   "lora_conf": 1.0,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Поповнення рахунку Slots City ID 384729",
+   "true": "gambling",
+   "subset": "standard",
+   "lora": "gambling",
+   "lora_conf": 1.0,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Переказ на ігровий депозит букмекерської компанії",
+   "true": "gambling",
+   "subset": "standard",
+   "lora": "gambling",
+   "lora_conf": 0.999,
+   "haiku": "gambling"
+  },
+  {
+   "text": "На фріспіни в казино",
+   "true": "gambling",
+   "subset": "standard",
+   "lora": "gambling",
+   "lora_conf": 1.0,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Оплата гри в онлайн-покер акаунт shark_ua",
+   "true": "gambling",
+   "subset": "standard",
+   "lora": "gambling",
+   "lora_conf": 0.995,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Поповнення рахунку онлайн-букмекера для лайв-ставок",
+   "true": "gambling",
+   "subset": "standard",
+   "lora": "gambling",
+   "lora_conf": 0.785,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Виграв у казино, ділюся долею зі спінів",
+   "true": "gambling",
+   "subset": "standard",
+   "lora": "gambling",
+   "lora_conf": 1.0,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Депнул в слоты, пополнение баланса",
+   "true": "gambling",
+   "subset": "standard",
+   "lora": "gambling",
+   "lora_conf": 1.0,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Поповнення віртуального ігрового балансу казино Вулкан",
+   "true": "gambling",
+   "subset": "standard",
+   "lora": "gambling",
+   "lora_conf": 1.0,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Виплата виграшу з онлайн-автоматів за заявкою 39482",
+   "true": "gambling",
+   "subset": "standard",
+   "lora": "gambling",
+   "lora_conf": 1.0,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Оплата депозиту гравця у букмекерській мережі",
+   "true": "gambling",
+   "subset": "standard",
+   "lora": "gambling",
+   "lora_conf": 1.0,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Пополнение аккаунта для ставок на киберспорт GGbet",
+   "true": "gambling",
+   "subset": "standard",
+   "lora": "gambling",
+   "lora_conf": 1.0,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Виведення грошей з рахунку БК після виграшу",
+   "true": "gambling",
+   "subset": "standard",
+   "lora": "gambling",
+   "lora_conf": 0.656,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Залишок виграшу в рулетку за 14 число",
+   "true": "gambling",
+   "subset": "standard",
+   "lora": "gambling",
+   "lora_conf": 1.0,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Поповнення балансу гравця 583920 казино Favbet",
+   "true": "gambling",
+   "subset": "standard",
+   "lora": "gambling",
+   "lora_conf": 1.0,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Байін у турнір з онлайн покеру",
+   "true": "gambling",
+   "subset": "standard",
+   "lora": "gambling",
+   "lora_conf": 0.999,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Списання на поповнення балансу в азартні ігри онлайн",
+   "true": "gambling",
+   "subset": "standard",
+   "lora": "gambling",
+   "lora_conf": 1.0,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Поповнення балансу Favik ID 9948210",
+   "true": "gambling",
+   "subset": "hard",
+   "lora": "crypto",
+   "lora_conf": 0.457,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Вивід заносу з солодкого бонанзи",
+   "true": "gambling",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 0.493,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Деп на космічний лот аккаунт 382011",
+   "true": "gambling",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Бай-ін на вечірній турнір з холдему",
+   "true": "gambling",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 0.964,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Закинути на експрес з коефом 4.5",
+   "true": "gambling",
+   "subset": "hard",
+   "lora": "salary",
+   "lora_conf": 0.763,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Поповнення V-Bet рахунку 448190",
+   "true": "gambling",
+   "subset": "hard",
+   "lora": "gambling",
+   "lora_conf": 1.0,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Кешаут виграшу з літачка авіатор",
+   "true": "gambling",
+   "subset": "hard",
+   "lora": "gambling",
+   "lora_conf": 1.0,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Депчик на рулетку і лайв столи",
+   "true": "gambling",
+   "subset": "hard",
+   "lora": "gambling",
+   "lora_conf": 1.0,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Розрахунок по ординару на ЛЧ",
+   "true": "gambling",
+   "subset": "hard",
+   "lora": "crypto",
+   "lora_conf": 0.789,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Оплата участі в сателіті GGpoker",
+   "true": "gambling",
+   "subset": "hard",
+   "lora": "gambling",
+   "lora_conf": 0.988,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Пін-Ап поповнення гаманця 837199",
+   "true": "gambling",
+   "subset": "hard",
+   "lora": "crypto",
+   "lora_conf": 0.828,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Закинув на нічний лудоманський стрім",
+   "true": "gambling",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 0.988,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Поповнення балансу Pari id 550123",
+   "true": "gambling",
+   "subset": "hard",
+   "lora": "gambling",
+   "lora_conf": 0.533,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Вейджер відкрутив, виводжу залишок",
+   "true": "gambling",
+   "subset": "hard",
+   "lora": "gambling",
+   "lora_conf": 0.944,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Слотс сіті депо за промокодом",
+   "true": "gambling",
+   "subset": "hard",
+   "lora": "crypto",
+   "lora_conf": 0.567,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Занос на собаках Pragmatic кешаут",
+   "true": "gambling",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 0.989,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Поповнення Парік профіль 2991823",
+   "true": "gambling",
+   "subset": "hard",
+   "lora": "goods_services",
+   "lora_conf": 0.932,
+   "haiku": "gambling"
+  },
+  {
+   "text": "На фріспіни у книжках Ра",
+   "true": "gambling",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 0.942,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Байін за кеш-стіл 1/2 NLH",
+   "true": "gambling",
+   "subset": "hard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Поповнення рахунку беттора #827119",
+   "true": "gambling",
+   "subset": "hard",
+   "lora": "gambling",
+   "lora_conf": 0.999,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Виплата по ставці тотал більше 2.5",
+   "true": "gambling",
+   "subset": "hard",
+   "lora": "gambling",
+   "lora_conf": 0.842,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Деп під бонус на перший депозит x2",
+   "true": "gambling",
+   "subset": "hard",
+   "lora": "gambling",
+   "lora_conf": 0.999,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Закинути на слоти Champion casino",
+   "true": "gambling",
+   "subset": "hard",
+   "lora": "gambling",
+   "lora_conf": 1.0,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Кешаут з 1він id 938472",
+   "true": "gambling",
+   "subset": "hard",
+   "lora": "gambling",
+   "lora_conf": 0.631,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Поповнення балансу для ставок на кіберспорт дота",
+   "true": "gambling",
+   "subset": "hard",
+   "lora": "gambling",
+   "lora_conf": 1.0,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Докупка фішок ребай у покерному клубі",
+   "true": "gambling",
+   "subset": "hard",
+   "lora": "gambling",
+   "lora_conf": 0.954,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Виграш з експресу на UFC",
+   "true": "gambling",
+   "subset": "hard",
+   "lora": "gambling",
+   "lora_conf": 1.0,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Поповнення First Casino профіль 71829",
+   "true": "gambling",
+   "subset": "hard",
+   "lora": "gambling",
+   "lora_conf": 1.0,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Закинути копійку на крутки в геймінаторах",
+   "true": "gambling",
+   "subset": "hard",
+   "lora": "gambling",
+   "lora_conf": 0.917,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Додеп на відіграш бонусу",
+   "true": "gambling",
+   "subset": "hard",
+   "lora": "gambling",
+   "lora_conf": 0.992,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Виплата з Мостбету на картку",
+   "true": "gambling",
+   "subset": "hard",
+   "lora": "crypto",
+   "lora_conf": 0.911,
+   "haiku": "gambling"
+  },
+  {
+   "text": "СлотсКінг поповнення ігрового ніку",
+   "true": "gambling",
+   "subset": "hard",
+   "lora": "gambling",
+   "lora_conf": 0.998,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Залив на фори та кутові по матчу",
+   "true": "gambling",
+   "subset": "hard",
+   "lora": "gambling",
+   "lora_conf": 0.886,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Кешаут після успішного заносу на слотах",
+   "true": "gambling",
+   "subset": "hard",
+   "lora": "gambling",
+   "lora_conf": 1.0,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Старзи бай-ін в Sunday Million",
+   "true": "gambling",
+   "subset": "hard",
+   "lora": "gambling",
+   "lora_conf": 0.955,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Депозит у контору на фінал турніру",
+   "true": "gambling",
+   "subset": "hard",
+   "lora": "gambling",
+   "lora_conf": 0.992,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Поповнення рахунку супергра id 88310",
+   "true": "gambling",
+   "subset": "hard",
+   "lora": "gambling",
+   "lora_conf": 0.999,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Оплата спінів у Megaways",
+   "true": "gambling",
+   "subset": "hard",
+   "lora": "goods_services",
+   "lora_conf": 0.936,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Вивід профіту з блекджека",
+   "true": "gambling",
+   "subset": "hard",
+   "lora": "salary",
+   "lora_conf": 0.999,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Поповнення VBET гаманець 109283",
+   "true": "gambling",
+   "subset": "hard",
+   "lora": "gambling",
+   "lora_conf": 0.677,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Деп на лайв дилера рулетка",
+   "true": "gambling",
+   "subset": "hard",
+   "lora": "gambling",
+   "lora_conf": 0.998,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Ставка на перемогу андердога в лізі",
+   "true": "gambling",
+   "subset": "hard",
+   "lora": "gambling",
+   "lora_conf": 0.999,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Кешаут з космолота акк 48291",
+   "true": "gambling",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 0.704,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Турнірний внесок Spin and Go",
+   "true": "gambling",
+   "subset": "hard",
+   "lora": "gambling",
+   "lora_conf": 0.996,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Поповнення через термінал на 1x id 774829",
+   "true": "gambling",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Заніс х500 у цукерках виведення",
+   "true": "gambling",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 0.929,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Баланс Fav Sport клієнт 481920",
+   "true": "gambling",
+   "subset": "hard",
+   "lora": "gambling",
+   "lora_conf": 0.977,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Ре-ентрі в Головну подію серії",
+   "true": "gambling",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 0.541,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Відбив вейджер на бонусці виплата",
+   "true": "gambling",
+   "subset": "hard",
+   "lora": "gambling",
+   "lora_conf": 0.999,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Поповнення PinUp Bet аккаунт 33910",
+   "true": "gambling",
+   "subset": "hard",
+   "lora": "gambling",
+   "lora_conf": 0.999,
+   "haiku": "gambling"
+  },
+  {
+   "text": "Покупка USDT Binance P2P ордер 204958372619",
+   "true": "crypto",
+   "subset": "standard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "Обмін крипти USDT trc20",
+   "true": "crypto",
+   "subset": "standard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "Оплата по ордеру Bybit p2p #94820184",
+   "true": "crypto",
+   "subset": "standard",
+   "lora": "crypto",
+   "lora_conf": 0.994,
+   "haiku": "crypto"
+  },
+  {
+   "text": "За біткоїн переказ",
+   "true": "crypto",
+   "subset": "standard",
+   "lora": "crypto",
+   "lora_conf": 0.999,
+   "haiku": "crypto"
+  },
+  {
+   "text": "Вивід з Binance на карту гривня за USDT",
+   "true": "crypto",
+   "subset": "standard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "WhiteBIT P2P купівля крипти",
+   "true": "crypto",
+   "subset": "standard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "Розрахунок за криптовалюту юсдт",
+   "true": "crypto",
+   "subset": "standard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "Продаж USDT через P2P ордер 492019482",
+   "true": "crypto",
+   "subset": "standard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "За покупку тезера TRC-20",
+   "true": "crypto",
+   "subset": "standard",
+   "lora": "crypto",
+   "lora_conf": 0.999,
+   "haiku": "crypto"
+  },
+  {
+   "text": "Оплата ордера OKX P2P trade 10394827",
+   "true": "crypto",
+   "subset": "standard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "Переказ за біткоіни згідно домовленості",
+   "true": "crypto",
+   "subset": "standard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "Купівля крипти через Kuna",
+   "true": "crypto",
+   "subset": "standard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "P2P переказ Binance ордер 849302847561",
+   "true": "crypto",
+   "subset": "standard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "Продаж BTC на P2P платформі",
+   "true": "crypto",
+   "subset": "standard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "За USDT від Олексія p2p",
+   "true": "crypto",
+   "subset": "standard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "Обмінник крипта на гривню USDT",
+   "true": "crypto",
+   "subset": "standard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "Поповнення балансу криптобіржі Bybit",
+   "true": "crypto",
+   "subset": "standard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "Розрахунок за покупку Ethereum",
+   "true": "crypto",
+   "subset": "standard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "Виплата по P2P угоді бінанс",
+   "true": "crypto",
+   "subset": "standard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "За тезер trc20 від покупця",
+   "true": "crypto",
+   "subset": "standard",
+   "lora": "crypto",
+   "lora_conf": 0.811,
+   "haiku": "crypto"
+  },
+  {
+   "text": "P2p обмен крипты ордер 59382018",
+   "true": "crypto",
+   "subset": "standard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "Вывод с биржи Whitebit за usdt",
+   "true": "crypto",
+   "subset": "standard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "Оплата за юсдт п2п бинанс",
+   "true": "crypto",
+   "subset": "standard",
+   "lora": "crypto",
+   "lora_conf": 0.962,
+   "haiku": "crypto"
+  },
+  {
+   "text": "Купівля стейблкоїнів USDT",
+   "true": "crypto",
+   "subset": "standard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "Переказ за крипту ETH p2p",
+   "true": "crypto",
+   "subset": "standard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "Закриття ордеру на продаж USDT #749201847",
+   "true": "crypto",
+   "subset": "standard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "Обмін криптовалюти на картку",
+   "true": "crypto",
+   "subset": "standard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "Bybit p2p переказ за крипту",
+   "true": "crypto",
+   "subset": "standard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "Розрахунок за токени SOL біржа",
+   "true": "crypto",
+   "subset": "standard",
+   "lora": "crypto",
+   "lora_conf": 0.417,
+   "haiku": "crypto"
+  },
+  {
+   "text": "Продаж крипти USDT TRC 20",
+   "true": "crypto",
+   "subset": "standard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "Ордер байбіт p2p 394810293",
+   "true": "crypto",
+   "subset": "standard",
+   "lora": "crypto",
+   "lora_conf": 0.96,
+   "haiku": "crypto"
+  },
+  {
+   "text": "За юсдт через п2п обмін",
+   "true": "crypto",
+   "subset": "standard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "Выплата за криптовалюту биткоин",
+   "true": "crypto",
+   "subset": "standard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "P2P угода купівля тезерів",
+   "true": "crypto",
+   "subset": "standard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "Binance P2P order 293847102938",
+   "true": "crypto",
+   "subset": "standard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "Переказ коштів за крипту з бінансу",
+   "true": "crypto",
+   "subset": "standard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "Whitebit p2p ордер 1948204829",
+   "true": "crypto",
+   "subset": "standard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "Оплата крипти USDT за курсом",
+   "true": "crypto",
+   "subset": "standard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "За купівлю біткоїнів через криптообмінник",
+   "true": "crypto",
+   "subset": "standard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "Продажа USDT p2p перевод на карту",
+   "true": "crypto",
+   "subset": "standard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "Вывод крипты в фиат p2p",
+   "true": "crypto",
+   "subset": "standard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "Розрахунок по P2P замовленню OKX",
+   "true": "crypto",
+   "subset": "standard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "Купівля крипти тонкоїн TON",
+   "true": "crypto",
+   "subset": "standard",
+   "lora": "crypto",
+   "lora_conf": 0.998,
+   "haiku": "crypto"
+  },
+  {
+   "text": "Ордер 93840284729 бинанс п2п usdt",
+   "true": "crypto",
+   "subset": "standard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "За тезери з криптогаманця",
+   "true": "crypto",
+   "subset": "standard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "Обмін USDT на гривню P2P угода",
+   "true": "crypto",
+   "subset": "standard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "P2P Bybit ордер 84920183 розрахунок",
+   "true": "crypto",
+   "subset": "standard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "Продаж криптоактивів бінанс p2p",
+   "true": "crypto",
+   "subset": "standard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "Виплата за ордером обміну криптовалюти",
+   "true": "crypto",
+   "subset": "standard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "Купівля USDT ERC20 через P2P",
+   "true": "crypto",
+   "subset": "standard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "п2п ордер 948202 бінанс",
+   "true": "crypto",
+   "subset": "hard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "розрахунок за стейбли trc20",
+   "true": "crypto",
+   "subset": "hard",
+   "lora": "crypto",
+   "lora_conf": 0.994,
+   "haiku": "crypto"
+  },
+  {
+   "text": "bybit p2p trade ID 4819024",
+   "true": "crypto",
+   "subset": "hard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "за юсдт по курсу 41.35",
+   "true": "crypto",
+   "subset": "hard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "Whitebit код активація",
+   "true": "crypto",
+   "subset": "hard",
+   "lora": "rent_utilities",
+   "lora_conf": 0.576,
+   "haiku": "crypto"
+  },
+  {
+   "text": "вивід коштів з Trustee Plus",
+   "true": "crypto",
+   "subset": "hard",
+   "lora": "crypto",
+   "lora_conf": 0.539,
+   "haiku": "crypto"
+  },
+  {
+   "text": "закриття p2p ордеру на okx",
+   "true": "crypto",
+   "subset": "hard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "за 350 тезерів",
+   "true": "crypto",
+   "subset": "hard",
+   "lora": "goods_services",
+   "lora_conf": 0.994,
+   "haiku": "crypto"
+  },
+  {
+   "text": "поповнення спотового балансу через п2п",
+   "true": "crypto",
+   "subset": "hard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "купівля solana у phantom",
+   "true": "crypto",
+   "subset": "hard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "бінанс п2п нікнейм AlexCrypto",
+   "true": "crypto",
+   "subset": "hard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "обмін на usdc мережа bep20",
+   "true": "crypto",
+   "subset": "hard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "за біточок переказ",
+   "true": "crypto",
+   "subset": "hard",
+   "lora": "gambling",
+   "lora_conf": 0.962,
+   "haiku": "crypto"
+  },
+  {
+   "text": "p2p ордер 103958 байбіт",
+   "true": "crypto",
+   "subset": "hard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "за цифрові активи юздт",
+   "true": "crypto",
+   "subset": "hard",
+   "lora": "crypto",
+   "lora_conf": 0.999,
+   "haiku": "crypto"
+  },
+  {
+   "text": "виплата з майнінг пулу ethermine",
+   "true": "crypto",
+   "subset": "hard",
+   "lora": "salary",
+   "lora_conf": 0.997,
+   "haiku": "crypto"
+  },
+  {
+   "text": "закинь на метамаск в мережі арбітрум",
+   "true": "crypto",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 0.718,
+   "haiku": "crypto"
+  },
+  {
+   "text": "за сатоші згідно домовленості",
+   "true": "crypto",
+   "subset": "hard",
+   "lora": "goods_services",
+   "lora_conf": 0.921,
+   "haiku": "crypto"
+  },
+  {
+   "text": "ордер kucoin p2p 84729",
+   "true": "crypto",
+   "subset": "hard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "покупка ефіру erc-20",
+   "true": "crypto",
+   "subset": "hard",
+   "lora": "crypto",
+   "lora_conf": 0.998,
+   "haiku": "crypto"
+  },
+  {
+   "text": "розрахунок за стейблкоїни",
+   "true": "crypto",
+   "subset": "hard",
+   "lora": "goods_services",
+   "lora_conf": 0.992,
+   "haiku": "crypto"
+  },
+  {
+   "text": "вивід з холодного гаманця леджер",
+   "true": "crypto",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 0.998,
+   "haiku": "crypto"
+  },
+  {
+   "text": "p2p обмін huobi order 39281",
+   "true": "crypto",
+   "subset": "hard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "за тезери з біржі",
+   "true": "crypto",
+   "subset": "hard",
+   "lora": "crypto",
+   "lora_conf": 0.982,
+   "haiku": "crypto"
+  },
+  {
+   "text": "переказ за usdt trc-20",
+   "true": "crypto",
+   "subset": "hard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "викуп юсдт від постачальника",
+   "true": "crypto",
+   "subset": "hard",
+   "lora": "crypto",
+   "lora_conf": 0.998,
+   "haiku": "crypto"
+  },
+  {
+   "text": "ордер на бітгет p2p 948102",
+   "true": "crypto",
+   "subset": "hard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "за токени тон у телеграм валлет",
+   "true": "crypto",
+   "subset": "hard",
+   "lora": "crypto",
+   "lora_conf": 0.587,
+   "haiku": "crypto"
+  },
+  {
+   "text": "обмін кешу на юсдт через касу",
+   "true": "crypto",
+   "subset": "hard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "комісія валідатора за транзакцію",
+   "true": "crypto",
+   "subset": "hard",
+   "lora": "goods_services",
+   "lora_conf": 0.986,
+   "haiku": "crypto"
+  },
+  {
+   "text": "вивід заробленого з фармінгу дефі",
+   "true": "crypto",
+   "subset": "hard",
+   "lora": "gambling",
+   "lora_conf": 0.43,
+   "haiku": "crypto"
+  },
+  {
+   "text": "за 100 юсдт trc20",
+   "true": "crypto",
+   "subset": "hard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "розрахунок за пул ліквідності на uniswap",
+   "true": "crypto",
+   "subset": "hard",
+   "lora": "crypto",
+   "lora_conf": 0.955,
+   "haiku": "crypto"
+  },
+  {
+   "text": "переказ за покупку асіка для майнінгу",
+   "true": "crypto",
+   "subset": "hard",
+   "lora": "family",
+   "lora_conf": 0.552,
+   "haiku": "crypto"
+  },
+  {
+   "text": "бінанс п2п сплата ордеру",
+   "true": "crypto",
+   "subset": "hard",
+   "lora": "crypto",
+   "lora_conf": 0.988,
+   "haiku": "crypto"
+  },
+  {
+   "text": "bybit express order 294812",
+   "true": "crypto",
+   "subset": "hard",
+   "lora": "crypto",
+   "lora_conf": 0.707,
+   "haiku": "crypto"
+  },
+  {
+   "text": "за ефірчик по біржовому стакану",
+   "true": "crypto",
+   "subset": "hard",
+   "lora": "goods_services",
+   "lora_conf": 0.906,
+   "haiku": "crypto"
+  },
+  {
+   "text": "покупка toncoin через p2p бот",
+   "true": "crypto",
+   "subset": "hard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "закриття маржинальної позиції",
+   "true": "crypto",
+   "subset": "hard",
+   "lora": "crypto",
+   "lora_conf": 0.754,
+   "haiku": "crypto"
+  },
+  {
+   "text": "за стейбли на траствалет",
+   "true": "crypto",
+   "subset": "hard",
+   "lora": "goods_services",
+   "lora_conf": 0.954,
+   "haiku": "crypto"
+  },
+  {
+   "text": "компенсація за gas fee в мережі ефіру",
+   "true": "crypto",
+   "subset": "hard",
+   "lora": "rent_utilities",
+   "lora_conf": 0.929,
+   "haiku": "crypto"
+  },
+  {
+   "text": "вивід монет з біткоїн криптомату",
+   "true": "crypto",
+   "subset": "hard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "p2p транзакція mexc 48291",
+   "true": "crypto",
+   "subset": "hard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "обмінний пункт юсдт на гривню",
+   "true": "crypto",
+   "subset": "hard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "за монети xrp",
+   "true": "crypto",
+   "subset": "hard",
+   "lora": "crypto",
+   "lora_conf": 0.999,
+   "haiku": "crypto"
+  },
+  {
+   "text": "оплата тезер trc 20 заявка 9481",
+   "true": "crypto",
+   "subset": "hard",
+   "lora": "goods_services",
+   "lora_conf": 0.998,
+   "haiku": "crypto"
+  },
+  {
+   "text": "закидання на стейкінг бінанс ерн",
+   "true": "crypto",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 0.999,
+   "haiku": "crypto"
+  },
+  {
+   "text": "p2p угода gate.io 59301",
+   "true": "crypto",
+   "subset": "hard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "викуп криптодоларів за готівку",
+   "true": "crypto",
+   "subset": "hard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "переказ за btc згідно курсу біржі",
+   "true": "crypto",
+   "subset": "hard",
+   "lora": "crypto",
+   "lora_conf": 1.0,
+   "haiku": "crypto"
+  },
+  {
+   "text": "Оплата за автозапчастини згідно з рахунком-фактурою №СФ-00492 від 14.11.2023 без ПДВ",
+   "true": "goods_services",
+   "subset": "standard",
+   "lora": "goods_services",
+   "lora_conf": 1.0,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "За послуги з розробки програмного забезпечення відповідно до Акту №12 від 05.02.2024",
+   "true": "goods_services",
+   "subset": "standard",
+   "lora": "goods_services",
+   "lora_conf": 1.0,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "Оплата замовлення №884391 в інтернет-магазині будівельних інструментів",
+   "true": "goods_services",
+   "subset": "standard",
+   "lora": "goods_services",
+   "lora_conf": 1.0,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "Предоплата за изготовление металлопластиковых окон по договору №45-М от 12.01.2024",
+   "true": "goods_services",
+   "subset": "standard",
+   "lora": "goods_services",
+   "lora_conf": 1.0,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "За поліграфічні послуги та друк буклетів згідно рах. 518 від 22.03.2024",
+   "true": "goods_services",
+   "subset": "standard",
+   "lora": "goods_services",
+   "lora_conf": 1.0,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "Оплата товару: кава зернова та сиропи згідно накладної №РН-8941",
+   "true": "goods_services",
+   "subset": "standard",
+   "lora": "goods_services",
+   "lora_conf": 1.0,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "За ремонт та технічне обслуговування кондиціонерів згідно договору №18/05",
+   "true": "goods_services",
+   "subset": "standard",
+   "lora": "goods_services",
+   "lora_conf": 1.0,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "Оплата стоматологічних послуг згідно квитанції №90432 Кравченко О.В.",
+   "true": "goods_services",
+   "subset": "standard",
+   "lora": "goods_services",
+   "lora_conf": 1.0,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "За будівельні матеріали (цемент, гіпсокартон) згідно рахунку №1093 від 04.04.2024",
+   "true": "goods_services",
+   "subset": "standard",
+   "lora": "goods_services",
+   "lora_conf": 1.0,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "Оплата за послуги перевезення вантажу по Україні згідно ТТН №20450893240",
+   "true": "goods_services",
+   "subset": "standard",
+   "lora": "goods_services",
+   "lora_conf": 1.0,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "За надання маркетингових послуг згідно акту №4 від 29.02.2024 без ПДВ",
+   "true": "goods_services",
+   "subset": "standard",
+   "lora": "goods_services",
+   "lora_conf": 1.0,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "Оплата за канцелярські товари для офісу згідно рахунку №228",
+   "true": "goods_services",
+   "subset": "standard",
+   "lora": "goods_services",
+   "lora_conf": 1.0,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "За шиномонтаж та заміну оливи згідно наряду-замовлення №732",
+   "true": "goods_services",
+   "subset": "standard",
+   "lora": "goods_services",
+   "lora_conf": 1.0,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "Оплата за навчальний курс підвищення кваліфікації згідно рахунку №К-443",
+   "true": "goods_services",
+   "subset": "standard",
+   "lora": "goods_services",
+   "lora_conf": 1.0,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "За виготовлення корпусної кухні згідно замовлення №302/К",
+   "true": "goods_services",
+   "subset": "standard",
+   "lora": "goods_services",
+   "lora_conf": 0.999,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "Оплата консультаційних послуг згідно договору №11-ЮР від 10.03.2024",
+   "true": "goods_services",
+   "subset": "standard",
+   "lora": "goods_services",
+   "lora_conf": 1.0,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "За сантехнічні роботи та монтаж радіаторів згідно кошторису №8",
+   "true": "goods_services",
+   "subset": "standard",
+   "lora": "goods_services",
+   "lora_conf": 0.999,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "Оплата замовлення 783229 на маркетплейсі за чохли до авто",
+   "true": "goods_services",
+   "subset": "standard",
+   "lora": "goods_services",
+   "lora_conf": 1.0,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "Оплата за пошив корпоративного спецодягу згідно з рахунком №55/2",
+   "true": "goods_services",
+   "subset": "standard",
+   "lora": "goods_services",
+   "lora_conf": 1.0,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "За юридичний супровід угоди купівлі-продажу згідно акту надання послуг №39",
+   "true": "goods_services",
+   "subset": "standard",
+   "lora": "goods_services",
+   "lora_conf": 0.999,
+   "haiku": "none"
+  },
+  {
+   "text": "Закупка картонної упаковки та скотчу згідно рахунку №892",
+   "true": "goods_services",
+   "subset": "standard",
+   "lora": "goods_services",
+   "lora_conf": 1.0,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "Оплата за фарбувальні роботи приміщення згідно акту здачі-приймання №14",
+   "true": "goods_services",
+   "subset": "standard",
+   "lora": "goods_services",
+   "lora_conf": 1.0,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "Оплата за послуги хімчистки текстилю згідно договору №77",
+   "true": "goods_services",
+   "subset": "standard",
+   "lora": "goods_services",
+   "lora_conf": 1.0,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "За послуги порізки та кромкування ДСП згідно замовлення №1459",
+   "true": "goods_services",
+   "subset": "standard",
+   "lora": "goods_services",
+   "lora_conf": 1.0,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "Оплата медичних послуг (МРТ та консультація фахівця) за квитанцією №4920",
+   "true": "goods_services",
+   "subset": "standard",
+   "lora": "goods_services",
+   "lora_conf": 1.0,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "Предоплата за изготовление гранитной столешницы по заказу 238",
+   "true": "goods_services",
+   "subset": "standard",
+   "lora": "goods_services",
+   "lora_conf": 1.0,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "Оплата ремонту електродвигуна за актом виконаних робіт №23 від 15.01.2024",
+   "true": "goods_services",
+   "subset": "standard",
+   "lora": "goods_services",
+   "lora_conf": 1.0,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "За професійний клінінг вітрин магазину згідно рах. №122",
+   "true": "goods_services",
+   "subset": "standard",
+   "lora": "goods_services",
+   "lora_conf": 1.0,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "Оплата за дизельний генератор потужністю 10 кВт згідно рахунку №198",
+   "true": "goods_services",
+   "subset": "standard",
+   "lora": "goods_services",
+   "lora_conf": 0.96,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "За земляні роботи та копання траншеї екскаватором згідно акту №33",
+   "true": "goods_services",
+   "subset": "standard",
+   "lora": "goods_services",
+   "lora_conf": 0.998,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "Оплата замовлення №459021 меблева фурнітура та ручки",
+   "true": "goods_services",
+   "subset": "standard",
+   "lora": "goods_services",
+   "lora_conf": 1.0,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "За кейтерингове обслуговування банкету згідно рахунку №05/11",
+   "true": "goods_services",
+   "subset": "standard",
+   "lora": "goods_services",
+   "lora_conf": 1.0,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "Оплата послуг нотаріуса за посвідчення договору дарування майна",
+   "true": "goods_services",
+   "subset": "standard",
+   "lora": "goods_services",
+   "lora_conf": 0.991,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "За придбання робочого спецодягу та рукавиць за видатковою накладною №1023",
+   "true": "goods_services",
+   "subset": "standard",
+   "lora": "goods_services",
+   "lora_conf": 1.0,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "Оплата послуг з розробки ландшафтного проекту за договором №03-ЛД",
+   "true": "goods_services",
+   "subset": "standard",
+   "lora": "goods_services",
+   "lora_conf": 1.0,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "За предметну фотозйомку товарів для сайту згідно рахунку-фактури №71",
+   "true": "goods_services",
+   "subset": "standard",
+   "lora": "goods_services",
+   "lora_conf": 1.0,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "Оплата ветеринарних послуг та вакцинації тварин чек №1209",
+   "true": "goods_services",
+   "subset": "standard",
+   "lora": "goods_services",
+   "lora_conf": 0.999,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "Заправка та відновлення лазерних картриджів згідно акту №54",
+   "true": "goods_services",
+   "subset": "standard",
+   "lora": "goods_services",
+   "lora_conf": 0.999,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "Оплата за паливні талони А-95 згідно рахунку-фактури №Т-902 від ТОВ Енерджі",
+   "true": "goods_services",
+   "subset": "standard",
+   "lora": "goods_services",
+   "lora_conf": 1.0,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "За вивезення та утилізацію будівельного сміття згідно замовлення №41",
+   "true": "goods_services",
+   "subset": "standard",
+   "lora": "goods_services",
+   "lora_conf": 0.999,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "Оплата за друк та поклейку зовнішньої реклами за актом №6",
+   "true": "goods_services",
+   "subset": "standard",
+   "lora": "goods_services",
+   "lora_conf": 1.0,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "За письмовий переклад технічної інструкції згідно рахунку №84",
+   "true": "goods_services",
+   "subset": "standard",
+   "lora": "goods_services",
+   "lora_conf": 1.0,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "Оплата рихтування та кузовного ремонту авто за нарядом СТО №348",
+   "true": "goods_services",
+   "subset": "standard",
+   "lora": "goods_services",
+   "lora_conf": 1.0,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "За монтаж та налаштування системи відеоспостереження згідно акту від 20.02.2024",
+   "true": "goods_services",
+   "subset": "standard",
+   "lora": "goods_services",
+   "lora_conf": 1.0,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "Оплата за партію сухого корму для тварин згідно видаткової накладної №903",
+   "true": "goods_services",
+   "subset": "standard",
+   "lora": "goods_services",
+   "lora_conf": 1.0,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "За регламентне технічне обслуговування ліфта згідно договору №12-Л",
+   "true": "goods_services",
+   "subset": "standard",
+   "lora": "goods_services",
+   "lora_conf": 1.0,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "Оплата за партію декоративної штукатурки згідно рахунку №881",
+   "true": "goods_services",
+   "subset": "standard",
+   "lora": "goods_services",
+   "lora_conf": 1.0,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "За послуги запису та обробки аудіоролика згідно акту №09/1",
+   "true": "goods_services",
+   "subset": "standard",
+   "lora": "goods_services",
+   "lora_conf": 1.0,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "Оплата комплексу лабораторних аналізів води згідно рах. №4421",
+   "true": "goods_services",
+   "subset": "standard",
+   "lora": "goods_services",
+   "lora_conf": 1.0,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "За проектування системи припливної вентиляції згідно договору №56-ПВ",
+   "true": "goods_services",
+   "subset": "standard",
+   "lora": "goods_services",
+   "lora_conf": 0.998,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "заміна мастила та фільтрів рено меган днз АА1234ВВ",
+   "true": "goods_services",
+   "subset": "hard",
+   "lora": "goods_services",
+   "lora_conf": 0.998,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "друк банера 3х6 по специфікації 12/04",
+   "true": "goods_services",
+   "subset": "hard",
+   "lora": "goods_services",
+   "lora_conf": 0.999,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "розробка лендінгу згідно узгодженого тз v2",
+   "true": "goods_services",
+   "subset": "hard",
+   "lora": "goods_services",
+   "lora_conf": 0.747,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "заправка трьох лазерних картриджів кр-22",
+   "true": "goods_services",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 0.865,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "чистка кондюка у кабінеті 305 плюс антисептик",
+   "true": "goods_services",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 0.954,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "стомат кабінет пломбування 26 зуба анестезія",
+   "true": "goods_services",
+   "subset": "hard",
+   "lora": "rent_utilities",
+   "lora_conf": 0.582,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "фурнітура блум та петлі для шафи купє замовлення 882",
+   "true": "goods_services",
+   "subset": "hard",
+   "lora": "goods_services",
+   "lora_conf": 0.999,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "генеральний клінінг після майстрів кв 48",
+   "true": "goods_services",
+   "subset": "hard",
+   "lora": "rent_utilities",
+   "lora_conf": 0.645,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "за бампер передній шрот польща ауді а6 с6",
+   "true": "goods_services",
+   "subset": "hard",
+   "lora": "goods_services",
+   "lora_conf": 0.602,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "перетяжка дивана та двох крісел тканиною велюр",
+   "true": "goods_services",
+   "subset": "hard",
+   "lora": "rent_utilities",
+   "lora_conf": 0.895,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "кейтеринг на презентацію: сет тапас канапе та кава",
+   "true": "goods_services",
+   "subset": "hard",
+   "lora": "goods_services",
+   "lora_conf": 0.973,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "шиномонтаж перевзути 4 колеса r17 та баланс",
+   "true": "goods_services",
+   "subset": "hard",
+   "lora": "goods_services",
+   "lora_conf": 0.999,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "виготовлення вивіски лайтбокс з монтажем на фасад",
+   "true": "goods_services",
+   "subset": "hard",
+   "lora": "goods_services",
+   "lora_conf": 1.0,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "корекція фарбування брів майстер оксана",
+   "true": "goods_services",
+   "subset": "hard",
+   "lora": "goods_services",
+   "lora_conf": 1.0,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "місячний абонемент спортзал безлім плюс басейн",
+   "true": "goods_services",
+   "subset": "hard",
+   "lora": "salary",
+   "lora_conf": 0.891,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "пошиття блекаут штор та тюлі по індивідуальним замірам",
+   "true": "goods_services",
+   "subset": "hard",
+   "lora": "goods_services",
+   "lora_conf": 0.999,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "передзимове то котла бош та заміна датчика",
+   "true": "goods_services",
+   "subset": "hard",
+   "lora": "rent_utilities",
+   "lora_conf": 0.999,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "консультація педіатра розширена та довідка в секцію",
+   "true": "goods_services",
+   "subset": "hard",
+   "lora": "goods_services",
+   "lora_conf": 0.494,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "заміна розбитого модуля екрану айфон 12 олеg",
+   "true": "goods_services",
+   "subset": "hard",
+   "lora": "goods_services",
+   "lora_conf": 0.604,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "будматеріали гіпсокартон кнауф та направляючі профілі",
+   "true": "goods_services",
+   "subset": "hard",
+   "lora": "goods_services",
+   "lora_conf": 0.91,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "лазерна епіляція комплекс гомілки та бікіні",
+   "true": "goods_services",
+   "subset": "hard",
+   "lora": "goods_services",
+   "lora_conf": 0.775,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "керамічна плитка голден тайл 18 пачок декор",
+   "true": "goods_services",
+   "subset": "hard",
+   "lora": "goods_services",
+   "lora_conf": 0.952,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "індивідуальна сесія з психотерапевтом за 14.10",
+   "true": "goods_services",
+   "subset": "hard",
+   "lora": "goods_services",
+   "lora_conf": 0.996,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "локальне фарбування заднього крила та поліровка ланос",
+   "true": "goods_services",
+   "subset": "hard",
+   "lora": "goods_services",
+   "lora_conf": 1.0,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "вивезення будсміття з обєкту камаз 1 ходка",
+   "true": "goods_services",
+   "subset": "hard",
+   "lora": "goods_services",
+   "lora_conf": 0.743,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "друк візиток 1000шт шовкодрук софт тач",
+   "true": "goods_services",
+   "subset": "hard",
+   "lora": "goods_services",
+   "lora_conf": 0.997,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "косметика holy land відновлюючий крем та лосьйон",
+   "true": "goods_services",
+   "subset": "hard",
+   "lora": "goods_services",
+   "lora_conf": 0.333,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "монтаж натяжної стелі сатин спальня 16 кв м",
+   "true": "goods_services",
+   "subset": "hard",
+   "lora": "goods_services",
+   "lora_conf": 0.708,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "детейлінг полірування кузова та хімчистка ковроліну",
+   "true": "goods_services",
+   "subset": "hard",
+   "lora": "goods_services",
+   "lora_conf": 1.0,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "кава в зернах бленд арабіка 10кг для офісної кавомашини",
+   "true": "goods_services",
+   "subset": "hard",
+   "lora": "goods_services",
+   "lora_conf": 0.93,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "укладка ламінату 33 клас 45 квадратів підкладка",
+   "true": "goods_services",
+   "subset": "hard",
+   "lora": "goods_services",
+   "lora_conf": 0.992,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "ветеринарні препарати сімпаріка тріо та шампунь",
+   "true": "goods_services",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 0.969,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "дублікат домофонного чіпа та ключів 4 комплекти",
+   "true": "goods_services",
+   "subset": "hard",
+   "lora": "goods_services",
+   "lora_conf": 0.99,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "букет піоноподібних троянд з листівкою та доставка курєром",
+   "true": "goods_services",
+   "subset": "hard",
+   "lora": "goods_services",
+   "lora_conf": 0.987,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "комплект бездротової сигналізації аякс плюс монтаж",
+   "true": "goods_services",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 0.79,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "пакет з 5 занять уроки вокалу для початківців",
+   "true": "goods_services",
+   "subset": "hard",
+   "lora": "goods_services",
+   "lora_conf": 0.595,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "заміна розбитого склопакета двохкамерного з аргоном",
+   "true": "goods_services",
+   "subset": "hard",
+   "lora": "goods_services",
+   "lora_conf": 0.994,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "суха хімчистка пуховика з хутром та пальта",
+   "true": "goods_services",
+   "subset": "hard",
+   "lora": "goods_services",
+   "lora_conf": 0.991,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "комплект зимової гуми nokian tyres 205 55 r16",
+   "true": "goods_services",
+   "subset": "hard",
+   "lora": "goods_services",
+   "lora_conf": 0.947,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "розпив нішевої парфумерії баккара 10мл том форд 5мл",
+   "true": "goods_services",
+   "subset": "hard",
+   "lora": "crypto",
+   "lora_conf": 0.82,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "утеплення фасаду мінеральною ватою робота та сітка",
+   "true": "goods_services",
+   "subset": "hard",
+   "lora": "goods_services",
+   "lora_conf": 0.796,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "гігієнічна чистка зубів ультразвук плюс air flow",
+   "true": "goods_services",
+   "subset": "hard",
+   "lora": "goods_services",
+   "lora_conf": 0.987,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "набір інструментів intertool 108 одиниць валіза",
+   "true": "goods_services",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 0.963,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "нарощування вій 2д ефект лисички майстер ірина",
+   "true": "goods_services",
+   "subset": "hard",
+   "lora": "family",
+   "lora_conf": 0.993,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "подача газелі та послуги вантажників переїзд 3 години",
+   "true": "goods_services",
+   "subset": "hard",
+   "lora": "rent_utilities",
+   "lora_conf": 0.996,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "компютерна діагностика помилок та адаптація дроселя",
+   "true": "goods_services",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 0.681,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "дизайн проєкт трикімнатної квартири 3d візуалізація",
+   "true": "goods_services",
+   "subset": "hard",
+   "lora": "rent_utilities",
+   "lora_conf": 1.0,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "годинна фотосесія в студії лайт відбір вихідників",
+   "true": "goods_services",
+   "subset": "hard",
+   "lora": "goods_services",
+   "lora_conf": 0.49,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "спліт система c&h інвертор з базовим монтажем траси",
+   "true": "goods_services",
+   "subset": "hard",
+   "lora": "goods_services",
+   "lora_conf": 0.98,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "виготовлення дубової стільниці за ескізом клієнта",
+   "true": "goods_services",
+   "subset": "hard",
+   "lora": "goods_services",
+   "lora_conf": 1.0,
+   "haiku": "goods_services"
+  },
+  {
+   "text": "Оренда квартири за листопад 2023",
+   "true": "rent_utilities",
+   "subset": "standard",
+   "lora": "rent_utilities",
+   "lora_conf": 1.0,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "Аренда квартиры за текущий месяц",
+   "true": "rent_utilities",
+   "subset": "standard",
+   "lora": "rent_utilities",
+   "lora_conf": 1.0,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "Орендна плата згідно договору оренди №12/04 від 01.04.2023",
+   "true": "rent_utilities",
+   "subset": "standard",
+   "lora": "rent_utilities",
+   "lora_conf": 1.0,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "За аренду кв. 45 ул. Шевченка",
+   "true": "rent_utilities",
+   "subset": "standard",
+   "lora": "rent_utilities",
+   "lora_conf": 1.0,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "Оплата за оренду житла за травень",
+   "true": "rent_utilities",
+   "subset": "standard",
+   "lora": "rent_utilities",
+   "lora_conf": 1.0,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "Оренда паркомісця №14 за січень",
+   "true": "rent_utilities",
+   "subset": "standard",
+   "lora": "rent_utilities",
+   "lora_conf": 1.0,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "Аренда гаража кооператив Схід",
+   "true": "rent_utilities",
+   "subset": "standard",
+   "lora": "rent_utilities",
+   "lora_conf": 1.0,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "Оренда офісного приміщення за грудень",
+   "true": "rent_utilities",
+   "subset": "standard",
+   "lora": "rent_utilities",
+   "lora_conf": 1.0,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "За съем квартиры на Позняках",
+   "true": "rent_utilities",
+   "subset": "standard",
+   "lora": "rent_utilities",
+   "lora_conf": 1.0,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "Оплата за оренду складу за червень 2024",
+   "true": "rent_utilities",
+   "subset": "standard",
+   "lora": "goods_services",
+   "lora_conf": 0.87,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "Комунальні послуги за жовтень 2023 р.",
+   "true": "rent_utilities",
+   "subset": "standard",
+   "lora": "rent_utilities",
+   "lora_conf": 1.0,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "Оплата за спожиту електроенергію о/р 2938472910",
+   "true": "rent_utilities",
+   "subset": "standard",
+   "lora": "rent_utilities",
+   "lora_conf": 0.965,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "За світло за березень",
+   "true": "rent_utilities",
+   "subset": "standard",
+   "lora": "rent_utilities",
+   "lora_conf": 0.998,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "Оплата за розподіл газу о/р 100293847",
+   "true": "rent_utilities",
+   "subset": "standard",
+   "lora": "rent_utilities",
+   "lora_conf": 0.948,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "Газопостачання, особовий рахунок 0928374",
+   "true": "rent_utilities",
+   "subset": "standard",
+   "lora": "rent_utilities",
+   "lora_conf": 1.0,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "Оплата за водопостачання та водовідведення за кв. 112",
+   "true": "rent_utilities",
+   "subset": "standard",
+   "lora": "rent_utilities",
+   "lora_conf": 0.999,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "Холодна вода та стоки за лютий",
+   "true": "rent_utilities",
+   "subset": "standard",
+   "lora": "rent_utilities",
+   "lora_conf": 1.0,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "Гаряча вода, лічильник 83921",
+   "true": "rent_utilities",
+   "subset": "standard",
+   "lora": "rent_utilities",
+   "lora_conf": 1.0,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "Опалення за січень 2024, кв. 54",
+   "true": "rent_utilities",
+   "subset": "standard",
+   "lora": "rent_utilities",
+   "lora_conf": 0.999,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "Членські внески ОСББ за червень",
+   "true": "rent_utilities",
+   "subset": "standard",
+   "lora": "rent_utilities",
+   "lora_conf": 0.998,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "Утримання будинку та прибудинкової території, ОСББ Затишок",
+   "true": "rent_utilities",
+   "subset": "standard",
+   "lora": "rent_utilities",
+   "lora_conf": 1.0,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "Оплата інтернет послуг договір 482910",
+   "true": "rent_utilities",
+   "subset": "standard",
+   "lora": "goods_services",
+   "lora_conf": 0.58,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "За інтернет Lanet дог. 19283",
+   "true": "rent_utilities",
+   "subset": "standard",
+   "lora": "rent_utilities",
+   "lora_conf": 1.0,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "Поповнення рахунку Інтернет Київстар о/р 09812345",
+   "true": "rent_utilities",
+   "subset": "standard",
+   "lora": "goods_services",
+   "lora_conf": 0.596,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "Оплата за послуги домофону за 2 квартал",
+   "true": "rent_utilities",
+   "subset": "standard",
+   "lora": "rent_utilities",
+   "lora_conf": 0.985,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "Вивіз побутових відходів ТОВ Екостайл",
+   "true": "rent_utilities",
+   "subset": "standard",
+   "lora": "rent_utilities",
+   "lora_conf": 0.996,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "Комуналка за лютий (світло+вода+газ)",
+   "true": "rent_utilities",
+   "subset": "standard",
+   "lora": "rent_utilities",
+   "lora_conf": 1.0,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "Оплата ЖКП кв 89 вул Франка",
+   "true": "rent_utilities",
+   "subset": "standard",
+   "lora": "rent_utilities",
+   "lora_conf": 0.999,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "За квартплату за квітень",
+   "true": "rent_utilities",
+   "subset": "standard",
+   "lora": "rent_utilities",
+   "lora_conf": 1.0,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "Комунальні платежі згідно квитанцій за травень",
+   "true": "rent_utilities",
+   "subset": "standard",
+   "lora": "rent_utilities",
+   "lora_conf": 1.0,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "Оплата за газ ТОВ Нафтогаз України о/р 4920194",
+   "true": "rent_utilities",
+   "subset": "standard",
+   "lora": "rent_utilities",
+   "lora_conf": 0.973,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "Ясно електроенергія о/р 837291029",
+   "true": "rent_utilities",
+   "subset": "standard",
+   "lora": "rent_utilities",
+   "lora_conf": 0.992,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "За теплопостачання КП Теплоенерго за листопад",
+   "true": "rent_utilities",
+   "subset": "standard",
+   "lora": "rent_utilities",
+   "lora_conf": 0.999,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "Абонплата за інтернет та кабельне ТБ",
+   "true": "rent_utilities",
+   "subset": "standard",
+   "lora": "rent_utilities",
+   "lora_conf": 0.999,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "Внесок на утримання будинку та прибудинкової території за липень",
+   "true": "rent_utilities",
+   "subset": "standard",
+   "lora": "rent_utilities",
+   "lora_conf": 0.998,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "Оплата послуг консьєржа за травень кв. 12",
+   "true": "rent_utilities",
+   "subset": "standard",
+   "lora": "goods_services",
+   "lora_conf": 0.999,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "За світло і воду по лічильникам кв. 34",
+   "true": "rent_utilities",
+   "subset": "standard",
+   "lora": "rent_utilities",
+   "lora_conf": 1.0,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "Квартплата і опалення за січень",
+   "true": "rent_utilities",
+   "subset": "standard",
+   "lora": "rent_utilities",
+   "lora_conf": 1.0,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "Оплата за електроенергію згідно показників лічильника",
+   "true": "rent_utilities",
+   "subset": "standard",
+   "lora": "rent_utilities",
+   "lora_conf": 0.578,
+   "haiku": "none"
+  },
+  {
+   "text": "Оренда кімнати за серпень",
+   "true": "rent_utilities",
+   "subset": "standard",
+   "lora": "rent_utilities",
+   "lora_conf": 1.0,
+   "haiku": "none"
+  },
+  {
+   "text": "Часткова оплата комунальних послуг за грудень",
+   "true": "rent_utilities",
+   "subset": "standard",
+   "lora": "rent_utilities",
+   "lora_conf": 0.999,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "Суборенда нежитлового приміщення за березень зг договору 05",
+   "true": "rent_utilities",
+   "subset": "standard",
+   "lora": "rent_utilities",
+   "lora_conf": 1.0,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "За домофон Цифрал 3 квартал",
+   "true": "rent_utilities",
+   "subset": "standard",
+   "lora": "rent_utilities",
+   "lora_conf": 0.966,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "Оплата за обслуговування ліфта ОСББ Надія",
+   "true": "rent_utilities",
+   "subset": "standard",
+   "lora": "rent_utilities",
+   "lora_conf": 0.999,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "Тріолан інтернет о/р 83910",
+   "true": "rent_utilities",
+   "subset": "standard",
+   "lora": "rent_utilities",
+   "lora_conf": 0.998,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "Оплата за доставку газу (розподіл) за вересень",
+   "true": "rent_utilities",
+   "subset": "standard",
+   "lora": "rent_utilities",
+   "lora_conf": 0.885,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "За комуналку на Мазепи 14 кв 8",
+   "true": "rent_utilities",
+   "subset": "standard",
+   "lora": "rent_utilities",
+   "lora_conf": 1.0,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "Оплата за технічне обслуговування внутрішньобудинкових газових мереж",
+   "true": "rent_utilities",
+   "subset": "standard",
+   "lora": "goods_services",
+   "lora_conf": 0.72,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "Аренда квартиры + коммуналка за октябрь",
+   "true": "rent_utilities",
+   "subset": "standard",
+   "lora": "rent_utilities",
+   "lora_conf": 1.0,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "Оренда приміщення кав'ярні за червень згідно акту",
+   "true": "rent_utilities",
+   "subset": "standard",
+   "lora": "rent_utilities",
+   "lora_conf": 1.0,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "ясно березень о/р 2938104",
+   "true": "rent_utilities",
+   "subset": "hard",
+   "lora": "salary",
+   "lora_conf": 0.799,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "хазяйці на картку за метри на пушкінській",
+   "true": "rent_utilities",
+   "subset": "hard",
+   "lora": "family",
+   "lora_conf": 0.758,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "нафтогаз за лютий 42 куби",
+   "true": "rent_utilities",
+   "subset": "hard",
+   "lora": "rent_utilities",
+   "lora_conf": 1.0,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "дтек кіловати день ніч лічильник",
+   "true": "rent_utilities",
+   "subset": "hard",
+   "lora": "rent_utilities",
+   "lora_conf": 0.922,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "тріолану на місяць вперед оптика",
+   "true": "rent_utilities",
+   "subset": "hard",
+   "lora": "crypto",
+   "lora_conf": 0.845,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "внесок в осбб за двокімнатну травень",
+   "true": "rent_utilities",
+   "subset": "hard",
+   "lora": "rent_utilities",
+   "lora_conf": 1.0,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "водоканал холодна гаряча по показниках",
+   "true": "rent_utilities",
+   "subset": "hard",
+   "lora": "rent_utilities",
+   "lora_conf": 1.0,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "за стіни і дах господині до 15 числа",
+   "true": "rent_utilities",
+   "subset": "hard",
+   "lora": "rent_utilities",
+   "lora_conf": 0.98,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "доставка блакитного палива розподіл нафтогаз",
+   "true": "rent_utilities",
+   "subset": "hard",
+   "lora": "rent_utilities",
+   "lora_conf": 0.995,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "київстар домашній нет поповнення особового",
+   "true": "rent_utilities",
+   "subset": "hard",
+   "lora": "gambling",
+   "lora_conf": 0.868,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "теплоенерго гігакалорії за опалювальний лютий",
+   "true": "rent_utilities",
+   "subset": "hard",
+   "lora": "rent_utilities",
+   "lora_conf": 1.0,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "вивіз тпв та прибудинкова територія жек",
+   "true": "rent_utilities",
+   "subset": "hard",
+   "lora": "rent_utilities",
+   "lora_conf": 0.999,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "за паркомісце в підземному за місяць",
+   "true": "rent_utilities",
+   "subset": "hard",
+   "lora": "rent_utilities",
+   "lora_conf": 0.992,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "абонплата ланет гігабіт до першого числа",
+   "true": "rent_utilities",
+   "subset": "hard",
+   "lora": "rent_utilities",
+   "lora_conf": 0.989,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "хазяїну кв 42 за житло травень",
+   "true": "rent_utilities",
+   "subset": "hard",
+   "lora": "rent_utilities",
+   "lora_conf": 1.0,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "струм по лічильнику за минулий місяць",
+   "true": "rent_utilities",
+   "subset": "hard",
+   "lora": "rent_utilities",
+   "lora_conf": 0.929,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "обслуговування домофону цифрал півріччя",
+   "true": "rent_utilities",
+   "subset": "hard",
+   "lora": "rent_utilities",
+   "lora_conf": 0.999,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "поквартирна плата жека за січень",
+   "true": "rent_utilities",
+   "subset": "hard",
+   "lora": "rent_utilities",
+   "lora_conf": 1.0,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "газзбут перерахунок по показниках лічильника",
+   "true": "rent_utilities",
+   "subset": "hard",
+   "lora": "rent_utilities",
+   "lora_conf": 0.997,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "за ключ і проживання червень валентині",
+   "true": "rent_utilities",
+   "subset": "hard",
+   "lora": "rent_utilities",
+   "lora_conf": 1.0,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "обленерго за спалені 250 квт",
+   "true": "rent_utilities",
+   "subset": "hard",
+   "lora": "rent_utilities",
+   "lora_conf": 1.0,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "воля кабельне плюс мережа особовий 193821",
+   "true": "rent_utilities",
+   "subset": "hard",
+   "lora": "rent_utilities",
+   "lora_conf": 1.0,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "о/р 9482103 водопостачання та водовідведення стоки",
+   "true": "rent_utilities",
+   "subset": "hard",
+   "lora": "rent_utilities",
+   "lora_conf": 0.999,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "консьєржці та охорона закритий двір осбб",
+   "true": "rent_utilities",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 0.975,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "гаражний кооператив експлуатаційний внесок за бокс 12",
+   "true": "rent_utilities",
+   "subset": "hard",
+   "lora": "rent_utilities",
+   "lora_conf": 0.999,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "компенсація спалених кіловат по квитанції орендодавцю",
+   "true": "rent_utilities",
+   "subset": "hard",
+   "lora": "rent_utilities",
+   "lora_conf": 0.999,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "ясна світло пок 3410-3620 кв 14",
+   "true": "rent_utilities",
+   "subset": "hard",
+   "lora": "rent_utilities",
+   "lora_conf": 0.999,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "за орендовані квадрати на подолі березень",
+   "true": "rent_utilities",
+   "subset": "hard",
+   "lora": "rent_utilities",
+   "lora_conf": 1.0,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "локалнет за трафік особовий 48201",
+   "true": "rent_utilities",
+   "subset": "hard",
+   "lora": "goods_services",
+   "lora_conf": 0.798,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "розрахунок з петровичем за кімнати 18",
+   "true": "rent_utilities",
+   "subset": "hard",
+   "lora": "rent_utilities",
+   "lora_conf": 0.988,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "нафтогаз україни абонплата за трубу",
+   "true": "rent_utilities",
+   "subset": "hard",
+   "lora": "rent_utilities",
+   "lora_conf": 0.992,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "теплопостачання батареї за грудень",
+   "true": "rent_utilities",
+   "subset": "hard",
+   "lora": "rent_utilities",
+   "lora_conf": 1.0,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "за комору в підвалі осбб реквізити",
+   "true": "rent_utilities",
+   "subset": "hard",
+   "lora": "rent_utilities",
+   "lora_conf": 0.986,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "дніпровські енергетичні послуги платіжка струм",
+   "true": "rent_utilities",
+   "subset": "hard",
+   "lora": "rent_utilities",
+   "lora_conf": 0.996,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "за хату власнику на картку за наступний місяць",
+   "true": "rent_utilities",
+   "subset": "hard",
+   "lora": "rent_utilities",
+   "lora_conf": 0.999,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "міськводоканал лічильник ванна і кухня куби",
+   "true": "rent_utilities",
+   "subset": "hard",
+   "lora": "rent_utilities",
+   "lora_conf": 1.0,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "абонентська плата провайдеру тенет одеса",
+   "true": "rent_utilities",
+   "subset": "hard",
+   "lora": "rent_utilities",
+   "lora_conf": 0.999,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "за дах над головою ользі сергіївні кв 5",
+   "true": "rent_utilities",
+   "subset": "hard",
+   "lora": "rent_utilities",
+   "lora_conf": 0.997,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "обслуговування ліфта та місць заг користування",
+   "true": "rent_utilities",
+   "subset": "hard",
+   "lora": "rent_utilities",
+   "lora_conf": 0.999,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "за світло у гаражі намотало 80квт лічильник",
+   "true": "rent_utilities",
+   "subset": "hard",
+   "lora": "rent_utilities",
+   "lora_conf": 1.0,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "полтавагаз збут платіж за спожитий обсяг",
+   "true": "rent_utilities",
+   "subset": "hard",
+   "lora": "rent_utilities",
+   "lora_conf": 0.994,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "переказ власниці за лічильниками по платіжках",
+   "true": "rent_utilities",
+   "subset": "hard",
+   "lora": "rent_utilities",
+   "lora_conf": 0.541,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "житлосервіс утримання конструкцій будинку",
+   "true": "rent_utilities",
+   "subset": "hard",
+   "lora": "rent_utilities",
+   "lora_conf": 1.0,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "київтеплоенерго платіж за гкал опалення",
+   "true": "rent_utilities",
+   "subset": "hard",
+   "lora": "rent_utilities",
+   "lora_conf": 0.999,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "щомісячний за однушку на лівобережній хазяйці",
+   "true": "rent_utilities",
+   "subset": "hard",
+   "lora": "rent_utilities",
+   "lora_conf": 0.72,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "поповнення ланнет за кабель wi-fi",
+   "true": "rent_utilities",
+   "subset": "hard",
+   "lora": "rent_utilities",
+   "lora_conf": 0.982,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "за спожиту холодну воду хазяйці за лічильником",
+   "true": "rent_utilities",
+   "subset": "hard",
+   "lora": "rent_utilities",
+   "lora_conf": 0.999,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "за нежитлові комерційні площі фоп бондаренко",
+   "true": "rent_utilities",
+   "subset": "hard",
+   "lora": "rent_utilities",
+   "lora_conf": 1.0,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "гаряче водопостачання та водовідведення 6 кубів",
+   "true": "rent_utilities",
+   "subset": "hard",
+   "lora": "rent_utilities",
+   "lora_conf": 1.0,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "внески співвласників багатоквартирного будинку кв 88",
+   "true": "rent_utilities",
+   "subset": "hard",
+   "lora": "rent_utilities",
+   "lora_conf": 1.0,
+   "haiku": "rent_utilities"
+  },
+  {
+   "text": "Благодійний внесок на статутну діяльність БО БФ Повернись Живим",
+   "true": "charity",
+   "subset": "standard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "На fpv дрони для 3 ОШБр",
+   "true": "charity",
+   "subset": "standard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "Добровільна пожертва на підтримку армії",
+   "true": "charity",
+   "subset": "standard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "Збір на пікап хлопцям під Бахмут",
+   "true": "charity",
+   "subset": "standard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "Благодійна допомога постраждалим від затоплення",
+   "true": "charity",
+   "subset": "standard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "На корм для тварин притулку Сіріус",
+   "true": "charity",
+   "subset": "standard",
+   "lora": "charity",
+   "lora_conf": 0.992,
+   "haiku": "charity"
+  },
+  {
+   "text": "Донат на мавік для 72 бригади",
+   "true": "charity",
+   "subset": "standard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "Благодійний внесок без ПДВ на реабілітацію військових",
+   "true": "charity",
+   "subset": "standard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "На турнікети та тактичну медицину",
+   "true": "charity",
+   "subset": "standard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "Благотворительный взнос на закупку медикаментов для раненых",
+   "true": "charity",
+   "subset": "standard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "Збір на Старлінк і генератор для пацанів",
+   "true": "charity",
+   "subset": "standard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "Донатик на помсту",
+   "true": "charity",
+   "subset": "standard",
+   "lora": "charity",
+   "lora_conf": 0.945,
+   "haiku": "charity"
+  },
+  {
+   "text": "Пожертва на відновлення дитячої лікарні",
+   "true": "charity",
+   "subset": "standard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "На маскувальні сітки та спанбонд",
+   "true": "charity",
+   "subset": "standard",
+   "lora": "charity",
+   "lora_conf": 0.734,
+   "haiku": "charity"
+  },
+  {
+   "text": "Благодійний платіж на статутні цілі фонду",
+   "true": "charity",
+   "subset": "standard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "На нічник снайперам 93 ОМБр",
+   "true": "charity",
+   "subset": "standard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "Збір Сергія Притули на комплекс БПЛА",
+   "true": "charity",
+   "subset": "standard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "Донат на РЕБ для штурмової роти",
+   "true": "charity",
+   "subset": "standard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "На ремонт корча для евакуації поранених",
+   "true": "charity",
+   "subset": "standard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "none"
+  },
+  {
+   "text": "Безповоротна благодійна допомога захисникам України",
+   "true": "charity",
+   "subset": "standard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "none"
+  },
+  {
+   "text": "донат на пташки",
+   "true": "charity",
+   "subset": "standard",
+   "lora": "charity",
+   "lora_conf": 0.97,
+   "haiku": "charity"
+  },
+  {
+   "text": "Пожертвование на приют бездомных животных Кошкин дом",
+   "true": "charity",
+   "subset": "standard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "На тепловізор для розвідки",
+   "true": "charity",
+   "subset": "standard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "Благодійний внесок: програма допомоги ВПО",
+   "true": "charity",
+   "subset": "standard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "Збір на квадрокоптер DJI Mavic 3 Thermal",
+   "true": "charity",
+   "subset": "standard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "На соляру волонтерам для доставки гуманітарки",
+   "true": "charity",
+   "subset": "standard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "Донат на бронежилети 6 класу",
+   "true": "charity",
+   "subset": "standard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "Благодійний внесок на лікування ветеранів війни",
+   "true": "charity",
+   "subset": "standard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "На окопні свічки та парафін",
+   "true": "charity",
+   "subset": "standard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "Донат на безпілотники Стерненка",
+   "true": "charity",
+   "subset": "standard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "Пожертва для дитячого будинку Надія",
+   "true": "charity",
+   "subset": "standard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "Збір на зимову гуму для військового буса",
+   "true": "charity",
+   "subset": "standard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "Благодійна пожертва на ліквідацію наслідків обстрілу",
+   "true": "charity",
+   "subset": "standard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "На рації Motorola для зв'язківців",
+   "true": "charity",
+   "subset": "standard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "доначу на скорішу перемогу",
+   "true": "charity",
+   "subset": "standard",
+   "lora": "charity",
+   "lora_conf": 0.984,
+   "haiku": "charity"
+  },
+  {
+   "text": "Благотворительный донат в фонд Таблеточки",
+   "true": "charity",
+   "subset": "standard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "На термобілизну та спальники бійцям на нуль",
+   "true": "charity",
+   "subset": "standard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "Благодійний внесок на статутні цілі ГО Волонтерська сотня",
+   "true": "charity",
+   "subset": "standard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "Збір на аптечки IFAK для морпіхів",
+   "true": "charity",
+   "subset": "standard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "На каски та активні навушники хлопцям",
+   "true": "charity",
+   "subset": "standard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "Донат на гуманітарні пакунки для пенсіонерів Херсону",
+   "true": "charity",
+   "subset": "standard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "Збір на медевак для бойових медиків",
+   "true": "charity",
+   "subset": "standard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "Добровільний благодійний внесок від громадянина України",
+   "true": "charity",
+   "subset": "standard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "на дрончик щоб русню палити",
+   "true": "charity",
+   "subset": "standard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "Благодійний внесок: проект протезування Незламні",
+   "true": "charity",
+   "subset": "standard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "Пожертва на психологічну реабілітацію дітей війни",
+   "true": "charity",
+   "subset": "standard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "На запчастини для саперного авто",
+   "true": "charity",
+   "subset": "standard",
+   "lora": "charity",
+   "lora_conf": 0.912,
+   "haiku": "charity"
+  },
+  {
+   "text": "Донат на тактичні ноші та шини",
+   "true": "charity",
+   "subset": "standard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "Благодійна матеріальна допомога сім'ям загиблих воїнів",
+   "true": "charity",
+   "subset": "standard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "докинув у баночку на пташку для 72 бригади",
+   "true": "charity",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "на бавовну та теплі привіти окупантам",
+   "true": "charity",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "у банку Стерненка на fpv",
+   "true": "charity",
+   "subset": "hard",
+   "lora": "crypto",
+   "lora_conf": 0.999,
+   "haiku": "charity"
+  },
+  {
+   "text": "хвостикам на корм у притулок Сіріус",
+   "true": "charity",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 0.529,
+   "haiku": "charity"
+  },
+  {
+   "text": "на ремонт корча для хлопців на нулі",
+   "true": "charity",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "підписка на фонд ПЖ щомісячна",
+   "true": "charity",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 0.998,
+   "haiku": "charity"
+  },
+  {
+   "text": "на мавік 3t з тепловізором пацанам",
+   "true": "charity",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "донатик у банку Притули",
+   "true": "charity",
+   "subset": "hard",
+   "lora": "family",
+   "lora_conf": 0.999,
+   "haiku": "charity"
+  },
+  {
+   "text": "на турнікети cat gen7 для такмеду",
+   "true": "charity",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "копійка на русоріз від підписника",
+   "true": "charity",
+   "subset": "hard",
+   "lora": "crypto",
+   "lora_conf": 0.726,
+   "haiku": "charity"
+  },
+  {
+   "text": "у баночку на генератор для стабпункту",
+   "true": "charity",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "на окопні свічки та парафін для волонтерів",
+   "true": "charity",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "трохи на пальне для евакуаційного буса",
+   "true": "charity",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "таблеточки для підопічних фонду",
+   "true": "charity",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 0.996,
+   "haiku": "charity"
+  },
+  {
+   "text": "на старлінк та зарядну станцію роті",
+   "true": "charity",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "на спанбонд для плетіння маскувальних сіток",
+   "true": "charity",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "підсилення для 3 ошбр на нічники",
+   "true": "charity",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "ребятам на передок на резину для пікапа",
+   "true": "charity",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "на рюкзак медика для Госпітальєрів",
+   "true": "charity",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "скидка у банку на помсту за Харків",
+   "true": "charity",
+   "subset": "hard",
+   "lora": "salary",
+   "lora_conf": 0.908,
+   "haiku": "gambling"
+  },
+  {
+   "text": "на глушилку та реб проти дронів бійцям",
+   "true": "charity",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "безпритульним собакам з Курахового на лікування",
+   "true": "charity",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 0.998,
+   "haiku": "charity"
+  },
+  {
+   "text": "у монобанку на оптику для снайперів",
+   "true": "charity",
+   "subset": "hard",
+   "lora": "crypto",
+   "lora_conf": 0.952,
+   "haiku": "charity"
+  },
+  {
+   "text": "на активні навушники та шолом для мінометки",
+   "true": "charity",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "на цинкові гроби для окупантів у банку",
+   "true": "charity",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "gambling"
+  },
+  {
+   "text": "внесок БО БФ Солом'янські котики",
+   "true": "charity",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "гуманітарка на дитяче харчування переселенцям",
+   "true": "charity",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 0.996,
+   "haiku": "charity"
+  },
+  {
+   "text": "на цівку та обвіс для трофейного кулемета",
+   "true": "charity",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "на акумулятори та пропелери для дронарів",
+   "true": "charity",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "щомісячна кава для ЗСУ через фонд",
+   "true": "charity",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "на соляру волонтерському евакуатору",
+   "true": "charity",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "посильна крапля на залізних птахів",
+   "true": "charity",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "на сухі борщі та енергетичні батончики хлопцям",
+   "true": "charity",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 0.986,
+   "haiku": "charity"
+  },
+  {
+   "text": "допомога шелтеру для тварин Бест Френдс",
+   "true": "charity",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 0.994,
+   "haiku": "charity"
+  },
+  {
+   "text": "закриваю хвіст збору на бус медикам",
+   "true": "charity",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "на броніки та кевларові пакети для взводу",
+   "true": "charity",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "на хімічні грілки та термобілизну воїнам",
+   "true": "charity",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "на оклюзійні наліпки та гемостатики на фронт",
+   "true": "charity",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "залишок зарплати на нічні очі розвідці",
+   "true": "charity",
+   "subset": "hard",
+   "lora": "salary",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "у волонтерську баночку на прилад нічного бачення",
+   "true": "charity",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "дрібʼязок на пекельні крила для кацапів",
+   "true": "charity",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 0.999,
+   "haiku": "charity"
+  },
+  {
+   "text": "на гарячі обіди для біженців у шелтері",
+   "true": "charity",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "докидаю до цілі на пікап для арті",
+   "true": "charity",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "на корм та стерилізацію котиків з прифронтових",
+   "true": "charity",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "регулярний внесок до фонду Голоси дітей",
+   "true": "charity",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "на портативні станції eco flow підрозділу",
+   "true": "charity",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 0.998,
+   "haiku": "charity"
+  },
+  {
+   "text": "пацанам на оптичний приціл у банку",
+   "true": "charity",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "на моторали та гарнітури зв'язківцям",
+   "true": "charity",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "на квадрик для вивозу 300х з позицій",
+   "true": "charity",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  },
+  {
+   "text": "внесок на мобільну лазню для захисників",
+   "true": "charity",
+   "subset": "hard",
+   "lora": "charity",
+   "lora_conf": 1.0,
+   "haiku": "charity"
+  }
+ ]
+}

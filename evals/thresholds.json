@@ -1,0 +1,4 @@
+{
+ "retrieval": {"strategy": "structural_short", "embed": "minilm", "mode": "hybrid", "min_recall@5": 0.80},
+ "agent": {"min_accuracy": 0.90, "max_missed_schemes": 0, "max_false_escalations": 1, "min_legal_refs_grounded_rate": 0.98, "max_cost_per_alert_usd": 0.06}
+}

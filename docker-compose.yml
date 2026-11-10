@@ -1,0 +1,20 @@
+# Сервіс + Prometheus з правилами алертів. Запуск: docker compose up --build
+# Демо: http://localhost:8000 · моніторинг: http://localhost:8000/monitor · Prometheus: http://localhost:9090/alerts
+services:
+  finmon:
+    build: .
+    ports:
+      - "8000:8000"
+    env_file: .env
+    restart: unless-stopped
+
+  prometheus:
+    image: prom/prometheus:v3.5.0
+    volumes:
+      - ./deploy/prometheus:/etc/prometheus:ro
+    command: ["--config.file=/etc/prometheus/prometheus.yml"]
+    ports:
+      - "9090:9090"
+    depends_on:
+      - finmon
+    restart: unless-stopped
