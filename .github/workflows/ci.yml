@@ -48,10 +48,10 @@ jobs:
       - run: uv venv && uv pip install -e ".[dev]"
       - run: uv run python -m finmon.rag.index minilm structural_short
       - name: Агенти на 40 спрацюваннях
-        run: uv run python -m evals.run_agent_eval routed --workers 6
+        run: uv run python -m evals.run_agent_eval routed --prompt v3 --workers 6
       - name: Пороги якості
-        run: uv run python -m evals.gate agent routed
+        run: uv run python -m evals.gate agent routed_v3
       - uses: actions/upload-artifact@v4
         with:
           name: agent-eval
-          path: evals/results/agent_routed.json
+          path: evals/results/agent_routed_v3.json

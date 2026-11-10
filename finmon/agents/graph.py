@@ -51,7 +51,7 @@ def _j(obj) -> str:
 
 
 class Copilot:
-    def __init__(self, dataset: str = "eval", llm: LLM | None = None, retriever_strategy: str = "structural_short", embed_model: str = "minilm", prompt_version: str = "v2"):
+    def __init__(self, dataset: str = "eval", llm: LLM | None = None, retriever_strategy: str = "structural_short", embed_model: str = "minilm", prompt_version: str = "v3"):
         self.prompt_version = prompt_version
         self.bank: Bank = get_bank(dataset)
         self.llm = llm or LLM()

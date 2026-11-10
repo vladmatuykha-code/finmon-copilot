@@ -95,7 +95,7 @@ def run_config(config: str, alert_ids: list[str], labels: dict, workers: int, pr
 def write_summary() -> None:
     rows = []
     for cfg in ("haiku", "routed", "sonnet", "opus", "gemini", "gemini_lite"):
-        for tag in (f"{cfg}_v1", cfg, f"{cfg}_eval_large"):
+        for tag in (f"{cfg}_v1", cfg, f"{cfg}_eval_large", f"{cfg}_dev", f"{cfg}_v3_dev", f"{cfg}_v3_eval_large"):
             p = RESULTS_DIR / f"agent_{tag}.json"
             if p.exists():
                 rows.append(json.loads(p.read_text(encoding="utf-8"))["metrics"])
@@ -103,8 +103,10 @@ def write_summary() -> None:
     md = ["| Конфігурація (промпт) | Точність | Macro-F1 | Recall ESCALATE | Пропущені схеми | Хибні ескалації | Обґрунтованість посилань | $ / спрацювання | Час p50, с |",
           "|---|---|---|---|---|---|---|---|---|"]
     for m in rows:
-        name = m['config'].replace('_v1', '').replace('_eval_large', '')
-        n = f", {m['n']} спрацювань" if m.get('dataset', 'eval') != 'eval' else ''
+        name = m['config'].replace('_v1', '').replace('_v3', '').replace('_eval_large', '').replace('_dev', '')
+        ds = m.get('dataset', 'eval')
+        word = 'спрацювання' if m['n'] % 10 in (2, 3, 4) and m['n'] % 100 not in (12, 13, 14) else 'спрацювань'
+        n = '' if ds == 'eval' else f", {m['n']} {word}" + (", набір для налаштування" if ds == 'dev' else '')
         md.append(f"| {name} ({m.get('prompt_version', 'v2')}{n}) | {m['accuracy']:.1%} | {m['macro_f1']:.2f} | {m['escalate_recall']:.0%} | {m['missed_schemes']} | {m['false_escalations']} | "
                   f"{m['legal_refs_grounded_rate']:.0%} | {m['cost_per_alert_usd']:.3f} | {m['latency_p50_s']:.0f} |")
     if base.exists():
@@ -120,8 +122,8 @@ def main() -> None:
     ap.add_argument("configs", nargs="*", default=["haiku"])
     ap.add_argument("--workers", type=int, default=6)
     ap.add_argument("--limit", type=int, default=0)
-    ap.add_argument("--prompt", default="v2", choices=["v1", "v2"])
-    ap.add_argument("--dataset", default="eval", choices=["eval", "eval_large"])
+    ap.add_argument("--prompt", default="v2", choices=["v1", "v2", "v3"])
+    ap.add_argument("--dataset", default="eval", choices=["eval", "eval_large", "dev"])
     a = ap.parse_args()
     labels = json.loads((SYNTH_DIR / a.dataset / "labels.json").read_text(encoding="utf-8"))
     ids = sorted(labels)[: a.limit or None]

@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "finmon": {
+      "command": "python",
+      "args": ["-m", "finmon.mcp_server"],
+      "env": { "FINMON_DATASET": "eval", "FINMON_LOG_LEVEL": "WARNING" }
+    }
+  }
+}

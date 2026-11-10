@@ -480,6 +480,263 @@
   "wall_clock_s": 1508.9
  },
  {
+  "n": 52,
+  "accuracy": 0.846,
+  "macro_f1": 0.84,
+  "escalate_recall": 1.0,
+  "escalate_precision": 0.783,
+  "missed_schemes": 0,
+  "false_escalations": 0,
+  "per_class": {
+   "ESCALATE": {
+    "precision": 0.783,
+    "recall": 1.0,
+    "f1": 0.878
+   },
+   "REQUEST_INFO": {
+    "precision": 0.917,
+    "recall": 0.611,
+    "f1": 0.733
+   },
+   "CLOSE": {
+    "precision": 0.882,
+    "recall": 0.938,
+    "f1": 0.909
+   }
+  },
+  "confusion": {
+   "ESCALATE": {
+    "ESCALATE": 18,
+    "REQUEST_INFO": 0,
+    "CLOSE": 0
+   },
+   "REQUEST_INFO": {
+    "ESCALATE": 5,
+    "REQUEST_INFO": 11,
+    "CLOSE": 2
+   },
+   "CLOSE": {
+    "ESCALATE": 0,
+    "REQUEST_INFO": 1,
+    "CLOSE": 15
+   }
+  },
+  "config": "routed_dev",
+  "dataset": "dev",
+  "prompt_version": "v2",
+  "roles": {
+   "triage": "claude-haiku-5-5",
+   "investigator": "claude-haiku-5-5",
+   "reviewer": "claude-sonnet-5-5"
+  },
+  "failed": 0,
+  "failures": {},
+  "cost_total_usd": 1.935,
+  "cost_per_alert_usd": 0.0372,
+  "latency_p50_s": 45.6,
+  "tool_calls_avg": 10.2,
+  "revision_rate": 0.077,
+  "provider_fallbacks": 0,
+  "reviewer_changed_decision": 5,
+  "evidence_grounded_rate": 1.0,
+  "legal_refs_grounded_rate": 1.0,
+  "searched_regulations_rate": 1.0,
+  "errors": [
+   {
+    "alert_id": "A002",
+    "typology": "fp_volunteer",
+    "true": "CLOSE",
+    "pred": "REQUEST_INFO"
+   },
+   {
+    "alert_id": "A005",
+    "typology": "turnover_spike",
+    "true": "REQUEST_INFO",
+    "pred": "CLOSE"
+   },
+   {
+    "alert_id": "A016",
+    "typology": "unexplained_inflow",
+    "true": "REQUEST_INFO",
+    "pred": "ESCALATE"
+   },
+   {
+    "alert_id": "A033",
+    "typology": "source_of_funds_unclear",
+    "true": "REQUEST_INFO",
+    "pred": "ESCALATE"
+   },
+   {
+    "alert_id": "A045",
+    "typology": "source_of_funds_unclear",
+    "true": "REQUEST_INFO",
+    "pred": "ESCALATE"
+   },
+   {
+    "alert_id": "A047",
+    "typology": "source_of_funds_unclear",
+    "true": "REQUEST_INFO",
+    "pred": "ESCALATE"
+   },
+   {
+    "alert_id": "A048",
+    "typology": "source_of_funds_unclear",
+    "true": "REQUEST_INFO",
+    "pred": "ESCALATE"
+   },
+   {
+    "alert_id": "A050",
+    "typology": "turnover_spike",
+    "true": "REQUEST_INFO",
+    "pred": "CLOSE"
+   }
+  ],
+  "wall_clock_s": 441.9
+ },
+ {
+  "n": 52,
+  "accuracy": 1.0,
+  "macro_f1": 1.0,
+  "escalate_recall": 1.0,
+  "escalate_precision": 1.0,
+  "missed_schemes": 0,
+  "false_escalations": 0,
+  "per_class": {
+   "ESCALATE": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+   },
+   "REQUEST_INFO": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+   },
+   "CLOSE": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+   }
+  },
+  "confusion": {
+   "ESCALATE": {
+    "ESCALATE": 18,
+    "REQUEST_INFO": 0,
+    "CLOSE": 0
+   },
+   "REQUEST_INFO": {
+    "ESCALATE": 0,
+    "REQUEST_INFO": 18,
+    "CLOSE": 0
+   },
+   "CLOSE": {
+    "ESCALATE": 0,
+    "REQUEST_INFO": 0,
+    "CLOSE": 16
+   }
+  },
+  "config": "routed_v3_dev",
+  "dataset": "dev",
+  "prompt_version": "v3",
+  "roles": {
+   "triage": "claude-haiku-5-5",
+   "investigator": "claude-haiku-5-5",
+   "reviewer": "claude-sonnet-5-5"
+  },
+  "failed": 0,
+  "failures": {},
+  "cost_total_usd": 1.829,
+  "cost_per_alert_usd": 0.0352,
+  "latency_p50_s": 41.3,
+  "tool_calls_avg": 9.9,
+  "revision_rate": 0.0,
+  "provider_fallbacks": 0,
+  "reviewer_changed_decision": 1,
+  "evidence_grounded_rate": 1.0,
+  "legal_refs_grounded_rate": 1.0,
+  "searched_regulations_rate": 1.0,
+  "errors": [],
+  "wall_clock_s": 375.0
+ },
+ {
+  "n": 200,
+  "accuracy": 0.99,
+  "macro_f1": 0.985,
+  "escalate_recall": 0.989,
+  "escalate_precision": 1.0,
+  "missed_schemes": 0,
+  "false_escalations": 0,
+  "per_class": {
+   "ESCALATE": {
+    "precision": 1.0,
+    "recall": 0.989,
+    "f1": 0.994
+   },
+   "REQUEST_INFO": {
+    "precision": 0.938,
+    "recall": 1.0,
+    "f1": 0.968
+   },
+   "CLOSE": {
+    "precision": 1.0,
+    "recall": 0.988,
+    "f1": 0.994
+   }
+  },
+  "confusion": {
+   "ESCALATE": {
+    "ESCALATE": 89,
+    "REQUEST_INFO": 1,
+    "CLOSE": 0
+   },
+   "REQUEST_INFO": {
+    "ESCALATE": 0,
+    "REQUEST_INFO": 30,
+    "CLOSE": 0
+   },
+   "CLOSE": {
+    "ESCALATE": 0,
+    "REQUEST_INFO": 1,
+    "CLOSE": 79
+   }
+  },
+  "config": "routed_v3_eval_large",
+  "dataset": "eval_large",
+  "prompt_version": "v3",
+  "roles": {
+   "triage": "claude-haiku-5-5",
+   "investigator": "claude-haiku-5-5",
+   "reviewer": "claude-sonnet-5-5"
+  },
+  "failed": 0,
+  "failures": {},
+  "cost_total_usd": 7.318,
+  "cost_per_alert_usd": 0.0366,
+  "latency_p50_s": 43.0,
+  "tool_calls_avg": 10.3,
+  "revision_rate": 0.025,
+  "provider_fallbacks": 0,
+  "reviewer_changed_decision": 10,
+  "evidence_grounded_rate": 1.0,
+  "legal_refs_grounded_rate": 1.0,
+  "searched_regulations_rate": 1.0,
+  "errors": [
+   {
+    "alert_id": "A140",
+    "typology": "fp_car_sale",
+    "true": "CLOSE",
+    "pred": "REQUEST_INFO"
+   },
+   {
+    "alert_id": "A153",
+    "typology": "pep_unexplained",
+    "true": "ESCALATE",
+    "pred": "REQUEST_INFO"
+   }
+  ],
+  "wall_clock_s": 1489.1
+ },
+ {
   "n": 40,
   "accuracy": 0.975,
   "macro_f1": 0.96,

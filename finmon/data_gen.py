@@ -419,8 +419,16 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--train", action="store_true", help="великий набір для навчання ML-бейзлайну")
     ap.add_argument("--large", action="store_true", help="200 спрацювань для масштабної оцінки агентів (окремий seed)")
+    ap.add_argument("--dev", action="store_true", help="40 спрацювань для налаштування промптів (окремий seed, не eval_large)")
     args = ap.parse_args()
-    if args.train:
+    if args.dev:
+        # усі типології по 2 + по 4 додаткові спірні випадки: саме на них налаштовується v3
+        w = build(seed=31, per_scenario=2)
+        for f in REQUEST:
+            for _ in range(4):
+                f(w)
+        save(w, SYNTH_DIR / "dev")
+    elif args.train:
         w = build(seed=7, per_scenario=12)
         save(w, SYNTH_DIR / "train")
     elif args.large:
