@@ -1,0 +1,57 @@
+# Автоматична перевірка на кожен push і pull request:
+# тести без API, якість пошуку по нормативці з порогом, правила алертів Prometheus.
+# Прогін агентів на 40 спрацюваннях витрачає гроші з API-ключа (~$1.5 для routed),
+# тому запускається вручну: Actions → ci → Run workflow → agent_eval.
+name: ci
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      agent_eval:
+        description: "Прогнати агентів (routed) на 40 спрацюваннях і перевірити пороги"
+        type: boolean
+        default: false
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: "3.12"
+      - name: Залежності
+        run: uv venv && uv pip install -e ".[dev]"
+      - name: Індекс нормативки
+        run: uv run python -m finmon.rag.index minilm structural_short
+      - name: Тести без API
+        run: uv run pytest -q
+      - name: Якість пошуку
+        run: uv run python -m evals.run_retrieval_eval --quick && uv run python -m evals.gate retrieval
+      - name: Правила алертів
+        run: docker run --rm -v "$PWD/deploy/prometheus:/p" --entrypoint promtool prom/prometheus:v3.5.0 test rules /p/alerts_test.yml
+
+  agent-eval:
+    if: github.event_name == 'workflow_dispatch' && inputs.agent_eval
+    needs: tests
+    runs-on: ubuntu-latest
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: "3.12"
+      - run: uv venv && uv pip install -e ".[dev]"
+      - run: uv run python -m finmon.rag.index minilm structural_short
+      - name: Агенти на 40 спрацюваннях
+        run: uv run python -m evals.run_agent_eval routed --workers 6
+      - name: Пороги якості
+        run: uv run python -m evals.gate agent routed
+      - uses: actions/upload-artifact@v4
+        with:
+          name: agent-eval
+          path: evals/results/agent_routed.json
